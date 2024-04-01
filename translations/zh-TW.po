@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: publishing-ddd\n"
 "POT-Creation-Date: 2024-03-19 10:11+0000\n"
-"PO-Revision-Date: 2024-03-19 10:57\n"
+"PO-Revision-Date: 2024-04-01 13:07\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Traditional\n"
 "Language: zh_TW\n"
@@ -287,12 +287,12 @@ msgstr "在過去的20年裡，人們對分子生物方法在記錄地球上生�
 #. type: Plain text
 #: 100.en.adoc:8
 msgid "DNA-derived data enable us to record inconspicuous or otherwise unobservable taxa that fall below the radar of vetted protocols for field work, checklists, depositions into natural science collections, etc. The current maturity of DNA methodologies enables us to record the presence of these organisms to a level of detail that exceeds that of macroscopic observations of organisms in general. However, bearing in mind that DNA methodologies comes with their own problems and biases, it is important to use this moment to define and agree how we should record and report on an organism as present in some substrate or locality through molecular data. Doing so will help avoid significant inefficiencies that have been reported in other domains, in which the lack of standards and guidance has led to very heterogeneous and largely incomparable bodies of data (https://doi.org/10.1002/edn3.173[Berry et al. 2021^]; https://doi.org/10.1089/omi.2006.10.231[Leebens-Mack et al. 2006^]; https://doi.org/10.1038/nbt.1823[Yilmaz et al. 2011^]; https://doi.org/10.3897/mycokeys.4.3606[Nilsson et al. 2012^]; https://doi.org/10.7717/peerj.14993[Shea et al. 2023^]). Moreover, clear documentation of the computational processing from raw sequence reads to deduced species observation, will enable reanalysis when improved methods appear."
-msgstr "DNA衍生資料使我們能夠記錄不顯眼或無法觀察到的物種，因為這些物種會在常用的田野調查、名錄、自然典藏收集等的方法被忽略。目前DNA方法的成熟度使我們已能更詳細的記錄這些生物的存在，並超過了對一般生物的觀察方式。然而，DNA方法仍有其自身的問題和偏差，重要的是利用現況來定義我們應該如何通過分子生物方法記錄和回報現行存在於某特定基質或位置的生物。由於各領域缺乏標準和方法，導致資料主體非常多樣化且基本上無法互用或做比較。標準化將有助於避免資料在其他領域被無效的呈現 (https://doi.org/10.1002/edn3.173[Berry等人 2021^]；link:https://doi.org/10.1089/omi.2006.10.231[Leebens-Mack等人 2006^]；link:https://doi.org/10.1038/nbt.1823[Yilmaz等人 2011^]；link:https://doi.org/10.3897/mycokeys.4.3606[Nilsson等人 2012^]；link:https://doi.org/10.7717/peerj.14993[Shea等人 2023^])。此外，清晰地記錄從原始序列reads到推斷物種觀察的計算處理方法，將在未來改進方法出現時能夠重新分析過去所使用的步驟。"
+msgstr "DNA衍生資料使我們能夠記錄不顯眼或無法觀察到的物種，因為這些物種會在常用的田野調查、名錄、自然典藏收集等的方法被忽略。目前DNA方法的成熟度使我們已能更詳細的記錄這些生物的存在，並超過了對一般生物的觀察方式。然而，DNA方法仍有其自身的問題和偏差，重要的是利用現況來定義我們應該如何通過分子生物方法記錄和回報現行存在於某特定基質或位置的生物。由於各領域缺乏標準和方法，導致資料主體非常多樣化且基本上無法互用或做比較。標準化將有助於避免資料在其他領域被無效的呈現 (https://doi.org/10.1002/edn3.173[Berry等人，2021^]；link:https://doi.org/10.1089/omi.2006.10.231[Leebens-Mack等人，2006^]；link:https://doi.org/10.1038/nbt.1823[Yilmaz等人，2011^]；link:https://doi.org/10.3897/mycokeys.4.3606[Nilsson等人，2012^]；link:https://doi.org/10.7717/peerj.14993[Shea等人，2023^])。此外，清晰地記錄從原始序列reads到推斷物種觀察的計算處理方法，將在未來改進方法出現時能夠重新分析過去所使用的步驟。"
 
 #. type: Plain text
 #: 100.en.adoc:10
 msgid "DNA-derived occurrence data of species should be as standardized and reproducible as possible, regardless of whether or not the detected species have formal scientific names. In some cases, such occurrence records will hint at previously unknown geographical and ecological properties of described species, thus enriching our body of knowledge on these taxa. In other cases, the data may allow us to amalgamate and visualize information on currently undescribed species, potentially speeding up their eventual formal description. The ability to collect usable data even for unnamed species adds significantly to the many ways in which GBIF and other biodiversity data platforms index the living world, and make this knowledge available to all and for a variety of purposes, including biodiversity conservation. Recent estimates suggest that at least 85 per cent of all extant species are undescribed (https://doi.org/10.1371/journal.pbio.1001127[Mora et al. 2011^]; https://doi.org/10.1111/cobi.12285[Tedesco et al. 2014^]). Existing data standards have been designed for the minority of taxa that have been described. Good practices for dealing with DNA-derived data will help to characterize occurrences of all organisms, whether described or not."
-msgstr "物種的DNA衍生出現紀錄應盡可能標準化和可重複操作，無論檢測到的物種是否具有正式學名。在某些情況下，此類出現記錄將暗示所描述物種以前未知的地理和生態特性，從而豐富我們對這些物種的知識。在其他情況下，這些數據可能使我們能夠整合和視覺化有關當前未描述物種的資訊，從而加快它們的正式物種描述。這些未命名物種也能收集可用的相關資料，顯著地增加了GBIF和其他生物多樣性資訊平台對生物世界多種進行索引的方式，使所有人都可以使用這些知識並用於各種目的，包括生物多樣性保育。文獻估計指出所有現存物種中至少有85%未被描述 (https://doi.org/10.1371/journal.pbio.1001127[Mora等人 2011^]；link:https://doi.org/10.1111/cobi.12285[Tedesco等人 2014^])。現有的資料標準是為已描述的少數類群所設計的。良好的處理DNA衍生資料將有助於描述所有生物的出現紀錄，無論該物種是否已被描述。"
+msgstr "物種的DNA衍生出現紀錄應盡可能標準化和可重複操作，無論檢測到的物種是否具有正式學名。在某些情況下，此類出現記錄將暗示所描述物種以前未知的地理和生態特性，從而豐富我們對這些物種的知識。在其他情況下，這些數據可能使我們能夠整合和視覺化有關當前未描述物種的資訊，從而加快它們的正式物種描述。這些未命名物種也能收集可用的相關資料，顯著地增加了GBIF和其他生物多樣性資訊平台對生物世界多種進行索引的方式，使所有人都可以使用這些知識並用於各種目的，包括生物多樣性保育。文獻估計指出所有現存物種中至少有85%未被描述 (https://doi.org/10.1371/journal.pbio.1001127[Mora等人，2011^]；link:https://doi.org/10.1111/cobi.12285[Tedesco等人，2014^])。現有的資料標準是為已描述的少數類群所設計的。良好的處理DNA衍生資料將有助於描述所有生物的出現紀錄，無論該物種是否已被描述。"
 
 #. type: Plain text
 #: 100.en.adoc:12
@@ -313,7 +313,7 @@ msgstr "目標受眾"
 #. type: Plain text
 #: 100.en.adoc:18
 msgid "This guide has been developed for multiple target audiences: students planning a first DNA-based study, researchers with old sequences and abundance tables they want to revive or preserve, biodiversity data specialists who are new to DNA-derived occurrences, and bioinformaticians familiar with sequence data but new to biodiversity data platforms. The guide does not directly target users of molecular data in biodiversity data platforms, but such users may find <<outputs,section 1.7 on Outputs>> particularly interesting. The authors' intention is to provide guidance on publishing data and associated attributes from genetic sequence through general biodiversity data platforms."
-msgstr "此文件針對多個目標受眾：與DNA有相關的研究計畫的學生、想要恢復或保存舊基因序列和豐富度資料的研究人員、不熟悉DNA衍生出現紀錄的生物多樣性資訊專家，以及不熟悉生物多樣性資訊平台但了解基因序列的生物資訊學家。此文件不直接針對在生物多樣性資訊平台中使用分子生物資料的人員，但此類使用者可能對<<outputs,第1.7章節的輸出格式>>有興趣。作者們的目的是為針對生物多樣性資訊平台中發布基因序列衍生與相關屬性資料提供指引。"
+msgstr "此文件針對多個目標受眾：與DNA有相關的研究計畫的學生、想要恢復或保存舊基因序列和豐富度資料的研究人員、不熟悉DNA衍生出現紀錄的生物多樣性資訊專家，以及不熟悉生物多樣性資訊平台但了解基因序列的生物資訊學家。此文件不直接針對在生物多樣性資訊平台中使用分子生物資料的人員，但此類使用者可能對<<資料輸出,第1.7章節的資料輸出>>有興趣。作者們的目的是為針對生物多樣性資訊平台中發布基因序列衍生與相關屬性資料提供指引。"
 
 #. type: Plain text
 #: 100.en.adoc:20
@@ -330,13 +330,13 @@ msgstr "DNA衍生生物多樣性資料在此文件中的流程圖總覽"
 #: 100.en.adoc:24
 #, no-wrap
 msgid "img/print/sequence-publishing-guide.en.png"
-msgstr "img/print/sequence-publishing-guide.en.png"
+msgstr "img/print/sequence-publishing-guide.zh-TW.png"
 
 #. type: Target for macro image
 #: 100.en.adoc:27
 #, no-wrap
 msgid "img/web/sequence-publishing-guide.en.svg"
-msgstr "img/web/sequence-publishing-guide.en.svg"
+msgstr "img/web/sequence-publishing-guide.zh-TW.svg"
 
 #. type: Plain text
 #: 100.en.adoc:31
@@ -352,7 +352,7 @@ msgstr "DNA衍生出現紀錄資料之簡介"
 #. type: Plain text
 #: 100.en.adoc:35
 msgid "DNA-derived biological occurrence data include information derived from DNA from individual organisms, but also from environmental DNA (eDNA, i.e. DNA extracted from environmental samples, https://doi.org/10.1016/j.biocon.2014.11.019[Thomsen & Willerslev 2015^]) and from bulk samples comprising many individuals (e.g. plankton samples or Malaise trap samples consisting of multiple individuals from many species). Currently, the greatest volume of DNA-derived occurrence data derives from eDNA. Since analytical methods and end products are largely similar for all sample sources, the discussion below will focus on eDNA (<<category-i>> and <<category-ii>>), noting that the outline is applicable to the other sources. Surveys often utilize targeted sequencing of taxonomically and phylogenetically informative genetic markers, but can also use, for example, qPCR-based approaches that do not directly result in DNA sequence data (<<category-iii>> and <<mapping-ddpcr-qpcr-data>>). This guide may appear heavy in DNA related terms; if this is the case, please consult the <<glossary>>."
-msgstr "DNA衍生的出現紀錄包括來自個體生物DNA的資訊、環境DNA的資訊 (eDNA，即從環境樣本中所萃取的DNA，link:https://doi.org/10.1016/j.biocon.2014.11.019[Thomsen & Willerslev 2015^]) 和包含許多個體的大量樣本 (bulk samples，例如浮游生物樣本或來自Malaise的陷阱樣本，由許多個物種及多個個體所組成)。目前，最大量的DNA衍生出現紀錄來自eDNA。由於所有樣品來源的分析方法和最終成果在很大程度上相似，因此下面的討論將集中在eDNA (<<category-i>> 和 <<category-ii>>)，如適用於其他來源，也將特別提出。調查通常利用分類學和遺傳學上可參考的目標區間定序，但也可以使用在不直接產生DNA序列資料，如基於qPCR的方法 (<<category-iii>> 和 <<mapping-ddpcr-qpcr-資料>>)。此文件裡與DNA相關的所使用術語請查閱 <<glossary,詞彙>>。"
+msgstr "DNA衍生的出現紀錄包括來自個體生物DNA的資訊、環境DNA的資訊 (eDNA，即從環境樣本中所萃取的DNA，link:https://doi.org/10.1016/j.biocon.2014.11.019[Thomsen & Willerslev，2015^]) 和包含許多個體的大量樣本 (bulk samples，例如浮游生物樣本或來自Malaise的陷阱樣本，由許多個物種及多個個體所組成)。目前，最大量的DNA衍生出現紀錄來自eDNA。由於所有樣品來源的分析方法和最終成果在很大程度上相似，因此下面的討論將集中在eDNA (<<category-i>> 和 <<category-ii>>)，如適用於其他來源，也將特別提出。調查通常利用分類學和遺傳學上可參考的目標區間定序，但也可以使用在不直接產生DNA序列資料，如基於qPCR的方法 (<<category-iii>> 和 <<mapping-ddpcr-qpcr-資料>>)。此文件裡與DNA相關的所使用術語請查閱<<詞彙,詞彙>>。"
 
 #. type: Title ====
 #: 100.en.adoc:36
@@ -363,7 +363,7 @@ msgstr "DNA衍生出現紀錄來源之一—環境DNA"
 #. type: Plain text
 #: 100.en.adoc:39
 msgid "Environmental DNA has been in use as a term since 1987, when it was first used to describe DNA from microbes in sediment samples (https://doi.org/10.1016/0167-7012(87)90025-x[Ogram et al. 1987^]). eDNA is now more broadly used to describe a complex mix of DNA from different organisms (https://doi.org/10.1093/oso/9780198767220.001.0001[Taberlet et al. 2018^] and https://doi.org/10.1111/j.1365-294X.2012.05542.x[2012^]). Thus, eDNA includes all DNA extracted from a specific environmental sample, regardless of substrate and which species it contains. It may be extracted from a wide range of sources, including skin and hair cells, saliva, soil, faeces, and from living or recently dead organisms (https://doi.org/10.1007/s00374-008-0345-8[Pietramellara et al. 2009^]). Environmental DNA often sufficiently represents all organisms in a given sample. In practice, however, the presence of DNA in the environmental sample depends on an organisms habitat selection, body size, morphology and activity level. Also, the sampling methods used to capture the DNA (https://doi.org/10.1093/oso/9780198767220.001.0001[Taberlet et al. 2018^]) and the stage of DNA degradation can affect the presence of DNA."
-msgstr "環境DNA (eDNA) 這個詞自1987年來開始使用，當時首次用於描述沉澱物樣品中微生物的DNA (https://doi.org/10.1016/0167-7012(87)90025-x[Ogram等人 1987^])。現在eDNA更廣泛的被用於描述來自不同生物體DNA的混合物 (https://doi.org/10.1093/oso/9780198767220.001.0001[Taberlet等人 2018^] 和 https://doi.org/10.1111/j.1365-294X.2012.05542.x[2012^])。因此，eDNA的定義為從特定環境樣本中萃取的所有DNA，不論其基質和包含的物種為何。它可以從多種來源中萃取，包括皮膚、毛細胞、唾液、土壤、糞便以及活的或最近死亡的生物體 (https://doi.org/10.1007/s00374-008-0345-8[Pietramellara等人 2009^])。環境DNA通常足以代表樣本中的所有生物體。 然而實際上，環境樣本中DNA的存在取決於棲息地選擇、生物體體型、形態、活動量、用於採集DNA的採樣方法 (https://doi.org/10.1093/oso/9780198767220.001.0001[Taberlet等人 2018^]) 以及DNA的降解程度。"
+msgstr "環境DNA (eDNA) 這個詞自1987年來開始使用，當時首次用於描述沉澱物樣品中微生物的DNA (https://doi.org/10.1016/0167-7012(87)90025-x[Ogram等人，1987^])。現在eDNA更廣泛的被用於描述來自不同生物體DNA的混合物 (https://doi.org/10.1093/oso/9780198767220.001.0001[Taberlet等人，2018^] 和 https://doi.org/10.1111/j.1365-294X.2012.05542.x[2012^])。因此，eDNA的定義為從特定環境樣本中萃取的所有DNA，不論其基質和包含的物種為何。它可以從多種來源中萃取，包括皮膚、毛細胞、唾液、土壤、糞便以及活的或最近死亡的生物體 (https://doi.org/10.1007/s00374-008-0345-8[Pietramellara等人，2009^])。環境DNA通常足以代表樣本中的所有生物體。 然而實際上，環境樣本中DNA的存在取決於棲息地選擇、生物體體型、形態、活動量、用於採集DNA的採樣方法 (https://doi.org/10.1093/oso/9780198767220.001.0001[Taberlet等人，2018^]) 以及DNA的降解程度。"
 
 #. type: Block title
 #: 100.en.adoc:41
@@ -375,28 +375,28 @@ msgstr "這張示意圖呈現了採樣過程，比較了 A) 傳統生態/生物�
 #: 100.en.adoc:43
 #, no-wrap
 msgid "img/print/sampling-processes.en.png"
-msgstr "img/print/sampling-processes.en.png"
+msgstr "img/print/sampling-processes.zh-TW.png"
 
 #. type: Target for macro image
 #: 100.en.adoc:46
 #, no-wrap
 msgid "img/web/sampling-processes.en.svg"
-msgstr "img/web/sampling-processes.en.svg"
+msgstr "img/web/sampling-processes.zh-TW.svg"
 
 #. type: Plain text
 #: 100.en.adoc:50
 msgid "eDNA is thus a sample type, not a method, including DNA derived from any environmental sample rather than from the capture and sequencing of a targeted individual. Such sample types includes water, soil, sediment and air, but also gut content samples and tissue (plant/animal) where the host DNA is not targeted (https://doi.org/10.1093/oso/9780198767220.001.0001[Taberlet et al. 2018^]). A number of analytical methods exist for studying environmental DNA. These can be divided into two main classes: 1) those which aim to detect a specific organism and 2) those which describe an assemblage or a community of a range of organisms. Different methods of analysis will generate different types and volumes of data. Most often DNA concentrations are low, and technical and biological replicates should be used to validate species detection."
-msgstr "因此，eDNA不是一種方法而是一種樣本類型，包括來自任何環境樣本的DNA，而不是來自目標個體的捕獲和定序。此類樣本類型包括水、土壤、沉澱物和空氣，還包括不以宿主DNA為目標的腸道內容物樣本和組織 (植物/動物) (https://doi.org/10.1093/oso/9780198767220.001.0001[Taberlet等人 2018^])。研究環境DNA有多種分析方法可用，大多分為兩大類：1) 目標為檢測特定生物體；2) 歸納與描述生物體的群落。不同的分析方法將會產生不同類型和數量的資料。在大多數DNA濃度較低的情況下，應使用技術性及生物性重複樣本來驗證所檢測到的物種。"
+msgstr "因此，eDNA不是一種方法而是一種樣本類型，包括來自任何環境樣本的DNA，而不是來自目標個體的捕獲和定序。此類樣本類型包括水、土壤、沉澱物和空氣，還包括不以宿主DNA為目標的腸道內容物樣本和組織 (植物/動物) (https://doi.org/10.1093/oso/9780198767220.001.0001[Taberlet等人，2018^])。研究環境DNA有多種分析方法可用，大多分為兩大類：1) 目標為檢測特定生物體；2) 歸納與描述生物體的群落。不同的分析方法將會產生不同類型和數量的資料。在大多數DNA濃度較低的情況下，應使用技術性及生物性重複樣本來驗證所檢測到的物種。"
 
 #. type: Plain text
 #: 100.en.adoc:52
 msgid "Several studies show that, for water samples, analyses based on eDNA may have a higher probability of finding rare and hard to survey species than conventional methods (https://doi.org/10.1111/j.1365-294X.2011.05418.x[Thomsen et al. 2012^]; https://doi.org/10.1016/j.biocon.2014.11.029[Biggs et al. 2015^]; https://doi.org/10.1111/mec.13428[Valentini et al. 2016^]; https://doi.org/10.1002/edn3.74[Bessey et al. 2020^]). The same may be true in other environments. Therefore, eDNA may be suitable for monitoring rare red list species and undesirable alien species that often have low densities and that are difficult to detect with conventional methods because sometimes DNA traces can still be detected, although the actual organism is no longer present there. Environmental DNA methods are able to detect cryptic organisms, especially those that are small and unable to be detected by the naked eye (e.g. bacteria and fungi). In addition, eDNA can also be used for observation of many species simultaneously, and may describe entire biological communities or major components of them (https://ntnuopen.ntnu.no/ntnu-xmlui/handle/11250/2612638[Ekrem & Majaneva 2019^])."
-msgstr "多項研究顯示，eDNA用於水樣的分析可能比傳統方法更有可能發現稀有且難以調查的物種 (link:https://doi.org/10.1111/j.1365-294X.2011.05418.x[Thomsen等人 2012^]；link:https://doi.org/10.1016/j.biocon.2014.11.029[Biggs 2015^]；link:https://doi.org/10.1111/mec.13428[Valentini等人 2016^]；link:https://doi.org/10.1002/edn3.74[Bessey等人 2020^])，而在其他環境中也可能如此。儘管實際的生物體不再存在於那裡，但有時仍然可以檢測到DNA痕跡。因此，eDNA適合用來監測稀有的紅皮書名錄物種和外來物種，因這些物種通常密度較低，並且難以用常規方法檢測到。環境DNA方法也能夠檢測隱藏的生物體，尤其是那些肉眼無法目測到的微小生物體 (例如細菌和真菌)。此外，eDNA還可用於同時觀察許多物種，即用來描述整個生物群落或其主要組成 (https://ntnuopen.ntnu.no/ntnu-xmlui/handle/11250/2612638[Ekrem & Majaneva 2019^])。"
+msgstr "多項研究顯示，eDNA用於水樣的分析可能比傳統方法更有可能發現稀有且難以調查的物種 (link:https://doi.org/10.1111/j.1365-294X.2011.05418.x[Thomsen等人，2012^]；link:https://doi.org/10.1016/j.biocon.2014.11.029[Biggs，2015^]；link:https://doi.org/10.1111/mec.13428[Valentini等人，2016^]；link:https://doi.org/10.1002/edn3.74[Bessey等人，2020^])，而在其他環境中也可能如此。儘管實際的生物體不再存在於那裡，但有時仍然可以檢測到DNA痕跡。因此，eDNA適合用來監測稀有的紅皮書名錄物種和外來物種，因這些物種通常密度較低，並且難以用常規方法檢測到。環境DNA方法也能夠檢測隱藏的生物體，尤其是那些肉眼無法目測到的微小生物體 (例如細菌和真菌)。此外，eDNA還可用於同時觀察許多物種，即用來描述整個生物群落或其主要組成 (https://ntnuopen.ntnu.no/ntnu-xmlui/handle/11250/2612638[Ekrem & Majaneva，2019^])。"
 
 #. type: Plain text
 #: 100.en.adoc:54
 msgid "Some studies show a relationship between the amount of DNA for a given species in an environmental sample and the biomass of the species in the environment. One can therefore potentially also think of environmental DNA allowing a so-called semi-quantitative estimate (indirect target) for organism biomass, both from environmental samples and bulk samples (https://doi.org/10.1371/journal.pone.0035868[Takahara et al. 2012^]; https://doi.org/10.1111/j.1365-294X.2011.05418.x[Thomsen et al. 2012^]; https://doi.org/10.1111/j.1365-294X.2011.05261.x[Andersen et al. 2012^]; https://doi.org/10.1038/ismej.2013.61[Ovaskainen et al. 2013^]; https://doi.org/10.1111/1755-0998.12522[Lacoursière-Roussel et al. 2016^]; https://doi.org/10.1371/journal.pone.0165252[Thomsen et al. 2016^]; https://doi.org/10.1111/mec.13428[Valentini et al. 2016^]; https://doi.org/10.1002/edn3.45[Fossøy et al. 2019^]; https://doi.org/10.1002/edn3.7[Yates et al. 2019^]; https://doi.org/10.1038/s41598-019-40233-1[Doi et al. 2017^]). However, other studies show little correlation between environmental DNA quantity and estimated population density (https://doi.org/10.1016/j.jembe.2018.09.004[Knudsen et al. 2019^]). PCR, quantification, mixing and other biases are frequently debated. For example, moult, reproduction and mass death can contribute to increased levels of crustacean environmental DNA in water, while turbidity and poor water quality reduce the amount of detectable environmental DNA (https://doi.org/10.1111/1365-2664.13404[Strand et al. 2019^]). Therefore we encourage data publishers to supply both read counts for each OTU or ASV per sample as well as total read count per sample, as this is necessary information for users to make their own conclusions on presence/absence and (relative) abundance."
-msgstr "一些研究顯示，在環境樣本中，特定物種的DNA量與該物種在環境中的生物質之間存在某種關係。因此，環境DNA有潛力做為對生物質進行所謂的半定量估算 (semi-quantitative；間接目標)，無論是從環境樣本還是大量樣本中 (link:https://doi.org/10.1371/journal.pone.0035868[Takahara等人 2012^]；link:https://doi.org/10.1111/j.1365-294X.2011.05418.x[Thomsen等人 2012^]；link:https://doi.org/10.1111/j.1365-294X.2011.05261.x[Andersen等人 2012^]； link:https://doi.org/10.1038/ismej.2013.61[Ovaskainen等人 2013^]；link:https://doi.org/10.1111/1755-0998.12522[Lacoursière-Roussel等人 2016^]；link:https://doi.org/10.1371/journal.pone.0165252[Thomsen等人 2016^]； link:https://doi.org/10.1111/mec.13428[Valentini等人 2016^]；link: https://doi.org/10.1002/edn3.45[Fossøy等人 2019^]；link:https://doi.org/10.1002/edn3.7[Yates等人 2019^]；link:https://doi.org/10.1038/s41598-019-40233-1[Doi等人 2017^])。然而其他研究顯示，環境DNA的量與估算的族群密度之間幾乎沒有相關性 (https://doi.org/10.1016/j.jembe.2018.09.004[Knudsen等人2019^])。PCR、定量、混合和其他偏差議題經常有爭議。例如脫皮、繁殖和大規模死亡可能會導致水中甲殼動物環境DNA水平增加，而濁度和水質惡劣則會減少可檢測到的環境DNA量 (https://doi.org/10.1111/1365-2664.13404[Strand等人 2019^])。因此，我們鼓勵資料發布者提供每個樣本每個OTU或ASV的read counts以及total read counts per sample，因為這可以讓資料使用者對於物種出現/無出現和 (相對) 豐度在使用資料時做參考並自行判斷是否適用。"
+msgstr "一些研究顯示，在環境樣本中，特定物種的DNA量與該物種在環境中的生物質之間存在某種關係。因此，環境DNA有潛力做為對生物質進行所謂的半定量估算 (semi-quantitative；間接目標)，無論是從環境樣本還是大量樣本中 (link:https://doi.org/10.1371/journal.pone.0035868[Takahara等人，2012^]；link:https://doi.org/10.1111/j.1365-294X.2011.05418.x[Thomsen等人，2012^]；link:https://doi.org/10.1111/j.1365-294X.2011.05261.x[Andersen等人，2012^]； link:https://doi.org/10.1038/ismej.2013.61[Ovaskainen等人，2013^]；link:https://doi.org/10.1111/1755-0998.12522[Lacoursière-Roussel等人，2016^]；link:https://doi.org/10.1371/journal.pone.0165252[Thomsen等人，2016^]； link:https://doi.org/10.1111/mec.13428[Valentini等人，2016^]；link: https://doi.org/10.1002/edn3.45[Fossøy等人，2019^]；link:https://doi.org/10.1002/edn3.7[Yates等人，2019^]；link:https://doi.org/10.1038/s41598-019-40233-1[Doi等人，2017^])。然而其他研究顯示，環境DNA的量與估算的族群密度之間幾乎沒有相關性 (https://doi.org/10.1016/j.jembe.2018.09.004[Knudsen等人，2019^])。PCR、定量、混合和其他偏差議題經常有爭議。例如脫皮、繁殖和大規模死亡可能會導致水中甲殼動物環境DNA水平增加，而濁度和水質惡劣則會減少可檢測到的環境DNA量 (https://doi.org/10.1111/1365-2664.13404[Strand等人，2019^])。因此，我們鼓勵資料發布者提供每個樣本每個OTU或ASV的read counts以及total read counts per sample，因為這可以讓資料使用者對於物種出現/無出現和 (相對) 豐度在使用資料時做參考並自行判斷是否適用。"
 
 #. type: Title ====
 #: 100.en.adoc:55
@@ -407,12 +407,12 @@ msgstr "DNA高通量分子條碼 (Metabarcoding)：序列衍生資料"
 #. type: Plain text
 #: 100.en.adoc:58
 msgid "The generation of sequence-derived data is currently increasing fast due to the development of <<barcoding,DNA-metabarcoding>>. This method utilizes general primers to generate thousands to millions of short DNA-sequences for a given group of organisms with the help of high-throughput sequencing (HTS, alt. next-generation sequencing (NGS)). By comparing each DNA-sequence to a reference database such as GenBank (https://doi.org/10.1093/nar/gkj157[Benson et al. 2006 ^]), BOLD (http://dx.doi.org/10.1111/j.1471-8286.2007.01678.x[Ratnasingham et al. 2007^]), or UNITE (https://doi.org/10.1093/nar/gky1022[Nilsson et al. 2019^]), each sequence can be assigned to a species or higher rank taxon identity. <<barcoding,DNA-metabarcoding>> is used for samples originating from both terrestrial and aquatic environments, including water, soil, air, sediments, biofilms, plankton, bulk samples and faces, simultaneously identifying hundreds of species (https://doi.org/10.1016/j.gecco.2019.e00547[Ruppert et al. 2019^])."
-msgstr "由於<<barcoding,DNA-metabarcoding>>的迅速發展，序列衍生資料目前正迅速的產生和增加中。此方法利用通用的引子，借助高通量定序 (High-throughtput sequencing, HTS，或稱次世代测序 (NGS))，為特定的生物群體產生數千至數百萬個短DNA序列。通過將每個DNA序列與GenBank (https://doi.org/10.1093/nar/gkj157[Benson等人 2006])、BOLD (http://dx.doi.org/10.1111/j.1471-8286.2007.01678.x[Ratnasingham等人 2007]) 或UNITE (https://doi.org/10.1093/nar/gky1022[Nilsson等人 2019]) 等基因序列資料庫進行比對，可以將每個序列鑑定至物種或更高階層的分類單元。 <<barcoding,DNA-metabarcoding>>可以用於源自陸地和水域環境的樣本，包括水、土壤、空氣、沉積物、生物膜、浮游生物、大體積樣本和糞便樣本，並可同時識別數百種物種 (https://doi.org/10.1016/j.gecco.2019.e00547[Ruppert等人 2019])。"
+msgstr "由於<<barcoding,DNA-metabarcoding>>的迅速發展，序列衍生資料目前正迅速的產生和增加中。此方法利用通用的引子，借助高通量定序 (High-throughtput sequencing, HTS，或稱次世代测序 (NGS))，為特定的生物群體產生數千至數百萬個短DNA序列。通過將每個DNA序列與GenBank (https://doi.org/10.1093/nar/gkj157[Benson等人，2006])、BOLD (http://dx.doi.org/10.1111/j.1471-8286.2007.01678.x[Ratnasingham等人，2007]) 或UNITE (https://doi.org/10.1093/nar/gky1022[Nilsson等人，2019]) 等基因序列資料庫進行比對，可以將每個序列鑑定至物種或更高階層的分類單元。 <<barcoding,DNA-metabarcoding>>可以用於源自陸地和水域環境的樣本，包括水、土壤、空氣、沉積物、生物膜、浮游生物、大體積樣本和糞便樣本，並可同時識別數百種物種 (https://doi.org/10.1016/j.gecco.2019.e00547[Ruppert等人 ，2019])。"
 
 #. type: Plain text
 #: 100.en.adoc:60
 msgid "The identification and classification of organisms from sequence data and marker-based surveys depends on access to a reference library of sequences taken from morphologically identified specimens that are matched against the newly generated sequences. The efficacy of classification depends on the completeness (coverage) and the reliability of reference libraries, as well as the tools used to carry out the classification. These are all moving targets, making it essential to apply taxonomic expertise and caution in the interpreting results (<<taxonomy-of-sequences>>). Availability of of all verified <<asv,amplicon sequence variants>> (https://doi.org/10.1038/ismej.2017.119[Сallahan et al. 2017^]) allow for precise reinterpretation of data, intra-specific population genetic analyses (https://doi.org/10.1111/eva.12882[Sigsgaard et al. 2019^]) and is likely to increase identification accuracy, and for this reason we recommend to share (unclustered) ASV data."
-msgstr "調查中使用序列或目標區間 (marker-based) 的定序並要成功鑑定物種，取決於那些已在形態上做了相關研究並已辨識的標本中所提取的基因序列。這些序列存在在基因序列資料庫中才能與調查所產出的新序列進行比對。分類的有效性取決於基因序列資料庫的完整性 (覆蓋率) 和可靠性，以及用於進行分類的分析工具。這些都是不斷在變化中的目標，因此在解釋結果時應謹慎且運用分類學專業知識 (<<基因序列的分類學>>)。所有經過驗證的 <<asv, ASV (Amplicon Sequence Variants)>> (https://doi.org/10.1038/ismej.2017.119[Сallahan等人 2017^]) 將有機會在未來對資料進行重分析讓其更精確、進行種內族群遺傳分析 (https://doi.org/10.1111/eva.12882[Sigsgaard等人 2019^]) 並且可能增加鑑定的準確性。基於這個原因，我們建議發布共享 (序列未分群的，unclustered) ASV資料。"
+msgstr "調查中使用序列或目標區間 (marker-based) 的定序並要成功鑑定物種，取決於那些已在形態上做了相關研究並已辨識的標本中所提取的基因序列。這些序列存在在基因序列資料庫中才能與調查所產出的新序列進行比對。分類的有效性取決於基因序列資料庫的完整性 (覆蓋率) 和可靠性，以及用於進行分類的分析工具。這些都是不斷在變化中的目標，因此在解釋結果時應謹慎且運用分類學專業知識 (<<基因序列的分類學>>)。所有經過驗證的 <<asv, ASV (Amplicon Sequence Variants)>> (https://doi.org/10.1038/ismej.2017.119[Сallahan等人，2017^]) 將有機會在未來對資料進行重分析讓其更精確、進行種內族群遺傳分析 (https://doi.org/10.1111/eva.12882[Sigsgaard等人，2019^]) 並且可能增加鑑定的準確性。基於這個原因，我們建議發布共享 (序列未分群的，unclustered) ASV資料。"
 
 #. type: Title ====
 #: 100.en.adoc:61
@@ -423,7 +423,7 @@ msgstr "總體基因體學 (Metagenomic)：序列衍生資料"
 #. type: Plain text
 #: 100.en.adoc:64
 msgid "Sequence derived diversity data may also be generated using amplification free metagenomic methods whereby all DNA in a sample is targeted for sequencing (https://doi.org/10.1002/047001153X.g205313[Tyson & Hugenholtz 2005^]), rather than specific amplicons or barcodes, as described above. Sequence derived diversity data obtained from metagenomic sequencing can be in the form of sequence matches to annotated gene databases (as above) or as (near) complete metagenome assembled genomes (MAGs). While metabarcoding methods still dominate in terms of sequence derived diversity information, metagenomic data is becoming more important, as evidenced by the growing number of MAGS and their utility in informing phylogeny and taxonomy (https://doi.org/10.1038/s41587-020-0501-8[Parks et al. 2020^]); discussion of the rapidly evolving methods associated with metagenome analysis is beyond the scope of this document. This document uses metabarcoding as the model for discussion around concepts and methods for publishing sequence derived diversity data, and while the bioinformatic pathways will differ for metagenomic data, the end result (a sequence, often in the form of a contig/assembly) is congruent with the concepts suggested for metabarcoding data (i.e., sample specific, sample collection, data generation and processing workflow metadata should be captured)."
-msgstr "基因序列衍生的生物多樣性資料也可以從總體基因體 (Metagenomic) 的方法生成，即樣本中所有的DNA都進行定序 (https://doi.org/10.1002/047001153X.g205313[Tyson＆Hugenholtz 2005^]) 且不使用特定的引子或分子條碼。從總體基因體序列中獲得的衍生序列生物多樣性資料可以與基因資料庫裡的已註解基因資料做比對並做註解 (如上所示)，也可以作為 (接近) 完整的總體組裝基因體 (Metagenome assembled genomes, MAGs)。雖然metabarcoding的方法在基因序列衍生生物多樣性資訊方面仍然佔主導地位，但總體基因體資料來源也變得越來越重要。這已證實在MAGs數量的迅速增加以及它們在系統分類學中的實用性 (https://doi.org/10.1038/s41587-020-0501-8[Parks等人 2020^])；但對於與MAGs分析相關迅速發展方法的討論超出了此文件的範疇。此文件主要圍繞metabarcoding作為發布序列衍生生物多樣性資料的概念和方法進行討論。雖然與MAGs在生物資訊分析上有差異，但最終結果 (一條序列，通常以contig/assembly的形式存在) 與metabarcoding資料概念一致 (即樣本收集，資料產生和工作處理流程的詮釋資料應該被記錄)。"
+msgstr "基因序列衍生的生物多樣性資料也可以從總體基因體 (Metagenomic) 的方法生成，即樣本中所有的DNA都進行定序 (https://doi.org/10.1002/047001153X.g205313[Tyson＆Hugenholtz，2005^]) 且不使用特定的引子或分子條碼。從總體基因體序列中獲得的衍生序列生物多樣性資料可以與基因資料庫裡的已註解基因資料做比對並做註解 (如上所示)，也可以作為 (接近) 完整的總體組裝基因體 (Metagenome assembled genomes, MAGs)。雖然metabarcoding的方法在基因序列衍生生物多樣性資訊方面仍然佔主導地位，但總體基因體資料來源也變得越來越重要。這已證實在MAGs數量的迅速增加以及它們在系統分類學中的實用性 (https://doi.org/10.1038/s41587-020-0501-8[Parks等人，2020^])；但對於與MAGs分析相關迅速發展方法的討論超出了此文件的範疇。此文件主要圍繞metabarcoding作為發布序列衍生生物多樣性資料的概念和方法進行討論。雖然與MAGs在生物資訊分析上有差異，但最終結果 (一條序列，通常以contig/assembly的形式存在) 與metabarcoding資料概念一致 (即樣本收集，資料產生和工作處理流程的詮釋資料應該被記錄)。"
 
 #. type: Title ====
 #: 100.en.adoc:65
@@ -434,7 +434,7 @@ msgstr "qPCR/ddPCR：出現紀錄資料"
 #. type: Plain text
 #: 100.en.adoc:68
 msgid "For the detection of specific species in eDNA-samples, most analyses include species-specific primers and qPCR (Quantitative Polymerase Chain Reaction) or ddPCR (Droplet-Digital Polymerase Chain Reaction). These methods do not generate DNA-sequences, and the occurrence data are completely dependent on the specificity of the primers/assays. Hence, there are strict recommendations for how to validate such assays and the requirements for publishing data (https://doi.org/10.1373/clinchem.2008.112797[Bustin et al. 2009^], https://doi.org/10.1373/clinchem.2013.206375[Huggett et al. 2013^]), as well as the readiness for assays in routine monitoring (https://doi.org/10.1101/2020.04.27.063990[Thalinger et al. 2020^]). Analyses of eDNA-samples using qPCR requires few resources and can be done in most DNA-laboratories. The first example of using eDNA water samples utilized qPCR for detecting the invasive American Bullfrog (_Rana catesbeiana_) (https://doi.org/10.1098/rsbl.2008.0118[Ficetola et al. 2008^]), and qPCR analyses of eDNA water samples are regularly used for detecting specific species of fish, amphibians, molluscs, crustaceans and more, as well as their parasites (https://doi.org/10.1002/edn3.89[Hernandez et al. 2020^], https://doi.org/10.1002/edn3.10[Wacker et al. 2019^], https://doi.org/10.1002/edn3.45[Fossøy et al. 2019^], https://doi.org/10.1007/s10750-017-3408-8[Wittwer et al. 2019^]). eDNA-detections using qPCR thus generate important occurrence data for single species."
-msgstr "eDNA樣本中特定物種檢測的大多數分析包括使用物種特定引子和qPCR (定量聚合酶鏈反應) 或ddPCR (微滴數位聚合酶鏈反應)。這些方法不生成DNA序列且出現紀錄完全取決於引子/assay的特異性。因此，對於這些來源的發布資料，有著如何驗證該嚴格性的建議與要求 (link:https://doi.org/10.1373/clinchem.2008.112797[Bustin等人 2009^]；link:https://doi.org/10.1373/clinchem.2013.206375[Huggett等人 2013^])，以及對長期監測中可就緒應用的狀態要求 (link:https://doi.org/10.1101/2020.04.27.063990[Thalinger等人 2020^])。使用qPCR分析eDNA樣本不需要大量的資源，並且可以在大多數DNA實驗室中進行。首次使用eDNA水樣本檢測入侵種的例子是利用qPCR來檢測美洲牛蛙 (_Rana catesbeiana_)(https://doi.org/10.1098/rsbl.2008.0118[Ficetola等人 2008^])。eDNA水樣本的qPCR分析可定期用於監測特定的魚類、兩棲動物、軟體動物、甲殼動物等物種，以及它們的寄生蟲 (link:https://doi.org/10.1002/edn3.89[Hernandez等人 2020^]，link:https://doi.org/10.1002/edn3.10[Wacker等人 2019^]，link:https://doi.org/10.1002/edn3.45[Fossøy等人，2019^]，link:https://doi.org/10.1007/s10750-017-3408-8[Wittwer等人 2019^])。因此，使用qPCR的eDNA檢測單一物種是重要的出現紀錄。"
+msgstr "eDNA樣本中特定物種檢測的大多數分析包括使用物種特定引子和qPCR (定量聚合酶鏈反應) 或ddPCR (微滴數位聚合酶鏈反應)。這些方法不生成DNA序列且出現紀錄完全取決於引子/assay的特異性。因此，對於這些來源的發布資料，有著如何驗證該嚴格性的建議與要求 (link:https://doi.org/10.1373/clinchem.2008.112797[Bustin等人，2009^]；link:https://doi.org/10.1373/clinchem.2013.206375[Huggett等人，2013^])，以及對長期監測中可就緒應用的狀態要求 (link:https://doi.org/10.1101/2020.04.27.063990[Thalinger等人 2020^])。使用qPCR分析eDNA樣本不需要大量的資源，並且可以在大多數DNA實驗室中進行。首次使用eDNA水樣本檢測入侵種的例子是利用qPCR來檢測美洲牛蛙 (_Rana catesbeiana_)(https://doi.org/10.1098/rsbl.2008.0118[Ficetola等人 2008^])。eDNA水樣本的qPCR分析可定期用於監測特定的魚類、兩棲動物、軟體動物、甲殼動物等物種，以及它們的寄生蟲 (link:https://doi.org/10.1002/edn3.89[Hernandez等人，2020^]，link:https://doi.org/10.1002/edn3.10[Wacker等人，2019^]，link:https://doi.org/10.1002/edn3.45[Fossøy等人，2019^]，link:https://doi.org/10.1007/s10750-017-3408-8[Wittwer等人，2019^])。因此，使用qPCR的eDNA檢測單一物種是重要的出現紀錄。"
 
 #. type: Title ===
 #: 100.en.adoc:69
@@ -445,12 +445,12 @@ msgstr "生物多樣性發布介紹"
 #. type: Plain text
 #: 100.en.adoc:72
 msgid "Publishing biodiversity data is largely a process of making species occurrence data findable, accessible, interoperable and reusable, in accordance with the FAIR principles (https://doi.org/10.1038/sdata.2016.18[Wilkinson et al. 2016^]). Biodiversity data platforms help expose and discover genetic sequence data as biodiversity occurrence records alongside other types of biodiversity data, such as museum collection specimens, citizen science observations, and classical field surveys. The structure, management and storage for each original data source will vary according to the needs of each community. The biodiversity data platforms support data discovery, access and reuse by making these individual datasets compatible with each other, addressing taxonomic, spatial and other inconsistencies in the available biodiversity data. Making data available through single access points supports large-scale data-intensive research, management, and policy. The compatibility between datasets is reached through the process of standardization."
-msgstr "發布生物多樣性資料的過程主要是根據FAIR原則 (https://doi.org/10.1038/sdata.2016.18[Wilkinson等人 2016^])，使物種出現資料可查找、可取用、可交換和可重複使用。生物多樣性資料平台有助於將基因序列資料被發現，並與其他類型的生物多樣性資料一起作為出現記錄進行共享，例如博物館收藏標本、公民科學觀測和傳統野外調查。每個原始資料的結構、管理和存儲將根據每個社群的需求而變化。生物多樣性資料平台通過使這些單獨資料集的相互兼容來支持資料的被發現、查詢和重複使用，以解決資料上分類、空間和其他不一致性。通過單一資料入口網做資料搜尋可以支持大規模的大數據研究、管理和政策。資料集之間的兼容性是通過標準化過程建立的。"
+msgstr "發布生物多樣性資料的過程主要是根據FAIR原則 (https://doi.org/10.1038/sdata.2016.18[Wilkinson等人，2016^])，使物種出現資料可查找、可取用、可交換和可重複使用。生物多樣性資料平台有助於將基因序列資料被發現，並與其他類型的生物多樣性資料一起作為出現記錄進行共享，例如博物館收藏標本、公民科學觀測和傳統野外調查。每個原始資料的結構、管理和存儲將根據每個社群的需求而變化。生物多樣性資料平台通過使這些單獨資料集的相互兼容來支持資料的被發現、查詢和重複使用，以解決資料上分類、空間和其他不一致性。通過單一資料入口網做資料搜尋可以支持大規模的大數據研究、管理和政策。資料集之間的兼容性是通過標準化過程建立的。"
 
 #. type: Plain text
 #: 100.en.adoc:74
 msgid "A number of data standards are in use for general biodiversity data (https://www.gbif.org/standards), and a separate set of standards for genetic sequence data (see <<mixs,MIxS>> and <<ggbn,GGBN>>). This guide reflects some ongoing efforts to increase the compatibility between standards for general biodiversity and genetic data. Standards often highlight the subsets of fields which are most important or most frequently applicable. These subsets may be referenced as “cores”. The preferred format for publishing data in the GBIF and ALA networks is currently the Darwin Core Archive (DwC-A) using the https://dwc.tdwg.org/[Darwin Core^] (DwC) data standard. In practice, this is a compressed folder (a zip file) containing data files, in standard comma- or tab-delimited text format, a metadata file (https://eml.ecoinformatics.org/[eml.xml]) that describes the data resource, and a metafile (meta.xml) that specifies the structure of files and data fields included in the archive. Standardized packaging ensures that the data can travel between systems using specific data exchange protocols.  <<data-packaging-and-mapping,Section 2>> of this guide provides recommendations for the mapping of the data files, while guidelines and tools for constructing the xml files can be found here: https://www.tdwg.org/standards[TDWG^], https://www.gbif.org/standards[GBIF^], and https://support.ala.org.au/support/solutions/articles/6000195499-what-are-biodiversity-data-standards-[ALA^]."
-msgstr "通用的生物多樣性資料使用了一些 link:https://www.gbif.org/zh-tw/standards[資料標準^]，而基因序列資料則使用了另一套獨立的標準 (請參閱<<mixs,MIxS>>和<<ggbn,GGBN>>)。此文件呈現了在為增加通用生物多樣性和基因資料標準兼容性上持續努力的成果。標準通常會突顯出最重要或最常用的字段 (fields) 子集。這些子集可以被稱為「核心」(cores)。目前，在GBIF和ALA網絡中發布資料的首選格式是使用 https://dwc.tdwg.org/[Darwin Core^] (DwC) 資料標準的達爾文核心集資料包 (DwC-A)。這是一個包含資料文件的壓縮文件 (zip)，以標準的逗號或制表符分隔的文本格式、一個描述資料資源的詮釋資料文件 (https://eml.ecoinformatics.org/[eml.xml])、以及一個說明資料包中包含的文件和字段結構的詮釋資料文件 (meta.xml)。標準化的打包確保了資料可以使用特定的資料交換方式在系統之間流通。此文件的<<data-packaging-and-mapping,第二章節>>提供了資料文件的對照 (mapping) 建議，而有關構建xml文件的方法和工具可以在此找到：link:https://www.tdwg.org/standards[TDWG^]、link:https://www.gbif.org/zh-tw/standards[GBIF^]、和 link:https://support.ala.org.au/support/solutions/articles/6000195499-what-are-biodiversity-data-standards-[ALA^]。"
+msgstr "通用的生物多樣性資料使用了一些link:https://www.gbif.org/zh-tw/standards[資料標準^]，而基因序列資料則使用了另一套獨立的標準 (請參閱<<mixs,MIxS>>和<<ggbn,GGBN>>)。此文件呈現了在為增加通用生物多樣性和基因資料標準兼容性上持續努力的成果。標準通常會突顯出最重要或最常用的字段 (fields) 子集。這些子集可以被稱為「核心」(cores)。目前，在GBIF和ALA網絡中發布資料的首選格式是使用 https://dwc.tdwg.org/[Darwin Core^] (DwC) 資料標準的達爾文核心集資料包 (DwC-A)。這是一個包含資料文件的壓縮文件 (zip)，以標準的逗號或制表符分隔的文本格式、一個描述資料資源的詮釋資料文件 (https://eml.ecoinformatics.org/[eml.xml])、以及一個說明資料包中包含的文件和字段結構的詮釋資料文件 (meta.xml)。標準化的打包確保了資料可以使用特定的資料交換方式在系統之間流通。此文件的<<資料打包與對照-mapping,第二章節>>提供了資料文件的對照 (mapping) 建議，而有關構建xml文件的方法和工具可以在此找到：link:https://www.tdwg.org/standards[TDWG^]、link:https://www.gbif.org/zh-tw/standards[GBIF^]、和 link:https://support.ala.org.au/support/solutions/articles/6000195499-what-are-biodiversity-data-standards-[ALA^]。"
 
 #. type: Plain text
 #: 100.en.adoc:76
@@ -467,13 +467,13 @@ msgstr "呈現和發布DNA序列及相關詮釋資料的平台概要 (綠色框)
 #: 100.en.adoc:80
 #, no-wrap
 msgid "img/print/outline-of-a-platform.en.png"
-msgstr "img/print/outline-of-a-platform.en.png"
+msgstr "img/print/outline-of-a-platform.zh-TW.png"
 
 #. type: Target for macro image
 #: 100.en.adoc:83
 #, no-wrap
 msgid "img/web/outline-of-a-platform.en.svg"
-msgstr "img/web/outline-of-a-platform.en.svg"
+msgstr "img/web/outline-of-a-platform.zh-TW.svg"
 
 #. type: Plain text
 #: 100.en.adoc:87
@@ -488,7 +488,7 @@ msgstr "資料集及其相關的詮釋資料被每個資料入口網索引：使
 #. type: Plain text
 #: 100.en.adoc:91
 msgid "Note that holders of genetic sequence data are expected to upload and archive genetic sequence data in raw sequence data repositories such as NCBI’s https://www.ncbi.nlm.nih.gov/genbank/submit/[SRA^], EMBL’s https://biodiversitydata-se.github.io/mol-data/ena-metabar.html[ENA^] or https://www.ddbj.nig.ac.jp/submission-e.html[DDBJ^]. The sequence archival topic is not covered here, but e.g. https://doi.org/10.3897/rio.3.e12431[Penev et al. (2017)] provide a general overview of the importance of data submission and guidelines in connection with scientific publication. Biodiversity data platforms such as ALA, GBIF, and most national biodiversity portals are not archives or repositories for raw sequence reads and associated files. We do, however, stress the importance of maintaining links between such primary data and derived occurrences in <<data-packaging-and-mapping,Section 2>>."
-msgstr "基因序列資料的持有者應該將基因序列上傳並存檔在原始序列資料存儲庫中，例如NCBI的link:https://www.ncbi.nlm.nih.gov/genbank/submit/[SRA^]，EMBL的link:https://biodiversitydata-se.github.io/mol-data/ena-metabar.html[ENA^]，或link:https://www.ddbj.nig.ac.jp/submission-e.html[DDBJ^]。這裡不涉及序列存檔的討論，不過 https://doi.org/10.3897/rio.3.e12431[Penev等人 (2017)] 提供了有關科學出版物中資料提交和指南的概述。ALA、GBIF和大多數國家生物多樣性入口網與平台不是原始序列和相關文件的存儲庫。我們在<<data-packaging-and-mapping,第二章節>>中強調了維持這些原始資料與衍生出現紀錄之間連結的重要性。"
+msgstr "基因序列資料的持有者應該將基因序列上傳並存檔在原始序列資料存儲庫中，例如NCBI的link:https://www.ncbi.nlm.nih.gov/genbank/submit/[SRA^]，EMBL的link:https://biodiversitydata-se.github.io/mol-data/ena-metabar.html[ENA^]，或link:https://www.ddbj.nig.ac.jp/submission-e.html[DDBJ^]。這裡不涉及序列存檔的討論，不過 https://doi.org/10.3897/rio.3.e12431[Penev等人 (2017)] 提供了有關科學出版物中資料提交和指南的概述。ALA、GBIF和大多數國家生物多樣性入口網與平台不是原始序列和相關文件的存儲庫。我們在<<資料打包與對照-mapping,第二章節>>中強調了維持這些原始資料與衍生出現紀錄之間連結的重要性。"
 
 #. type: Title ===
 #: 100.en.adoc:92
@@ -499,7 +499,7 @@ msgstr "資料處理流程：從樣本到可獲取的資料 "
 #. type: Plain text
 #: 100.en.adoc:95
 msgid "Metabarcoding data can be produced from a number of different sequencing platforms (Illumina, PacBio, Oxford Nanopore, Ion Torrent, etc.) that rely on different principles for readout and generation of data that differ with respect to read length, error profile, whether sequences are single or paired-end, etc. Currently the Illumina short-read platform is the most widely adopted and as such is the basis of the descriptions here. However, the bioinformatics processing of the data follows the same general principles (QC, denoising, classification) regardless of the sequencing technology used (https://doi.org/10.3389/fmicb.2017.01561[Hugerth et al. 2017^], <<figure-sampling-processes>>)."
-msgstr "不同定序技術 (Illumina、PacBio、Oxford Nanopore、Ion Torrent等) 使metabarcoding資料生成方面的原則不同，令reads長度、錯誤配置文件以及序列是單端還是雙端等方面存在著差異。目前， Illumina短序列平台是最廣泛採用的，因此在這裡的描述以其為基準。然而，無論使用哪種定序技術，資料的生物資訊處理都遵循相同的一般原則 (QC，去噪，分類) (https://doi.org/10.3389/fmicb.2017.01561[Hugerth等人 2017]，<<figure-sampling-processes>>)"
+msgstr "不同定序技術 (Illumina、PacBio、Oxford Nanopore、Ion Torrent等) 使metabarcoding資料生成方面的原則不同，令reads長度、錯誤配置文件以及序列是單端還是雙端等方面存在著差異。目前， Illumina短序列平台是最廣泛採用的，因此在這裡的描述以其為基準。然而，無論使用哪種定序技術，資料的生物資訊處理都遵循相同的一般原則 (QC，去噪，分類) (https://doi.org/10.3389/fmicb.2017.01561[Hugerth等人，2017]，<<figure-sampling-processes>>)"
 
 #. type: Block title
 #: 100.en.adoc:97
@@ -511,13 +511,13 @@ msgstr "生物資訊分析metabarcoding資料的流程。"
 #: 100.en.adoc:99
 #, no-wrap
 msgid "img/print/outline-of-bioinformatic-processing.en.png"
-msgstr "img/print/outline-of-bioinformatic-processing.en.png"
+msgstr "img/print/outline-of-bioinformatic-processing.zh-TW.png"
 
 #. type: Target for macro image
 #: 100.en.adoc:102
 #, no-wrap
 msgid "img/web/outline-of-bioinformatic-processing.en.svg"
-msgstr "img/web/outline-of-bioinformatic-processing.en.svg"
+msgstr "img/web/outline-of-bioinformatic-processing.zh-TW.svg"
 
 #. type: Plain text
 #: 100.en.adoc:106
@@ -527,7 +527,7 @@ msgstr "DNA序列通常會先針對去除引子序列進行處理，然後根據
 #. type: Plain text
 #: 100.en.adoc:108
 msgid "The pre-processed sequences can then be assigned a taxon by comparing them against reference databases. When reference databases are incomplete, sequences classification can be done without taxonomic identifications, either by clustering sequences into operational taxonomic units based on their similarity (OTUs; https://doi.org/10.1098/rstb.2005.1725[Blaxter et al. 2005^]) or by denoising the data, i.e. explicitly detecting and excluding PCR/sequencing errors sequences to produce amplicon sequence variants (ASV; also referred to as zero radius OTU (zOTU)). Denoising attempts to correct errors that have been introduced in the PCR and/or sequencing steps, such that the denoised sequences are the set of unique biologically real sequences present in the original sequence mixture. In case of paired-end sequences, the forward and reverse sequences may be denoised separately before merging or else merged prior to denoising. ASVs in the resulting set can differ by as little as one base which is indicative of inter- or intraspecific sequence variation. Operationally, ASVs may be thought of as OTUs without defined radius and while denoising algorithms are typically very good, they do not entirely remove the problems of over-splitting or lumping sequences."
-msgstr "預處理過的序列可以通過與參考資料庫進行比對來鑑定分類單元。當參考資料庫不完整時，也可以在無進行分類識別的情況下對序列進行分群 (clustering)，方法之一是根據它們的相似性將序列分群為操作性分類單元 (OTUs；link:https://doi.org/10.1098/rstb.2005.1725[Blaxter等人 2005^])。另一種方法是對序列進行去噪 (denoise)，即明確檢測和排除PCR/序列的錯誤，以生成ASV；也稱為zero-radius OTU (zOTU)。去噪試圖糾正PCR和/或序列步驟中產生的錯誤，使得去噪後的序列是原始序列混合物中存在的真實生物序列。Paired-end序列可以在合併之前對前向和反向序列個別進行去噪，或者在去噪前進行合併。結果集中的ASVs可能相差僅一個碱基，這表明了种内或种间的序列变异。在操作上，ASVs可以被認為是没有定義radius的OTUs。儘管去噪演算法通常非常出色，但它們並不能完全去除分裂或合併序列的問題。"
+msgstr "預處理過的序列可以通過與參考資料庫進行比對來鑑定分類單元。當參考資料庫不完整時，也可以在無進行分類識別的情況下對序列進行分群 (clustering)，方法之一是根據它們的相似性將序列分群為操作性分類單元 (OTUs；link:https://doi.org/10.1098/rstb.2005.1725[Blaxter等人，2005^])。另一種方法是對序列進行去噪 (denoise)，即明確檢測和排除PCR/序列的錯誤，以生成ASV；也稱為zero-radius OTU (zOTU)。去噪試圖糾正PCR和/或序列步驟中產生的錯誤，使得去噪後的序列是原始序列混合物中存在的真實生物序列。Paired-end序列可以在合併之前對前向和反向序列個別進行去噪，或者在去噪前進行合併。結果集中的ASVs可能相差僅一個碱基，這表明了种内或种间的序列变异。在操作上，ASVs可以被認為是没有定義radius的OTUs。儘管去噪演算法通常非常出色，但它們並不能完全去除分裂或合併序列的問題。"
 
 #. type: Plain text
 #: 100.en.adoc:110
@@ -542,7 +542,7 @@ msgstr "最後，將處理後的序列、OTUs或ASVs與已註解序列的資料�
 #. type: Plain text
 #: 100.en.adoc:114
 msgid "Several open source tools and algorithms exist for bioinformatic processing of metabarcoding data (QIIME2 https://doi.org/10.1038/s41587-019-0209-9[(Bolyen et al. 2019)^], DADA2 https://doi.org/10.1038/nmeth.3869[(Callahan et al. 2016)^], SWARM https://doi.org/10.7717/peerj.593[(Mahé et al. 2014)^], USEARCH https://doi.org/10.1093/bioinformatics/btq461p[(Edgar 2010)^], Mothur https://doi.org/10.1128/AEM.01541-09[(Schloss et al. 2009)^], LULU https://doi.org/10.1038/s41467-017-01312-x[(Frøslev et al. 2017)^], PROTAX https://doi.org/10.1093/bioinformatics/btw34[(Somervuo et al. 2016)^], VSEARCH https://doi.org/10.7717/peerj.2584[(Rognes et al. 2016)^]). Given the existence of many popular and well used workflows, we make some recommendations below on analysing data for submission to biodiversity data platforms. This is not to suggest that these are the best methods or most appropriate for all purposes but is an attempt to encourage submission of relatively standardized data that may readily be compared via the platforms. If possible, a well documented and maintained workflow should be used (e.g. https://nf-co.re/ampliseq[nf-core/ampliseq pipeline]). Metadata should include workflow details and versions either in the metadata method steps or as a reference in the SOP field in the DNA derived data extension (see mapping in <<table-04,Table 4>>). Sequence data should be deposited in an appropriate nucleotide archive (NCBI’s SRA: https://doi.org/10.1093/nar/gkq1019[Leinonen et al. 2011^]) or EMBL’s ENA (https://doi.org/10.1093/nar/gkz1063[Amid et al. 2020^])) and data submitted to the biodiversity platform should include the biosample ID obtained from the archive (see data mapping in <<data-mapping>>). Making use of these sample IDs will reduce the chances of duplication and ensure sequence data are readily obtainable should opportunities for re-analysis arise, as reference libraries and bioinformatic tools improve. The core end-product of these pipelines is typically a file of counts of individual OTUs or ASVs in each sample along with the taxonomy assigned to these. This is generated either in tabular format or in the BIOM format (https://doi.org/10.1186/2047-217X-1-7[McDonald et.al 2012^]). OTU or ASV sequences are also often provided in the FASTA format (https://doi.org/10.1073/pnas.85.8.2444[Pearson & Lipman 1988^])."
-msgstr "現存許多用於metabarcoding資料的開源生物資訊處理工具和演算法 (QIIME2 https://doi.org/10.1038/s41587-019-0209-9[(Bolyen等人 2019)^]，DADA2 https://doi.org/10.1038/nmeth.3869[(Callahan等人 2016)^]，SWARM https://doi.org/10.7717/peerj.593[(Mahé等人 2014)^]，USEARCH https://doi.org/10.1093/bioinformatics/btq461p[(Edgar 2010)^]，Mothur https://doi.org/10.1128/AEM.01541-09[(Schloss等人 2009)^]，LULU https://doi.org/10.1038/s41467-017-01312-x[(Frøslev等人 2017)^]，PROTAX https://doi.org/10.1093/bioinformatics/btw34[(Somervuo等人 2016)^]，VSEARCH https://doi.org/10.7717/peerj.2584[(Rognes等人 2016)^]。鑑於存在許多廣泛使用的流程方法，我們以下提出一些為提交到生物多樣性資料平台做資料分析的建議。這並不是表明這些是最佳或最適合所有目的的方法，而是試圖鼓勵提交相對標準化的資料讓平台之間進行比較。如果可以的話，應使用一個紀錄完整且維護良好的操作流程 (如link:https://nf-co.re/ampliseq[nf-core/ampliseq pipeline])。詮釋資料應包括工作流程的詳細資訊和版本，納入在詮釋資料裡的方法步驟中或是在DNA衍生資料擴充表裡的SOP字段裡引用文獻 (見<<table-04,表格4>>中的mapping)。序列資料應存儲在適當的核苷酸檔案中 (NCBI的SRA: https://doi.org/10.1093/nar/gkq1019[Leinonen等人 2011^]) 或 EMBL的ENA (https://doi.org/10.1093/nar/gkz1063[Amid等人 2020^]))，並且提交到生物多樣性平台的資料應包括從 biosampleID (見<<資料對照-mapping>>)。使用這些sample ID將會降低資料重復的可能性，並確保序列資料在有重新分析的機會出現時能夠很容易地獲取，因為參考資料庫和生物資訊工具在不斷的改進中。這些操作的最終產品通常是每個樣本中個別OTU或ASV的計數文件以及對這些進行的分類學鑑定。這通常會以表格或BIOM (https://doi.org/10.1186/2047-217X-1-7[McDonald等人 2012^]) 的格式生成。OTU或ASV序列通常也以FASTA格式提供 (https://doi.org/10.1073/pnas.85.8.2444[Pearson & Lipman 1988^])。"
+msgstr "現存許多用於metabarcoding資料的開源生物資訊處理工具和演算法 (QIIME2 https://doi.org/10.1038/s41587-019-0209-9[(Bolyen等人，2019)^]，DADA2 https://doi.org/10.1038/nmeth.3869[(Callahan等人，2016)^]，SWARM https://doi.org/10.7717/peerj.593[(Mahé等人，2014)^]，USEARCH https://doi.org/10.1093/bioinformatics/btq461p[(Edgar，2010)^]，Mothur https://doi.org/10.1128/AEM.01541-09[(Schloss等人，2009)^]，LULU https://doi.org/10.1038/s41467-017-01312-x[(Frøslev等人，2017)^]，PROTAX https://doi.org/10.1093/bioinformatics/btw34[(Somervuo等人，2016)^]，VSEARCH https://doi.org/10.7717/peerj.2584[(Rognes等人，2016)^])。鑑於存在許多廣泛使用的流程方法，我們以下提出一些為提交到生物多樣性資料平台做資料分析的建議。這並不是表明這些是最佳或最適合所有目的的方法，而是試圖鼓勵提交相對標準化的資料讓平台之間進行比較。如果可以的話，應使用一個紀錄完整且維護良好的操作流程 (如link:https://nf-co.re/ampliseq[nf-core/ampliseq pipeline])。詮釋資料應包括工作流程的詳細資訊和版本，納入在詮釋資料裡的方法步驟中或是在DNA衍生資料擴充表裡的SOP字段裡引用文獻 (見<<table-04,表格4>>中的mapping)。序列資料應存儲在適當的核苷酸檔案中 (NCBI的SRA: https://doi.org/10.1093/nar/gkq1019[Leinonen等人，2011^]) 或 EMBL的ENA (https://doi.org/10.1093/nar/gkz1063[Amid等人，2020^]))，並且提交到生物多樣性平台的資料應包括從 biosampleID (見<<資料對照-mapping>>)。使用這些sample ID將會降低資料重復的可能性，並確保序列資料在有重新分析的機會出現時能夠很容易地獲取，因為參考資料庫和生物資訊工具在不斷的改進中。這些操作的最終產品通常是每個樣本中個別OTU或ASV的計數文件以及對這些進行的分類學鑑定。這通常會以表格或BIOM (https://doi.org/10.1186/2047-217X-1-7[McDonald等人，2012^]) 的格式生成。OTU或ASV序列通常也以FASTA格式提供 (https://doi.org/10.1073/pnas.85.8.2444[Pearson & Lipman，1988^])。"
 
 #. type: Title ===
 #: 100.en.adoc:115
@@ -553,7 +553,7 @@ msgstr "基因序列的分類學"
 #. type: Plain text
 #: 100.en.adoc:118
 msgid "Taxonomic annotation of sequences is a critical step in the processing of molecular biodiversity datasets, as scientific names are key to accessing and communicating information about the observed organisms. The accuracy and precision of such sequence annotation will depend on the availability of reliable reference databases and libraries across all branches of the tree of life, which in turn will require joint efforts from taxonomists and molecular ecologists. Public sequence databases should always be used knowingly of the fact that they suffer from various shortcomings related to, e.g., taxonomic reliability and lack of standardized metadata vocabularies (https://doi.org/10.1007/s13225-019-00428-3[Hofstetter et al. 2019^]; https://doi.org/10.3897/mycokeys.72.56691[Durkin et al. 2020^])."
-msgstr "序列的分類學鑑定是處理分子生物多樣性資料集的關鍵步驟，因為學名對於查詢和傳達有關觀察到的生物體的資訊至關重要。序列辨識的準確性和精確性將取決於可靠並具有生命樹所有分支的參考資料庫，這將需要來自分類學家和分子生態學家的共同努力。使用公開序列資料庫時應該知道它們存在各種缺陷，例如分類的可靠性和缺乏標準化的數據詞彙 (https://doi.org/10.1007/s13225-019-00428-3[Hofstetter等人 2019^]；link:https://doi.org/10.3897/mycokeys.72.56691[Durkin等人 2020^])。"
+msgstr "序列的分類學鑑定是處理分子生物多樣性資料集的關鍵步驟，因為學名對於查詢和傳達有關觀察到的生物體的資訊至關重要。序列辨識的準確性和精確性將取決於可靠並具有生命樹所有分支的參考資料庫，這將需要來自分類學家和分子生態學家的共同努力。使用公開序列資料庫時應該知道它們存在各種缺陷，例如分類的可靠性和缺乏標準化的數據詞彙 (https://doi.org/10.1007/s13225-019-00428-3[Hofstetter等人，2019^]；link:https://doi.org/10.3897/mycokeys.72.56691[Durkin等人，2020^])。"
 
 #. type: Plain text
 #: 100.en.adoc:120
@@ -563,7 +563,7 @@ msgstr "物種，如分類學家所描述，對於生物學至關重要。因此
 #. type: Plain text
 #: 100.en.adoc:122
 msgid "As taxonomy is central to the discovery of biodiversity data, it is highly recommended that any eDNA sequencing efforts should seek to include relevant taxonomic expertise in their study. It will similarly be beneficial if eDNA sequencing studies are able to allocate a portion of their budget to generation and release of reference sequences from previously unsequenced type specimens or other important reference material from the local herbarium, museum, or biological collection. Taxonomists, too, can contribute towards this goal by always including relevant DNA sequences with each new species description (https://doi.org/10.1093/sysbio/syaa026[Miralles et al. 2020^]) and by targeting the many novel biological entities unravelled by eDNA efforts (e.g. https://doi.org/10.1186/s40168-017-0259-5[Tedersoo et al. 2017^])."
-msgstr "由於分類學對於發現生物多樣性資料至關重要，因此強烈建議任何eDNA定序的工作都應該尋求在研究中包含相關的分類學專業知識。同樣，如果eDNA序列研究能夠將部分預算用於從以前未進行過序列化的模式標本或其他重要的參考材料生成和發布參考序列，則將非常有益。這些標本可以來自當地的標本館、博物館或生物收藏。分類學家們也可以通過始終在每個新物種描述中包含相關的DNA序列 (https://doi.org/10.1093/sysbio/syaa026[Miralles等人 2020^]) 以及對eDNA工作揭示的許多新生物體進行的貢獻 (如 https://doi.org/10.1186/s40168-017-0259-5[Tedersoo等人 2017^])。"
+msgstr "由於分類學對於發現生物多樣性資料至關重要，因此強烈建議任何eDNA定序的工作都應該尋求在研究中包含相關的分類學專業知識。同樣，如果eDNA序列研究能夠將部分預算用於從以前未進行過序列化的模式標本或其他重要的參考材料生成和發布參考序列，則將非常有益。這些標本可以來自當地的標本館、博物館或生物收藏。分類學家們也可以通過始終在每個新物種描述中包含相關的DNA序列 (https://doi.org/10.1093/sysbio/syaa026[Miralles等人，2020^]) 以及對eDNA工作揭示的許多新生物體進行的貢獻 (如link:https://doi.org/10.1186/s40168-017-0259-5[Tedersoo等人，2017^])。"
 
 #. type: Plain text
 #: 100.en.adoc:124
@@ -573,7 +573,7 @@ msgstr "大多當前的生物多樣性資料平台都是以傳統的名稱列表
 #. type: Plain text
 #: 100.en.adoc:126
 msgid "In contrast to classical taxonomy, which is a heavily manual process, clustering DNA sequences into taxonomic concepts relies on algorithmic analysis of similarity and other signals (such as phylogeny and probability), as well as some human editing. The resulting OTUs vary in stability, presence of reference sequences and physical material, alignments and cut-off values, and OTU identifiers such as DOIs (https://doi.org/10.1093/nar/gky1022[Nilsson et al. 2019^]). Even more importantly, they vary in scale, from local study- or project-specific libraries to global databases that enable broader cross-study comparison. In contrast to the centralization and codification of Linnaean taxa that are formally described in research publications, OTUs are distributed across multiple evolving digital reference libraries that differ in taxonomic focus, barcode genes and other factors. By associating standard sequences with identified reference specimens, BOLD and UNITE are establishing an essential mapping layer for linking ASVs and OTUs with Linnaean taxonomy. The GBIF backbone taxonomy includes identifiers for UNITE Species Hypotheses (SHs) as well as Barcode Index Numbers (BINs) which allows indexing of species occurrence data taxonomically annotated at the OTU level for primarily Fungi and Animals (https://www.gbif.org/news/2LrgV5t3ZuGeU2WIymSEuk/adding-sequence-based-identifiers-to-backbone-taxonomy-reveals-dark-taxa-fungi[GBIF secretariat 2018^], https://data-blog.gbif.org/post/gbif-backbone-taxonomy[Grosjean 2019^])."
-msgstr "與傳統的分類學相比，將DNA序列分群到分類概念中依賴其相似性和其他資訊 (如親緣關係和概率) 的算法分析，以及一些人為編輯。OTUs在穩定性、參考序列和實物的存在、序列對齊和cut-off值、OTU識別碼 (如DOI) 等因素存在差異 (https://doi.org/10.1093/nar/gky1022[Nilsson等人 2019^])。它們在規模上也存在差異：從局部研究或計畫特定的資料庫到能夠進行更廣泛的跨研究比較的全球資料庫。與正式描述在研究出版物中的林奈分類中心化和編碼化不同，OTUs分佈在多個不同的演變中的數位參考庫中，這些參考庫在分類焦點、條碼基因和其他因素上存在差異。通過將標準序列與已鑑定的參考標本關聯起來，BOLD和UNITE正在建立一個重要的對照層，將ASVs和OTUs與林奈分類相關聯。GBIF分類骨幹包括了對UNITE物種假設 (SHs) 和Barcode Index Numbers (BINs) 的識別碼，這使真菌和動物的OTU層級的物種出現紀錄可以進行分類鑑定並進行索引 (https://www.gbif.org/zh-tw/news/2LrgV5t3ZuGeU2WIymSEuk/adding-sequence-based-identifiers-to-backbone-taxonomy-reveals-dark-taxa-fungi[GBIF secretariat 2018^]，link:https://data-blog.gbif.org/post/gbif-backbone-taxonomy[Grosjean 2019^])。"
+msgstr "與傳統的分類學相比，將DNA序列分群到分類概念中依賴其相似性和其他資訊 (如親緣關係和概率) 的算法分析，以及一些人為編輯。OTUs在穩定性、參考序列和實物的存在、序列對齊和cut-off值、OTU識別碼 (如DOI) 等因素存在差異 (https://doi.org/10.1093/nar/gky1022[Nilsson等人，2019^])。它們在規模上也存在差異：從局部研究或計畫特定的資料庫到能夠進行更廣泛的跨研究比較的全球資料庫。與正式描述在研究出版物中的林奈分類中心化和編碼化不同，OTUs分佈在多個不同的演變中的數位參考庫中，這些參考庫在分類焦點、條碼基因和其他因素上存在差異。通過將標準序列與已鑑定的參考標本關聯起來，BOLD和UNITE正在建立一個重要的對照層，將ASVs和OTUs與林奈分類相關聯。GBIF分類骨幹包括了對UNITE物種假設 (SHs) 和Barcode Index Numbers (BINs) 的識別碼，這使真菌和動物的OTU層級的物種出現紀錄可以進行分類鑑定並進行索引 (https://www.gbif.org/zh-tw/news/2LrgV5t3ZuGeU2WIymSEuk/adding-sequence-based-identifiers-to-backbone-taxonomy-reveals-dark-taxa-fungi[GBIF secretariat，2018^]，link:https://data-blog.gbif.org/post/gbif-backbone-taxonomy[Grosjean，2019^])。"
 
 #. type: Plain text
 #: 100.en.adoc:128
@@ -655,7 +655,7 @@ msgstr "第1.4章節中圖表3的DwC-A / IPT的放大圖。核心的選擇主要
 #: 200.en.adoc:12
 #, no-wrap
 msgid "img/print/dwca-structure.en.png"
-msgstr "img/print/dwca-structure.en.png"
+msgstr "img/print/dwca-structure.zh-TW.png"
 
 #. type: Target for macro image
 #: 200.en.adoc:15
@@ -827,7 +827,7 @@ msgstr "Bessey C, Jarman SN, Berry O et al. (2020) Maximizing fish detection wit
 #. type: Plain text
 #: 200.en.adoc:85 200.en.adoc:98
 msgid "For guidance on how to format and share these datasets, see <<mapping-metabarcoding-edna-and-barcoding-data>>. General guidelines for Darwin Core occurrence datasets are also available through the https://ipt.gbif.org/manual/en/ipt/latest/occurrence-data#templates[DwC-A template for occurrence datasets] and https://www.gbif.org/data-quality-requirements-occurrences[Data quality requirements for occurrences]."
-msgstr "請參考 <<mapping-metabarcoding-edna-和barcoding資料>> 以了解如何格式化和分享這些資料集。有關達爾文核心出現紀錄資料集可通過 https://ipt.gbif.org/manual/zh/ipt/latest/occurrence-data#templates[達爾文核心出現紀錄資料集的DwC-A模板]和link:https://www.gbif.org/zh-tw/data-quality-requirements-occurrences[出現紀錄資料的品質要求]獲得。"
+msgstr "請參考 <<mapping-metabarcoding-edna-和barcoding資料>> 以了解如何格式化和分享這些資料集。有關達爾文核心出現紀錄資料集可通過link:https://ipt.gbif.org/manual/zh/ipt/latest/occurrence-data#templates[達爾文核心出現紀錄資料集的DwC-A模板]和link:https://www.gbif.org/zh-tw/data-quality-requirements-occurrences[出現紀錄資料的品質要求]獲得。"
 
 #. type: Title ====
 #: 200.en.adoc:87
@@ -886,7 +886,7 @@ msgstr "Strzelecki, Joanna; Feng, Ming; Berry, Olly; Zhong, Liejun; Keesing, Joh
 #. type: Plain text
 #: 200.en.adoc:108
 msgid "For guidance on how to format and share these datasets, see <<mapping-ddpcr-qpcr-data>>. General guidelines for Darwin Core occurrence datasets are also available through the https://ipt.gbif.org/manual/en/ipt/latest/occurrence-data#templates[DwC-A template for occurrence datasets] and https://www.gbif.org/data-quality-requirements-occurrences[Data quality requirements for occurrences]."
-msgstr "請參考 <<mapping-metabarcoding-edna-和barcoding資料>> 以了解如何格式化和分享這些資料集。有關達爾文核心出現紀錄資料集可通過 https://ipt.gbif.org/manual/zh/ipt/latest/occurrence-data#templates[達爾文核心出現紀錄資料集的DwC-A模板]和link:https://www.gbif.org/zh-tw/data-quality-requirements-occurrences[出現紀錄資料的品質要求]獲得。"
+msgstr "請參考 <<mapping-metabarcoding-edna-和barcoding資料>> 以了解如何格式化和分享這些資料集。有關達爾文核心出現紀錄資料集可通過link:https://ipt.gbif.org/manual/zh/ipt/latest/occurrence-data#templates[達爾文核心出現紀錄資料集的DwC-A模板]和link:https://www.gbif.org/zh-tw/data-quality-requirements-occurrences[出現紀錄資料的品質要求]獲得。"
 
 #. type: Title ====
 #: 200.en.adoc:110
@@ -962,7 +962,7 @@ msgstr "Cary S C (2015). New Zealand Terrestrial Biocomplexity Survey. SCAR - Mi
 #. type: Plain text
 #: 200.en.adoc:136
 msgid "Mapping recommendations for metadata-only DNA-derived datasets (Category V) is the same as for any other metadata-only datasets, and this guide does not provide any specific mapping recommendations for metadata. Please follow general recommendations of biodiversity data portals, paying attention to https://ipt.gbif.org/manual/en/ipt/latest/resource-metadata[required and recommended metadata]. Descriptions of field, lab, and bioinformatics steps should be as detailed as possible. Describing your methods as method steps in the EML metadata makes them display on the dataset homepage in GBIF (https://www.gbif.org/dataset/3b8c5ed8-b6c2-4264-ac52-a9d772d69e9f#methodology Frøslev T, Ejrnæs R (2018). BIOWIDE eDNA Fungi dataset. Danish Biodiversity Information Facility. Occurrence dataset https://doi.org/10.15468/nesbvx accessed via GBIF.org on 2021-07-06). However, if a structured and possibly more detailed method description is already published somewhere (e.g. at https://protocols.io[protocols.io] or https://www.neonscience.org/data-collection[NEON protocols collection]), it is straightforward to provide a link through the MIxS SOP field (see <<mapping-metabarcoding-edna-and-barcoding-data>>)."
-msgstr "對僅有詮釋資料的DNA衍生資料集 (類別五)，對照建議與其他僅有詮釋資料的資料集相同，此文件不提供僅有詮釋資料資料集的對照建議。請參考生物多樣性資料入口網的建議，並特別注意link:https://ipt.gbif.org/manual/zh/ipt/latest/resource-metadata[所需和建議的詮釋資料]。對田野、實驗室和生物資訊學步驟的描述應盡可能詳細。GBIF的資料集頁面會呈現在EML檔案中您描述的方法和步驟 (link:https://www.gbif.org/zh-tw/dataset/3b8c5ed8-b6c2-4264-ac52-a9d772d69e9f#methodology[Frøslev T, Ejrnæs R (2018)]。 BIOWIDE eDNA Fungi dataset. Danish Biodiversity Information Facility. Occurrence dataset https://doi.org/10.15468/nesbvx accessed via GBIF.org on 2021-07-06)。但如果某平台或發表已經描述了結構化且可能更詳細的方法 (例如 https://protocols.io[protocols.io] 或 https://www.neonscience.org/data-collection[NEON protocols collection])，則可以直接通過MIxS SOP字段提供連結 (見<<mapping-metabarcoding-edna-和barcoding資料>>)。"
+msgstr "對僅有詮釋資料的DNA衍生資料集 (類別五)，對照建議與其他僅有詮釋資料的資料集相同，此文件不提供僅有詮釋資料資料集的對照建議。請參考生物多樣性資料入口網的建議，並特別注意link:https://ipt.gbif.org/manual/zh/ipt/latest/resource-metadata[所需和建議的詮釋資料]。對田野、實驗室和生物資訊學步驟的描述應盡可能詳細。GBIF的資料集頁面會呈現在EML檔案中您描述的方法和步驟 (link:https://www.gbif.org/zh-tw/dataset/3b8c5ed8-b6c2-4264-ac52-a9d772d69e9f#methodology[Frøslev T, Ejrnæs R，2018]。 BIOWIDE eDNA Fungi dataset. Danish Biodiversity Information Facility. Occurrence dataset https://doi.org/10.15468/nesbvx accessed via GBIF.org on 2021-07-06)。但如果某平台或發表已經描述了結構化且可能更詳細的方法 (例如 https://protocols.io[protocols.io] 或 https://www.neonscience.org/data-collection[NEON protocols collection])，則可以直接通過MIxS SOP字段提供連結 (見<<mapping-metabarcoding-edna-和barcoding資料>>)。"
 
 #. type: Title ===
 #: 200.en.adoc:137
@@ -1104,7 +1104,7 @@ msgstr "| 字段名稱\n"
 "| 必填\n\n"
 "| term:dwc[recordedBy]\n"
 "| \"Oliver P. Pearson \\| Anita K. Pearson\"\n"
-"| 記錄原始出現紀錄的人、組織或團體的名稱 (連接和分隔)。推薦的最佳做法是用垂直線 (\\|) 分隔每個值。包含有關觀察者的資訊有助於提高科學可重複性(https://doi.org/10.1093/database/baaa072[Groom等人 2020^])。\n"
+"| 記錄原始出現紀錄的人、組織或團體的名稱 (連接和分隔)。推薦的最佳做法是用垂直線 (\\|) 分隔每個值。包含有關觀察者的資訊有助於提高科學可重複性(https://doi.org/10.1093/database/baaa072[Groom等人，2020^])。\n"
 "| 強烈建議\n\n"
 "| term:dwc[organismQuantity]\n"
 "| 33\n"
@@ -1465,7 +1465,7 @@ msgstr "| 字段名稱\n"
 "| 必填\n\n"
 "| term:dwc[recordedBy]\n"
 "| \"Oliver P. Pearson \\| Anita K. Pearson\"\n"
-"| 記錄原始出現紀錄的人、組織或機構的姓名列表 (串聯並分隔)。建議的寫法是使用垂直條 (\\|) 分隔值。包含觀察者的名字可提高科學的可重複性 (https://doi.org/10.1093/database/baaa072[Groom等人 2020^])。\n"
+"| 記錄原始出現紀錄的人、組織或機構的姓名列表 (串聯並分隔)。建議的寫法是使用垂直條 (\\|) 分隔值。包含觀察者的名字可提高科學的可重複性 (https://doi.org/10.1093/database/baaa072[Groom等人，2020^])。\n"
 "| 強烈建議\n\n"
 "| term:dwc[organismQuantity]\n"
 "| 50\n"
@@ -1887,7 +1887,7 @@ msgstr "海洋資料集和海洋生物多樣性信息系統 (OBIS)"
 #. type: Plain text
 #: 200.en.adoc:735
 msgid "When working with datasets originating in the marine environment, it is recommended that the information is published also in the https://obis.org[Ocean Biodiversity Information System^] (OBIS) in addition to GBIF. OBIS is a global biodiversity database, which is specialized in providing reliable and accessible data related to marine life and is a part of the IOC-UNESCO. Like GBIF, and ALA, OBIS uses the DwC-A format for data indexing and publishing. By publishing marine datasets through OBIS in addition to other biodiversity databases, the data can reach a broader audience, and diverse groups working in the field of marine biodiversity, as datasets in OBIS are often used for UN processes. With the focus on marine datasets, stringent quality controls on the data increase the reliability of the data and lead to small differences in what information is required for publishing in OBIS as opposed to GBIF."
-msgstr "在處理來自海洋環境的資料集時，除了GBIF之外，也建議將資料發布在 https://obis.org[海洋生物多樣性信息系統(OBIS)^]。 OBIS是一個全球性的生物多樣性資料庫，是IOC-UNESCO的一部分，專門提供與海洋生物相關的可靠並可查找的資料。與GBIF和ALA一樣，OBIS使用DwC-A格式進行資料索引和發布。同時將海洋資料集通過其他生物多樣性資料庫和OBIS發布，資料可以觸及更廣泛的受眾以及在海洋生物多樣性領域工作的多個社群，因為OBIS中的資料常應用在聯合國的相關工作。海洋資料發布到OBIS時所需的資訊與GBIF有些不同的小差異，這些差異帶出了資料嚴格品質管控，提高了海洋資料集資料的可信度。"
+msgstr "在處理來自海洋環境的資料集時，除了GBIF之外，也建議將資料發布在link:https://obis.org[海洋生物多樣性信息系統(OBIS)^]。 OBIS是一個全球性的生物多樣性資料庫，是IOC-UNESCO的一部分，專門提供與海洋生物相關的可靠並可查找的資料。與GBIF和ALA一樣，OBIS使用DwC-A格式進行資料索引和發布。同時將海洋資料集通過其他生物多樣性資料庫和OBIS發布，資料可以觸及更廣泛的受眾以及在海洋生物多樣性領域工作的多個社群，因為OBIS中的資料常應用在聯合國的相關工作。海洋資料發布到OBIS時所需的資訊與GBIF有些不同的小差異，這些差異帶出了資料嚴格品質管控，提高了海洋資料集資料的可信度。"
 
 #. type: Plain text
 #: 200.en.adoc:737
@@ -2050,7 +2050,7 @@ msgstr "[[ala]]Atlas of Living Australia (ALA)"
 #. type: Plain text
 #: glossary.en.adoc:6
 msgid "The ALA is a web-based platform that pulls together Australian biodiversity data from multiple sources, making it accessible and reusable to anyone (see https://www.ala.org.au/about-ala/). The open infrastructure platform developed by the ALA is also used by several other countries for their own national biodiversity data platform (see https://living-atlases.gbif.org/)."
-msgstr "ALA是一個從多個來源聚合澳大利亞的生物多樣性資料網絡的平台，使其對任何人都可查詢和重複使用 (請參見 https://www.ala.org.au/about-ala/)。 ALA開發的開放式基礎架構平台也被其他國家用於建立自己的國家生物多樣性資料平台 (link:https://living-atlases.gbif.org/[])。"
+msgstr "ALA是一個從多個來源聚合澳大利亞的生物多樣性資料網絡的平台，使其對任何人都可查詢和重複使用 (請見 https://www.ala.org.au/about-ala/) 。 ALA開發的開放式基礎架構平台也被其他國家用於建立自己的國家生物多樣性資料平台 (link:https://living-atlases.gbif.org/[])。"
 
 #. type: Labeled list
 #: glossary.en.adoc:6
@@ -2094,7 +2094,7 @@ msgstr "[[bold]]Barcode of Life Data System (BOLD)"
 #. type: Plain text
 #: glossary.en.adoc:10
 msgid "http://www.boldsystems.org/[BOLD^] is the reference database maintained by the Centre for Biodiversity Genomics in Guelph on behalf of the International Barcode of Life Consortium (https://ibol.org/[IBOL^]). It hosts data on barcode reference specimens and sequences for eukaryote species, particularly COI for animals, and maintains the Barcode Index Number (http://www.boldsystems.org/index.php/Public_BarcodeIndexNumber_Home[BIN^]; https://doi.org/10.1371/journal.pone.0066213[Ratnasingham & Hebert 2013^]) system, identifiers for OTUs of approximately species rank, based on clusters of closely similar sequences."
-msgstr "http://www.boldsystems.org/[BOLD^] 是由Guelph的Centre for Biodiversity Genomics代表 (https://ibol.org/[IBOL^]) 所維護的參考資料庫。它收集了關於真核生物物種標本的條碼參考和序列資料，尤其是動物的COI序列，并維護了(http://www.boldsystems.org/index.php/Public_BarcodeIndexNumber_Home[BIN^]; https://doi.org/10.1371/journal.pone.0066213[Ratnasingham & Hebert 2013^]) 系統。接近物種層級的OTUs的辨識碼來自序列分群後高度相似的序列。"
+msgstr "http://www.boldsystems.org/[BOLD^] 是由Guelph的Centre for Biodiversity Genomics代表 (https://ibol.org/[IBOL^]) 所維護的參考資料庫。它收集了關於真核生物物種標本的條碼參考和序列資料，尤其是動物的COI序列，并維護了(http://www.boldsystems.org/index.php/Public_BarcodeIndexNumber_Home[BIN^]; https://doi.org/10.1371/journal.pone.0066213[Ratnasingham & Hebert，2013^]) 系統。接近物種層級的OTUs的辨識碼來自序列分群後高度相似的序列。"
 
 #. type: Labeled list
 #: glossary.en.adoc:10
@@ -2248,7 +2248,7 @@ msgstr "[[embl]]歐洲生物資訊研究機構 (EMBL-EBI)"
 #. type: Plain text
 #: glossary.en.adoc:25
 msgid "Intergovernmental organization for bioinformatics research and services, part of the European Molecular Biology Laboratory (EMBL), providing eg. (raw) sequence reads and assembly data via <<ena,the European Nucleotide Archive (ENA)>>."
-msgstr "生物資訊學研究和服務的政府間組織，隸屬於歐洲分子生物學實驗室 (EMBL)，通過 <<ena,the European Nucleotide Archive (ENA)>> 提供包括 (原始) 序列reads和assembly資料。"
+msgstr "生物資訊學研究和服務的政府間組織，隸屬於歐洲分子生物學實驗室 (EMBL)，通過 <<ena,European Nucleotide Archive (ENA)>> 提供包括 (原始) 序列reads和assembly資料。"
 
 #. type: Labeled list
 #: glossary.en.adoc:25
@@ -2259,7 +2259,7 @@ msgstr "[[edna]]環境DNA (eDNA)"
 #. type: Plain text
 #: glossary.en.adoc:26
 msgid "DNA from an environmental sample, e.g. soil, water, air or host organism. An often used definition is that environmental DNA is the genetic material (DNA) obtained from environmental samples without any obvious evidence of biological source material (https://doi.org/10.1016/j.biocon.2014.11.019[Thomsen and Willerslev 2015^])."
-msgstr "環境樣本中的DNA，例如土壤、水、空氣或宿主生物體。常用的定義為環境DNA是從環境樣本中獲得的基因物質 (DNA)，沒有明顯的生物來源材料的證據 (https://doi.org/10.1016/j.biocon.2014.11.019[Thomsen and Willerslev 2015^])。"
+msgstr "環境樣本中的DNA，例如土壤、水、空氣或宿主生物體。常用的定義為環境DNA是從環境樣本中獲得的基因物質 (DNA)，沒有明顯的生物來源材料的證據 (https://doi.org/10.1016/j.biocon.2014.11.019[Thomsen and Willerslev，2015^])。"
 
 #. type: Labeled list
 #: glossary.en.adoc:26
@@ -2270,7 +2270,7 @@ msgstr "[[ena]]European Nucleotide Archive (ENA)"
 #. type: Plain text
 #: glossary.en.adoc:27
 msgid "European repository for nucleotide sequences, covering raw sequencing data, sequence assembly information and functional annotation. Includes the <<sra,Sequence Read Archive (SRA)>>, and is maintained by the European Bioinformatics Institute (EMBL-EBI), as part of <<insdc, the International Nucleotide Sequence Database Collaboration (INSDC)>>."
-msgstr "歐洲核苷酸序列資料庫，涵蓋原始序列、序列組裝資訊和功能註解。包括序列檔案 <sra,Sequence Read Archive (SRA)> ，由歐洲生物資訊學研究所 (EMBL-EBI) 管理，作為國際核苷酸序列資料庫合作項目 <insdc, the International Nucleotide Sequence Database Collaboration (INSDC)> 的一部分。"
+msgstr "歐洲核苷酸序列資料庫，涵蓋原始序列、序列組裝資訊和功能註解。包括序列檔案 <<sra,Sequence Read Archive (SRA)>> ，由歐洲生物資訊學研究所 (EMBL-EBI) 管理，作為國際核苷酸序列資料庫合作項目 <<insdc, the International Nucleotide Sequence Database Collaboration (INSDC)>> 的一部分。"
 
 #. type: Labeled list
 #: glossary.en.adoc:27
@@ -2457,7 +2457,7 @@ msgstr "[[pipeline]]執行流程"
 #. type: Plain text
 #: glossary.en.adoc:44
 msgid "In bioinformatics, a set of algorithms or tools applied in a predefined workflow to process e.g. <<hts,High-throughput sequencing (HTS)>> data."
-msgstr "在生物資訊學裡一組演算法或工具被應用於預定義的工作流程中，用於處理例如高通量定序 <hts,High-throughput sequencing (HTS)> 資料。"
+msgstr "在生物資訊學裡一組演算法或工具被應用於預定義的工作流程中，用於處理例如高通量定序 <<hts,High-throughput sequencing (HTS)>> 資料。"
 
 #. type: Labeled list
 #: glossary.en.adoc:44
