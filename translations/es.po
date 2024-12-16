@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: publishing-ddd\n"
 "POT-Creation-Date: 2024-03-19 10:11+0000\n"
-"PO-Revision-Date: 2024-04-02 22:45\n"
+"PO-Revision-Date: 2024-12-13 20:19\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -260,7 +260,7 @@ msgstr "https://www.gbif.org/publishing-data[GBIF quick guide to publishing data
 #. type: Plain text
 #: preface.en.adoc:16
 msgid "https://ipt.gbif.org/manual/en/ipt/latest/how-to-publish[How to publish data to GBIF], as well as DwC/extension field overview."
-msgstr ""
+msgstr "https://ipt.gbif.org/manual/en/ipt/latest/how-to-publish[Cómo publicar datos a través de GBIF], así como una visión general del DwC/extensiones."
 
 #. type: Plain text
 #: preface.en.adoc:16
@@ -573,17 +573,17 @@ msgstr "La mayoría de las plataformas de datos sobre biodiversidad actuales est
 #. type: Plain text
 #: 100.en.adoc:126
 msgid "In contrast to classical taxonomy, which is a heavily manual process, clustering DNA sequences into taxonomic concepts relies on algorithmic analysis of similarity and other signals (such as phylogeny and probability), as well as some human editing. The resulting OTUs vary in stability, presence of reference sequences and physical material, alignments and cut-off values, and OTU identifiers such as DOIs (https://doi.org/10.1093/nar/gky1022[Nilsson et al. 2019^]). Even more importantly, they vary in scale, from local study- or project-specific libraries to global databases that enable broader cross-study comparison. In contrast to the centralization and codification of Linnaean taxa that are formally described in research publications, OTUs are distributed across multiple evolving digital reference libraries that differ in taxonomic focus, barcode genes and other factors. By associating standard sequences with identified reference specimens, BOLD and UNITE are establishing an essential mapping layer for linking ASVs and OTUs with Linnaean taxonomy. The GBIF backbone taxonomy includes identifiers for UNITE Species Hypotheses (SHs) as well as Barcode Index Numbers (BINs) which allows indexing of species occurrence data taxonomically annotated at the OTU level for primarily Fungi and Animals (https://www.gbif.org/news/2LrgV5t3ZuGeU2WIymSEuk/adding-sequence-based-identifiers-to-backbone-taxonomy-reveals-dark-taxa-fungi[GBIF secretariat 2018^], https://data-blog.gbif.org/post/gbif-backbone-taxonomy[Grosjean 2019^])."
-msgstr ""
+msgstr "A diferencia de la taxonomía clásica, que es un proceso altamente manual, el agrupamiento de secuencias de ADN en conceptos taxonómicos se basa en el análisis algorítmico de similitud y otras señales (como filogenia y probabilidad), así como en cierta edición humana. Las OTUs resultantes varian en estabilidad, presencia de secuencias de referencia, material físico, alineaciones y valores de corte, así como en identificadores de OTU como DOIs (https://doi.org/10.1093/nar/gky1022[Nilsson et al. 2019^]). Aún mas importante, estas OTUs varían en escala, desde bibliotecas específicas de estudios o proyectos locales hasta bases de datos globales que permiten una comparación más amplia entre estudios. A diferencia de la centralización y codificación de los taxones Linneanos que se describen formalmente en publicaciones de investigación, las OTUs se distribuyen en múltiples bibliotecas digitales de referencia en constante evolución, que difieren en enfoque taxonómico, genes de códigos de barras y otros factores. Al asociar secuencias estándar con especímenes de referencia identificados, BOLD y UNITE están estableciendo una capa de mapeo esencial para vincular ASVs y OTUs con la taxonomía linneana. La taxonomía principal de GBIF incluye identificadores para las Hipótesis de Especies UNITE (SHs) así como los Números de Índice de Código de Barras (BINs), lo que permite indexar datos de ocurrencia de especies anotados taxonómicamente a nivel de OTU, principalmente para hongos y animales (https://www.gbif.org/news/2LrgV5t3ZuGeU2WIymSEuk/adding-sequence-based-identifiers-to-backbone-taxonomy-reveals-dark-taxa-fungi [Secretariado de GBIF 2018^], https://data-blog.gbif.org/post/gbif-backbone-taxonomy [Grosjean 2019^])."
 
 #. type: Plain text
 #: 100.en.adoc:128
 msgid "Algorithms for taxonomic annotation of eDNA will typically assign each unique sequence to the nearest taxonomic group in a reference set, based on some criteria for relatedness and confidence. For poorly known groups of organisms, such as prokaryotes, insects and fungi, the annotation may be a non-Linnaean placeholder name for a (cluster-based) taxon (i.e. the ID/number of the relevant SH or BIN), and this taxon may represent a species or even a taxonomic unit above the species level. No reference database contains all species in a given group due to the many unknown, unidentified, and undescribed species on earth. Frequent ignorance of this fact has been the source of numerous taxonomic misidentifications during the last 30 years."
-msgstr ""
+msgstr "Los algoritmos para la anotación taxonómica del ADN ambiental típicamente asignarán cada secuencia única al grupo taxonómico más cercano en un conjunto de referencia, basado en algunos criterios de parentesco y confianza. Para grupos de organismos poco conocidos, como los procariotas, insectos y hongos, la anotación puede ser un nombre provisional no Linneano (basado en clústeres) para un taxón (es decir, el ID/número del SH o BIN relevante), y este taxón puede representar una especie o incluso una unidad taxonómica por encima del nivel de especie. Ninguna base de datos de referencia contiene todas las especies de un grupo dado debido a las muchas especies desconocidas, no identificadas y no descritas en la tierra. La ignorancia frecuente de este hecho ha sido la fuente de numerosas identificaciones taxonómicas erróneas durante los últimos 30 años."
 
 #. type: Plain text
 #: 100.en.adoc:130
 msgid "During import into the biodiversity platform (e.g. GBIF or OBIS), the taxonomic resolution for these DNA-based occurrences may be reduced even further, as the names/IDs obtained from comparing with the reference database (e.g. UNITE, BOLD) may not all be included in the taxonomic index of that platform at the time of publication. However, the inclusion of the underlying OTU or ASV sequence for each record will allow future users to potentially identify the sequence to a greater level of granularity, particularly as reference libraries improve over time. Therefore we also recommend to publish all sequences in a study - also those that are presently fully unclassified – as they may well be possible to identify with improved reference databases. In cases where the underlying sequence cannot be included as part of the submitted data, we advocate deposition of a (scientific or placeholder) name of the taxon (e.g. the BOLD BIN or UNITE SH) plus an MD5 checksum of the sequence as a unique taxon ID (see xref:data-mapping[xrefstyle=\"full\"]). MD5 checksums are unidirectional hash algorithms commonly used for https://en.wikipedia.org/wiki/MD5[verifying file integrity^]. In this case, they would provide a unique and repeatable representation of the original sequence that would nevertheless not allow the sequence itself to be recovered. This may be required in cases where sensitivity exists around access. MD5 checksums enable efficient query to determine whether the same exact sequence has been recovered in other eDNA efforts, but it is not a complete replacement of the sequence as MD5s do not enable further analyses. Two sequences differing by even a single base will get two completely different MD5 checksums, such that BLAST-style sequence similarity searches will not work."
-msgstr ""
+msgstr "Durante la importación en la plataforma de biodiversidad (por ejemplo, GBIF u OBIS), la resolución taxonómica para estas ocurrencias basadas en ADN puede reducirse aún más, ya que los nombres/IDs obtenidos al comparar con la base de datos de referencia (por ejemplo, UNITE, BOLD) pueden no estar incluidos totalmente en el índice taxonómico de esa plataforma en el momento de la publicación. Sin embargo, la inclusión de la secuencia subyacente de OTU o ASV para cada registro permitirá a los futuros usuarios identificar potencialmente la secuencia a un nivel de granularidad mayor, especialmente a medida que las bibliotecas de referencia mejoren con el tiempo. Por lo tanto, también recomendamos publicar todas las secuencias en un estudio, incluso aquellas que actualmente están completamente sin clasificar, ya que es posible que se puedan identificar con bases de datos de referencia mejoradas. En los casos en los que la secuencia subyacente no pueda incluirse como parte de los datos enviados, abogamos por la deposición de un nombre (científico o de marcador de posición) del taxón (por ejemplo, el BOLD BIN o UNITE SH) junto con la suma de verificación MD5 de la secuencia como un ID de taxón único (ver xref:data-mapping[xrefstyle=\"full\"]). La suma de verificación MD5 es un algoritmo de hash unidireccional comúnmente utilizado para https://es.wikipedia.org/wiki/MD5[verificar la integridad de archivos^]. En este caso proporciona una representación única y repetible de la secuencia original que, sin embargo, no permitiría recuperar la secuencia en sí. Esto puede ser necesario en casos en los que exista sensibilidad en torno al acceso. La suma de verificación MD5 permite consultas eficientes para determinar si se ha recuperado la misma secuencia exacta en otros esfuerzos de eDNA, pero no reemplaza por completo la secuencia, ya que los MD5 no habilitan análisis adicionales. Dos secuencias que difieren en incluso una sola base obtendrán dos sumas de verificación MD5 completamente diferentes, de modo que las búsquedas de similitud de secuencias al estilo BLAST no funcionarán."
 
 #. type: Title ===
 #: 100.en.adoc:131
@@ -594,35 +594,35 @@ msgstr "Salidas"
 #. type: Plain text
 #: 100.en.adoc:134
 msgid "The purpose of exposing DNA-derived data through biodiversity platforms is to enable reuse of these data in combination with other biodiversity data types. It is very important to keep this reuse in mind when preparing your data for publication. Ideally, the metadata and data should tell a complete story in such a way that new, uninformed users can use this evidence without any additional consultations or correspondence. Biodiversity data platforms provide search, filtering, browsing, visualizations, data access, and data citation functionality. For metabarcoding data we encourage users to configure filters for minimum absolute and relative read abundance to make a suitable filtering of data. Singletons or any occurrence with an absolute read count below some selected value can be filtered out by setting a minimum read abundance per OTU or ASV (using the field organismQuantity). Occurrences with a relative read abundance below a selected threshold can be filtered out by setting a minimum value of relative organism quantity, which is calculated from the detected reads (organismQuantity) and total reads in the corresponding sample (sampleSizeValue) (<<mapping-metabarcoding-edna-and-barcoding-data>>). Users can often choose data-output formats (e.g. DwC-A, CSV) and then process, clean and transform data into the shape and format needed for the analyses."
-msgstr ""
+msgstr "El propósito de exponer datos derivados del ADN a través de plataformas de biodiversidad es permitir la reutilización de estos datos en combinación con otros tipos de datos sobre biodiversidad. Es muy importante tener en cuenta esta reutilización al preparar sus datos para la publicación. Idealmente, los metadatos y los datos deben contar una historia completa de tal manera que los nuevos usuarios no informados puedan utilizar esta evidencia sin ninguna consulta o correspondencia adicional. Las plataformas de datos sobre biodiversidad proporcionan funcionalidades de búsqueda, filtrado, navegación, visualizaciones, acceso a datos y citación de datos. Para los datos de metabarcoding, alentamos a los usuarios a configurar filtros para la abundancia mínima absoluta y relativa de lecturas para hacer un filtrado adecuado de los datos. Las ocurrencias individuales o cualquier ocurrencia con un recuento absoluto de lecturas por debajo de algún valor seleccionado pueden ser filtradas estableciendo una abundancia mínima de lecturas por OTU o ASV (usando el campo organismQuantity). Las ocurrencias con una abundancia relativa de lecturas por debajo de un umbral seleccionado pueden ser filtradas estableciendo un valor mínimo de cantidad relativa del organismo, que se calcula a partir de las lecturas detectadas (organismQuantity) y el total de lecturas en la muestra correspondiente (sampleSizeValue) (<<mapping-metabarcoding-edna-and-barcoding-data>>). Los usuarios a menudo pueden elegir formatos de salida de datos (por ejemplo, DwC-A, CSV) y luego procesar, limpiar y transformar los datos en la forma y formato necesarios para los análisis."
 
 #. type: Plain text
 #: 100.en.adoc:136
 msgid "At GBIF.org or through the GBIF API, registered users can search, filter, and download biodiversity data in the following three formats:"
-msgstr ""
+msgstr "En GBIF.org o a través de la API de GBIF, los usuarios registrados pueden buscar, filtrar y descargar datos de biodiversidad en los siguientes tres formatos:"
 
 #. type: Plain text
 #: 100.en.adoc:138
 #, no-wrap
 msgid "*Simple*: a simple, tab-delimited format which includes only the GBIF-interpreted version of the data, as a result of the indexing process. This is suitable for quick tests and direct import into spreadsheets. \n"
-msgstr ""
+msgstr "*Simple*: Un formato sencillo delimitado por tabulaciones que incluye solo la versión interpretada por GBIF de los datos, como resultado del proceso de indexación. Este formato es adecuado para pruebas rápidas y para importar directamente a hojas de cálculo.\n"
 
 #. type: Plain text
 #: 100.en.adoc:139
 #, no-wrap
 msgid "*Darwin Core Archive*: richer format that includes both the interpreted data and the original verbatim version provided by the publisher (prior to indexing and interpretation by GBIF). Because it includes all the metadata and issue flags, this format provides a richer view of the downloaded dataset. \n"
-msgstr ""
+msgstr "*Archivo Darwin Core*: Formato más completo que incluye tanto los datos interpretados como la versión original literal proporcionada por el publicador (antes de la indexación e interpretación por parte de GBIF). Debido a que incluye todos los metadatos y las indicaciones de problemas, este formato aporta una vista más detallada del conjunto de datos descargado.\n"
 
 #. type: Plain text
 #: 100.en.adoc:140
 #, no-wrap
 msgid "*Species list*: a simple table format that includes only an interpreted list of unique species names from a dataset or query result. \n"
-msgstr ""
+msgstr "*Lista de especies*: Un formato de tabla sencillo que incluye solo una lista interpretada de nombres únicos de especies de un conjunto de datos o de un resultado de una consulta.\n"
 
 #. type: Plain text
 #: 100.en.adoc:141
 msgid "Regardless of the selected format, each GBIF user download receives a reusable link to the query and a data citation that includes a DOI. This DOI-based citation system provides the means of recognizing and crediting uses to datasets and data originators, improving both the credibility and transparency of the findings based on the data. It is essential to follow data citation recommendations and use DOIs, as good data citation culture is not only the academic norm, but also a powerful mechanism for crediting acknowledging and, therefore, incentivizing data publishers."
-msgstr ""
+msgstr "Independientemente del formato seleccionado, cada descarga de usuario de GBIF recibe un enlace reutilizable a la consulta y una cita de datos que incluye un DOI. Este sistema de citación basado en DOI proporciona los medios para reconocer y acreditar el uso de conjuntos de datos y sus creadores, mejorando tanto la credibilidad como la transparencia de los hallazgos basados en los datos. Es esencial seguir las recomendaciones de citación de datos y utilizar DOIs, ya que una buena cultura de citación de datos no solo es la norma académica, sino también un mecanismo poderoso para acreditar y, por lo tanto, incentivar a los publicadores de datos."
 
 #. type: Title ==
 #: 200.en.adoc:1
@@ -778,7 +778,7 @@ msgstr "<|*<<category-v,Category V>>* +"
 #. type: Table
 #: 200.en.adoc:67
 msgid "Metadata-only |"
-msgstr "Solo metadato |"
+msgstr "Conjunto de solo metadatos |"
 
 #. type: Block title
 #: 200.en.adoc:70
@@ -827,7 +827,7 @@ msgstr "Bessey C, Jarman SN, Berry O et al. (2020) Maximizing fish detection wit
 #. type: Plain text
 #: 200.en.adoc:85 200.en.adoc:98
 msgid "For guidance on how to format and share these datasets, see <<mapping-metabarcoding-edna-and-barcoding-data>>. General guidelines for Darwin Core occurrence datasets are also available through the https://ipt.gbif.org/manual/en/ipt/latest/occurrence-data#templates[DwC-A template for occurrence datasets] and https://www.gbif.org/data-quality-requirements-occurrences[Data quality requirements for occurrences]."
-msgstr ""
+msgstr "Para obtener orientación sobre cómo dar formato y compartir estos conjuntos de datos, consulta <<mapping-metabarcoding-edna-and-barcoding-data>>. También están disponibles las directrices generales para los conjuntos de datos de ocurrencias de Darwin Core a través de https://ipt.gbif.org/manual/es/ipt/latest/occurrence-data#templates[plantilla DwC-A para conjuntos de datos de ocurrencias] y https://www.gbif.org/data-quality-requirements-occurrences[recomendaciones de calidad de datos para ocurrencias]."
 
 #. type: Title ====
 #: 200.en.adoc:87
@@ -886,24 +886,24 @@ msgstr "Strzelecki, Joanna; Feng, Ming; Berry, Olly; Zhong, Liejun; Keesing, Joh
 #. type: Plain text
 #: 200.en.adoc:108
 msgid "For guidance on how to format and share these datasets, see <<mapping-ddpcr-qpcr-data>>. General guidelines for Darwin Core occurrence datasets are also available through the https://ipt.gbif.org/manual/en/ipt/latest/occurrence-data#templates[DwC-A template for occurrence datasets] and https://www.gbif.org/data-quality-requirements-occurrences[Data quality requirements for occurrences]."
-msgstr ""
+msgstr "Para obtener orientación sobre cómo dar formato y compartir estos conjuntos de datos, consulta <<mapping-ddpcr-qpcr-data>>. También están disponibles las directrices generales para los conjuntos de datos de ocurrencias de Darwin Core a través de https://ipt.gbif.org/manual/es/ipt/latest/occurrence-data#templates[plantilla DwC-A para conjuntos de datos de ocurrencias] y https://www.gbif.org/data-quality-requirements-occurrences[recomendaciones de calidad de datos para ocurrencias]."
 
 #. type: Title ====
 #: 200.en.adoc:110
 #, no-wrap
 msgid "Category IV: Name references"
-msgstr ""
+msgstr "Categoría IV: Referencias de nombres"
 
 #. type: Plain text
 #: 200.en.adoc:113
 msgid "This category corresponds to DNA-derived names, derived from clustering or denoising (error-correction based models), such as stable non-Linnaean Operational Taxonomic Units (OTU), Amplicon Sequence Variant (ASV) and Barcode Index Numbers (BIN)—in other words, any reference to taxa or provisional names that are defined outside of the Linnaean taxonomy. Numerous projects produce local project- or study-specific libraries of OTUs, and although it is technically possible to publish these as checklists, they have limited to no value for data linking or interpretation; as a result, we do not encourage their publication through biodiversity data platforms. However, the inclusion of the widely adopted, stable, global, digitally referenceable OTUs into Linnaean taxonomic backbones is critically important for indexing unnamed “dark” biodiversity. GBIF have accumulated experience in integrating such large and global reference libraries of OTUs into the GBIF taxonomic backbone, which allows the display of OTUs under the nearest parent taxon which has a Scientific name (<<figure-otus>>)."
-msgstr ""
+msgstr "Esta categoría corresponde a nombres derivados del ADN, obtenidos mediante agrupación o denoising (modelos basados en corrección de errores), como las Unidades Taxonómicas Operativas (OTU) no Linneanas estables, las Variantes de Secuencia de Amplicón (ASV) y los Números de Índice de Código de Barras (BIN). En otras palabras, se refiere a cualquier mención de taxones o nombres provisionales definidos fuera de la taxonomía Linneana. Numerosos proyectos generan bibliotecas locales de OTUs específicas para proyectos o estudios, y aunque es técnicamente posible publicarlas como listas de verificación, tienen un valor limitado o nulo para la vinculación o interpretación de datos. Por lo tanto, no alentamos su publicación a través de plataformas de datos de biodiversidad. Sin embargo, la inclusión de las OTUs ampliamente adoptadas, estables, globales y digitalmente referenciables en las estructuras taxonómicas Linneanas es de vital importancia para indexar la biodiversidad “oscura” sin nombre. GBIF ha acumulado experiencia en la integración de estas grandes bibliotecas de referencia globales de OTUs en la estructura taxonómica principal de GBIF, lo que permite mostrar las OTUs bajo el taxón padre más cercano que tiene un nombre científico (<<figure-otus>>)."
 
 #. type: Block title
 #: 200.en.adoc:115
 #, no-wrap
 msgid "OTUs (SHs) from UNITE (mainly fungi, above) and from BOLD (BINs) (mainly arthropods, below) are displayed in the GBIF backbone taxonomy under their corresponding parent taxa which have Scientific names. Multiple individually observed occurrences of cryptic biodiversity become discoverable together with non-genetic evidence through a single access point."
-msgstr ""
+msgstr "Los OTUs (SHs) de UNITE (principalmente hongos, arriba) y de BOLD (BINs) (principalmente artrópodos, abajo) se muestran en la taxonomía principal de GBIF bajo sus taxones parentales correspondientes que tienen nombres científicos. Múltiples ocurrencias observadas individualmente de biodiversidad críptica se vuelven descubribles junto con evidencia no genética a través de un único punto de acceso."
 
 #. type: Target for macro image
 #: 200.en.adoc:116
@@ -915,7 +915,7 @@ msgstr ""
 #: 200.en.adoc:118
 #, no-wrap
 msgid "Examples of Name references checklists"
-msgstr ""
+msgstr "Ejemplos de listas de verificación de referencias de nombres"
 
 #. type: Plain text
 #: 200.en.adoc:121
@@ -930,7 +930,7 @@ msgstr "PlutoF (2019). UNITE - Unified system for the DNA based fungal species l
 #. type: Plain text
 #: 200.en.adoc:124
 msgid "This guide does not provide mapping recommendations for global OTU checklists / reference libraries (Category IV), and publishing referenceable (project- or study-specific) OTU libraries as checklists is discouraged. For guidance on how to format and share OTU checklists, see the following general Darwin Core guidelines in https://ipt.gbif.org/manual/en/ipt/latest/checklist-data#templates[DwC-A template for checklists] and https://www.gbif.org/data-quality-requirements-checklists[Data quality requirements for checklists]. https://www.ebi.ac.uk/ena/submit/mixs-checklists[General guidelines for MIxS checklists]. For advice on how to map global reference libraries of OTUs for inclusion in the GBIF taxonomic backbone, contact the mailto:helpdesk@gbif.org[GBIF help desk]."
-msgstr ""
+msgstr "Este guía no proporciona recomendaciones de mapeo para listas de verificación globales de OTUs / bibliotecas de referencia (Categoría IV), y se desaconseja publicar bibliotecas de OTUs referenciables (proyecto o estudio específico) como listas de verificación. Para obtener orientación sobre cómo dar formato y compartir listas de verificación de OTUs, consulte las siguientes directrices generales de Darwin Core en https://ipt.gbif.org/manual/es/ipt/latest/checklist-data#templates[plantilla DwC-A para listas de verificación], https://www.gbif.org/data-quality-requirements-checklists[recomendaciones de calidad de datos para listas de verificación] y https://www.ebi.ac.uk/ena/submit/mixs-checklists[directrices generales para listas de verificación MIxS]. Si necesita asesoramiento sobre cómo mapear bibliotecas de referencia globales de OTUs para su inclusión en la estructura taxonómica principal de GBIF, comunicarse con mailto:helpdesk@gbif.org[centro de ayuda de GBIF]."
 
 #. type: Title ====
 #: 200.en.adoc:126
@@ -962,7 +962,7 @@ msgstr "Cary S C (2015). New Zealand Terrestrial Biocomplexity Survey. SCAR - Mi
 #. type: Plain text
 #: 200.en.adoc:136
 msgid "Mapping recommendations for metadata-only DNA-derived datasets (Category V) is the same as for any other metadata-only datasets, and this guide does not provide any specific mapping recommendations for metadata. Please follow general recommendations of biodiversity data portals, paying attention to https://ipt.gbif.org/manual/en/ipt/latest/resource-metadata[required and recommended metadata]. Descriptions of field, lab, and bioinformatics steps should be as detailed as possible. Describing your methods as method steps in the EML metadata makes them display on the dataset homepage in GBIF (https://www.gbif.org/dataset/3b8c5ed8-b6c2-4264-ac52-a9d772d69e9f#methodology Frøslev T, Ejrnæs R (2018). BIOWIDE eDNA Fungi dataset. Danish Biodiversity Information Facility. Occurrence dataset https://doi.org/10.15468/nesbvx accessed via GBIF.org on 2021-07-06). However, if a structured and possibly more detailed method description is already published somewhere (e.g. at https://protocols.io[protocols.io] or https://www.neonscience.org/data-collection[NEON protocols collection]), it is straightforward to provide a link through the MIxS SOP field (see <<mapping-metabarcoding-edna-and-barcoding-data>>)."
-msgstr ""
+msgstr "Las recomendaciones de mapeo para conjuntos de datos derivados del ADN que contienen solo metadatos (Categoría V) son las mismas que para cualquier otro conjunto de datos que contenga solo metadatos, y esta guía no proporciona recomendaciones específicas de mapeo para los metadatos. Por favor, siga las recomendaciones generales de los portales de datos de biodiversidad, prestando atención a https://ipt.gbif.org/manual/es/ipt/latest/resource-metadata[metadatos requeridos y recomendados]. Las descripciones de los campos, laboratorio y pasos de bioinformática deben ser lo más detalladas posible. Describir los métodos como pasos de método en los metadatos EML permite que se muestren en la página de inicio del conjunto de datos en GBIF (https://www.gbif.org/es/dataset/3b8c5ed8-b6c2-4264-ac52-a9d772d69e9f#methodology Frøslev T, Ejrnæs R (2018). Conjunto de datos de hongos eDNA BIOWIDE. Servicio Danés de Información sobre Biodiversidad. Conjunto de datos de ocurrencias https://doi.org/10.15468/nesbvx accedido a través de GBIF.org el 2021-07-06). Sin embargo, si ya existe una descripción de método estructurada y posiblemente más detallada publicada en algún lugar (por ejemplo, en https://protocols.io[protocols.io] o en https://www.neonscience.org/data-collection[colección de protocolos NEON]), es sencillo proporcionar un enlace a través del campo MIxS SOP (ver <<mapping-metabarcoding-edna-and-barcoding-data>>)."
 
 #. type: Title ===
 #: 200.en.adoc:137
@@ -1271,13 +1271,13 @@ msgstr "Mapeando datos ddPCR / qPCR"
 #. type: Plain text
 #: 200.en.adoc:398
 msgid "This section provides mapping recommendations for https://academic.oup.com/view-large/199871507[Category III]."
-msgstr ""
+msgstr "Esta sección proporciona recomendaciones de mapeo para https://academic.oup.com/view-large/199871507 [Categoría III]."
 
 #. type: Block title
 #: 200.en.adoc:400
 #, no-wrap
 msgid "Recommended fields for Occurrence core for ddPCR/qPCR data"
-msgstr ""
+msgstr "Campos recomendados para el core de registros biológicos para datos ddPCR/qPCR"
 
 #. type: Table
 #: 200.en.adoc:511
@@ -1376,7 +1376,7 @@ msgstr ""
 #: 200.en.adoc:516
 #, no-wrap
 msgid "Recommended fields from the https://rs.gbif.org/extension/gbif/1.0/dna_derived_data_2021-07-05.xml[DNA derived data extension] (a selection) for ddPCR/qPCR data"
-msgstr ""
+msgstr "Campos recomendados de la extensión de datos derivados de ADN https://rs.gbif.org/extension/gbif/1.0/dna_derived_data_2021-07-05.xml (una selección) para datos de ddPCR/qPCR"
 
 #. type: Table
 #: 200.en.adoc:727
@@ -1556,7 +1556,7 @@ msgstr ""
 #: 200.en.adoc:732
 #, no-wrap
 msgid "Marine datasets and the Ocean Biodiversity Information System (OBIS)"
-msgstr ""
+msgstr "Conjuntos de datos marinos y el Sistema de Información sobre la Biodiversidad Oceánica (OBIS)"
 
 #. type: Plain text
 #: 200.en.adoc:735
@@ -1571,13 +1571,13 @@ msgstr "Para asegurar una nomenclatura taxonómica consistente OBIS utiliza el h
 #. type: Plain text
 #: 200.en.adoc:739
 msgid "Another required field in OBIS data submissions are geographic coordinates. OBIS performs additional quality checks related to marine data; e.g. that coordinates for strictly marine species are not on land, and that the depth value reported is in a reasonable range. Finally, it should be mentioned that in addition OBIS supports the use of the http://rs.gbif.org/extension/obis/extended_measurement_or_fact.xml[extended Measurement or Fact (eMoF)]. This extension allows linking environmental data and sampling facts to sampling events or occurrences, as well as biological measurements to occurrences in a flexible and standardized manner. OBIS has an example eDNA metabarcoding dataset with scripts for data formatting available at https://github.com/iobis/dataset-edna."
-msgstr ""
+msgstr "Otro elemento requerido para la publicación de datos a través de OBIS son las coordenadas geográficas. OBIS realiza controles de calidad adicionales relacionados a los datos marinos, por ejemplo que las coordenadas para especies estrictamente marinas no estén en tierra y que el valor de profundidad reportado esté en un rango razonable. Finalmente, se debe mencionar que adicionalmente OBIS suporta el uso de la http://rs.gbif.org/extension/obis/extended_measurement_or_fact.xml[extensión de Medidas o Hechos Extendida (eMoF)]. Esta extensión permite conectar datos abióticos ambientales y medidas o hechos asociadas al protocolo de muestreo, con los eventos de muestreo o los registros biológicos, así como a medidas bióticas asociadas a los registros, de una forma flexible y estandarizada. OBIS tiene un ejemplo de conjunto de datos de metabarcoding (eDNA) con scripts para realizar la transformación de los datos, que está disponible en https://github.com/iobis/dataset-edna."
 
 #. type: Block title
 #: 200.en.adoc:744
 #, no-wrap
 msgid "OBIS requirements and recommendations for recording DNA-based occurrences. The table highlights important differences in field values and requirements compared to when publishing to GBIF. Here exemplified with a DNA detection of Blue whale (Balaenoptera musculus). "
-msgstr ""
+msgstr "Requisitos y recomendaciones de OBIS para registrar ocurrencias basadas en ADN. La tabla resalta diferencias importantes en los valores de campo y requisitos en comparación con la publicación en GBIF. Aquí se ejemplifica con una detección de ADN de la ballena azul (Balaenoptera musculus). "
 
 #. type: Table
 #: 200.en.adoc:771
@@ -1627,7 +1627,7 @@ msgstr "| Elemento\n"
 #: 200.en.adoc:774
 #, no-wrap
 msgid "OBIS requirements and recommendations for recording sequences that cannot be classified to a scientific name at any taxonomic level. "
-msgstr ""
+msgstr "Requisitos y recomendaciones de OBIS para registrar secuencias que no pueden clasificarse como un nombre científico en ningún nivel taxonómico. "
 
 #. type: Table
 #: 200.en.adoc:801
@@ -1700,18 +1700,18 @@ msgstr "Glosario"
 #: glossary.en.adoc:5
 #, no-wrap
 msgid "[[ala]]Atlas of Living Australia (ALA)"
-msgstr ""
+msgstr "[[ala]] Atlas de la Vida de Australia (ALA)"
 
 #. type: Plain text
 #: glossary.en.adoc:6
 msgid "The ALA is a web-based platform that pulls together Australian biodiversity data from multiple sources, making it accessible and reusable to anyone (see https://www.ala.org.au/about-ala/). The open infrastructure platform developed by the ALA is also used by several other countries for their own national biodiversity data platform (see https://living-atlases.gbif.org/)."
-msgstr ""
+msgstr "ALA es una plataforma web que reúne datos de biodiversidad de Australia de múltiples fuentes, haciéndolos accesibles y reutilizables para cualquier persona (ver https://www.ala.org.au/about-ala/). La plataforma de infraestructura abierta desarrollada por ALA también es utilizada por varios otros países para sus propias plataformas nacionales de datos de biodiversidad (ver https://living-atlases.gbif.org/)."
 
 #. type: Labeled list
 #: glossary.en.adoc:6
 #, no-wrap
 msgid "[[asv]]Amplicon Sequence Variant (ASV)"
-msgstr ""
+msgstr "[[asv]] Variante de Secuencia de Amplicón (ASV)"
 
 #. type: Plain text
 #: glossary.en.adoc:7
@@ -1722,18 +1722,18 @@ msgstr ""
 #: glossary.en.adoc:7
 #, no-wrap
 msgid "[[api]]Application Programming Interface (API)"
-msgstr ""
+msgstr "[[api]] Interfaz de programación de aplicaciones (API)"
 
 #. type: Plain text
 #: glossary.en.adoc:8
 msgid "Set of protocols and tools for interaction and data transmission between different computer applications."
-msgstr ""
+msgstr "Conjunto de protocolos y herramientas para la interacción y transmisión de datos entre diferentes aplicaciones informáticas."
 
 #. type: Labeled list
 #: glossary.en.adoc:8
 #, no-wrap
 msgid "[[bins]]Barcode Index Numbers (BINs)"
-msgstr ""
+msgstr "[[bins]] Números de índice de códigos de barras (BIN)"
 
 #. type: Plain text
 #: glossary.en.adoc:9
@@ -1744,7 +1744,7 @@ msgstr ""
 #: glossary.en.adoc:9
 #, no-wrap
 msgid "[[bold]]Barcode of Life Data System (BOLD)"
-msgstr ""
+msgstr "[[bold]] Sistema de datos de código de barras de vida (BOLD)"
 
 #. type: Plain text
 #: glossary.en.adoc:10
@@ -1755,12 +1755,12 @@ msgstr ""
 #: glossary.en.adoc:10
 #, no-wrap
 msgid "[[biodiversity-data-platform]]Biodiversity data platform"
-msgstr ""
+msgstr "[[plataforma-de-datos-de-biodiversidad]] Plataforma de datos de biodiversidad"
 
 #. type: Plain text
 #: glossary.en.adoc:11
 msgid "General online resource to discover and access biodiversity data derived from various sources, such as natural history collections, citizen science, ecology and monitoring projects, and genetic sequences. Can be global (<<gbif,GBIF>>) or national (<<ala,ALA>>)."
-msgstr ""
+msgstr "Recurso general en línea para descubrir y acceder a datos de biodiversidad derivados de diversas fuentes, como colecciones de historia natural, ciencia ciudadana, proyectos de ecología y monitoreo, y secuencias genéticas. Puede ser global (<<gbif,GBIF>>) o nacional (<<ala,ALA>>)."
 
 #. type: Labeled list
 #: glossary.en.adoc:11
@@ -1771,24 +1771,24 @@ msgstr "[[clustering]]Clusterizar"
 #. type: Plain text
 #: glossary.en.adoc:12
 msgid "In taxonomic classification, the process of grouping organisms together according to some similarity criterion. See <<otu,Operational Taxonomic Unit>>."
-msgstr ""
+msgstr "En la clasificación taxonómica, el proceso de agrupar organismos juntos de acuerdo a algún criterio de similaridad. Ver <<otu,Operational Taxonomic Unit>>."
 
 #. type: Labeled list
 #: glossary.en.adoc:12
 #, no-wrap
 msgid "[[community-dna]]Community (bulk) DNA"
-msgstr ""
+msgstr "[[community-dna]] ADN comunitario (masivo)"
 
 #. type: Plain text
 #: glossary.en.adoc:13
 msgid "DNA from bulk samples (e.g. plankton samples or Malaise trap samples consisting of several individuals from many species). For the purpose of this guide, bulk sample DNA is included in the eDNA concept."
-msgstr ""
+msgstr "ADN de muestras masivas (por ejemplo, muestras de plancton o muestras de trampas de Malaise compuestas por varios individuos de muchas especies). A los efectos de esta guía, las muestras de ADN en masa se incluyen en el concepto de eADN."
 
 #. type: Labeled list
 #: glossary.en.adoc:13
 #, no-wrap
 msgid "[[dwc-a]]Darwin Core Archive (DwC-A)"
-msgstr ""
+msgstr "[[dwc-a]]Archivo Darwin Core (DwC-A)"
 
 #. type: Plain text
 #: glossary.en.adoc:14
@@ -2074,7 +2074,7 @@ msgstr ""
 #: glossary.en.adoc:40
 #, no-wrap
 msgid "[[occurrence]]Occurrence"
-msgstr ""
+msgstr "[[occurrence]]Registro biológico"
 
 #. type: Plain text
 #: glossary.en.adoc:41
@@ -2107,7 +2107,7 @@ msgstr ""
 #: glossary.en.adoc:43
 #, no-wrap
 msgid "[[pipeline]]Pipeline"
-msgstr ""
+msgstr "[[pipeline]]Pipeline"
 
 #. type: Plain text
 #: glossary.en.adoc:44
@@ -2222,7 +2222,7 @@ msgstr ""
 #. type: Plain text
 #: glossary.en.adoc:54
 msgid "See <<asv,ASV>>."
-msgstr ""
+msgstr "Ver <<asv,ASV>>."
 
 #. type: Title ==
 #: bibliography.en.adoc:2
@@ -2278,7 +2278,7 @@ msgstr "[[boussarie]]Boussarie G, Bakker J, Wangensteen OS, Mariani S, Bonnin L,
 #. type: Plain text
 #: bibliography.en.adoc:14
 msgid "[[bustin]]Bustin SA, Benes V, Garson JA, Hellemans J, Huggett J, Kubista M, ... & Wittwer CT (2009). The MIQE Guidelines: __M__inimum __I__nformation for Publication of __Q__uantitative Real-Time PCR __E__xperiments. https://doi.org/10.1373/clinchem.2008.112797"
-msgstr ""
+msgstr "[[bustin]]Bustin SA, Benes V, Garson JA, Hellemans J, Huggett J, Kubista M, ... & Wittwer CT (2009). The MIQE Guidelines: __M__inimum __I__nformation for Publication of __Q__uantitative Real-Time PCR __E__xperiments. https://doi.org/10.1373/clinchem.2008.112797"
 
 #. type: Plain text
 #: bibliography.en.adoc:15
@@ -2597,13 +2597,13 @@ msgstr ""
 #: img/web/ct/dwca-structure.en.svg:4
 #, no-wrap
 msgid "Occurrence"
-msgstr ""
+msgstr "Registro biológico"
 
 #. type: Content of: <svg><g><g><switch><foreignObject><div><div><div>
 #: img/web/ct/dwca-structure.en.svg:4
 #, no-wrap
 msgid "core"
-msgstr ""
+msgstr "core"
 
 #. type: Content of: <svg><g><g><switch><text>
 #: img/web/ct/dwca-structure.en.svg:4
