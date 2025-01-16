@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: publishing-ddd\n"
 "POT-Creation-Date: 2024-03-19 10:11+0000\n"
-"PO-Revision-Date: 2024-12-13 20:19\n"
+"PO-Revision-Date: 2025-01-15 16:33\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -330,13 +330,13 @@ msgstr "Flujo de trabajo general para los datos sobre biodiversidad derivados de
 #: 100.en.adoc:24
 #, no-wrap
 msgid "img/print/sequence-publishing-guide.en.png"
-msgstr "amplicon-derived"
+msgstr "img/print/sequence-publishing-guide.es.png"
 
 #. type: Target for macro image
 #: 100.en.adoc:27
 #, no-wrap
 msgid "img/web/sequence-publishing-guide.en.svg"
-msgstr "img/web/sequence-publishing-guide.en.svg"
+msgstr "img/web/sequence-publishing-guide.es.svg"
 
 #. type: Plain text
 #: 100.en.adoc:31
@@ -375,13 +375,13 @@ msgstr "Representación de los procesos de muestreo que comparan la recopilació
 #: 100.en.adoc:43
 #, no-wrap
 msgid "img/print/sampling-processes.en.png"
-msgstr "img/print/sampling-processes.en.png"
+msgstr "img/print/sampling-processes.es.png"
 
 #. type: Target for macro image
 #: 100.en.adoc:46
 #, no-wrap
 msgid "img/web/sampling-processes.en.svg"
-msgstr "img/web/sampling-processes.en.svg"
+msgstr "img/web/sampling-processes.es.svg"
 
 #. type: Plain text
 #: 100.en.adoc:50
@@ -467,13 +467,13 @@ msgstr "Esquema de una plataforma para informar y publicar secuencias de ADN y m
 #: 100.en.adoc:80
 #, no-wrap
 msgid "img/print/outline-of-a-platform.en.png"
-msgstr "img/print/outline-of-a-platform.en.png"
+msgstr "img/print/outline-of-a-platform.es.png"
 
 #. type: Target for macro image
 #: 100.en.adoc:83
 #, no-wrap
 msgid "img/web/outline-of-a-platform.en.svg"
-msgstr "img/web/outline-of-a-platform.en.svg"
+msgstr "img/web/outline-of-a-platform.es.svg"
 
 #. type: Plain text
 #: 100.en.adoc:87
@@ -511,13 +511,13 @@ msgstr "Esquema del procesamiento bioinformático del metabarcoding."
 #: 100.en.adoc:99
 #, no-wrap
 msgid "img/print/outline-of-bioinformatic-processing.en.png"
-msgstr ""
+msgstr "img/print/outline-of-bioinformatic-processing.es.png"
 
 #. type: Target for macro image
 #: 100.en.adoc:102
 #, no-wrap
 msgid "img/web/outline-of-bioinformatic-processing.en.svg"
-msgstr ""
+msgstr "img/web/outline-of-bioinformatic-processing.es.svg"
 
 #. type: Plain text
 #: 100.en.adoc:106
@@ -655,13 +655,13 @@ msgstr "Ampliación de DwC-A / IPT de la figura 3 del capítulo 1.2. La elecció
 #: 200.en.adoc:12
 #, no-wrap
 msgid "img/print/dwca-structure.en.png"
-msgstr "img/print/dwca-structure.en.png"
+msgstr "img/print/dwca-structure.es.png"
 
 #. type: Target for macro image
 #: 200.en.adoc:15
 #, no-wrap
 msgid "img/web/ct/dwca-structure.en.svg"
-msgstr "img/web/ct/dwca-structure.en.svg"
+msgstr "img/web/ct/dwca-structure.es.svg"
 
 #. type: Title ===
 #: 200.en.adoc:18
@@ -909,7 +909,7 @@ msgstr "Los OTUs (SHs) de UNITE (principalmente hongos, arriba) y de BOLD (BINs)
 #: 200.en.adoc:116
 #, no-wrap
 msgid "img/web/otus-from-unite.en.png"
-msgstr ""
+msgstr "img/web/otus-from-unite.en.png"
 
 #. type: Title =====
 #: 200.en.adoc:118
@@ -1260,7 +1260,82 @@ msgid "| term:mixs[DNA_sequence]\n"
 "| \"Genbank nr;221\", \"UNITE;8.2\"\n"
 "| Reference database (i.e. sequences not generated as part of the current study) used to assigning taxonomy to OTUs or ASVs\n"
 "| Highly recommended\n"
-msgstr ""
+msgstr "| term:mixs[DNA_sequence]\n"
+"| [.break-all]#TCTATCCTCAATTATAGGTCATAATTCACCATCAGTAGATTTAGGAATTTTCTCTATTCATATTGCAGGTGTATCATCAATTATAGGATCAATTAATTTTATTGTAACAATTTTAAATATACATACAAAAACTCATTCATTAAACTTTTTACCATTATTTTCATGATCAGTTCTAGTTACAGCAATTCTCCTTTTATTATCATTA#\n"
+"| La secuencia de ADN (ASV). La interpretación taxonómica de la secuencia depende de la tecnología y la librería de referencia disponible en el momento de la publicación. Por eso, el manejo taxonómico más objetiva es la secuencia que puede ser reinterpretada en el futuro.\n"
+"| Altamente recomendado\n\n"
+"| term:mixs[sop]\n"
+"| https://www.protocols.io/view/emp-its-illumina-amplicon-protocol-pa7dihn\n"
+"| Los procedimientos operativos estándar utilizados en el montaje y/o anotación de los genomas, metagenomas o secuencias ambientales. +\n"
+"+\n"
+"Una referencia a un protocolo bien documentado, por ejemplo usar https://protocols.io[protocols.io]\n"
+"| Recomendado\n\n"
+"| term:mixs[target_gene]\n"
+"| 16S rRNA, 18S rRNA, ITS\n"
+"| El gen objetivo o nombre del marcador para estudios basados en marcadores.\n"
+"| Altamente recomendado\n\n"
+"| term:mixs[target_subfragment]\n"
+"| V6, V9, ITS2\n"
+"| Nombre del subfragmento de un gen o marcador importante, por ejemplo para identificar regiones especiales en genes marcadores como la región hipervariable V6 del gen rRNA 16S\n"
+"| Altamente recomendado\n\n"
+"| term:mixs[pcr_primer_forward]\n"
+"| GGACTACHVGGGTWTCTAAT\n"
+"| La secuencia del cebador directo utilizado para el proceso de amplificación del gen, locus o subfragmento\n"
+"| Altamente recomendado\n\n"
+"| term:mixs[pcr_primer_reverse]\n"
+"| GGACTACHVGGGTWTCTAAT\n"
+"| La secuencia del cebador inverso utilizado para el proceso de amplificación del gen, locus o subfragmento\n"
+"| Altamente recomendado\n\n"
+"| term:mixs[pcr_primer_name_forward]\n"
+"| jgLCO1490\n"
+"| El nombre del cebador directo utilizado\n"
+"| Altamente recomendado\n\n"
+"| term:mixs[pcr_primer_name_reverse]\n"
+"| jgHCO2198\n"
+"| El nombre del cebador inverso utilizado\n"
+"| Altamente recomendado\n\n"
+"| term:mixs[pcr_primer_reference]\n"
+"| https://doi.org/10.1186/1742-9994-10-34\n"
+"| Referencia para los cebadores\n"
+"| Altamente recomendado\n\n"
+"| term:mixs[env_broad_scale]\n"
+"| forest biome [ENVO:01000174]\n"
+"| *Equivalente al env_biome en MIxS v4* +\n"
+"En este elemento, se reporta de cuál ecosistema superior provienen los especímenes o muestras. Los sistemas identificados deben tener una granularidad espacial gruesa, para proveer de información general del contexto medioambiental donde la muestra fue realizada (e.g. ¿estaba en el desierto o en el bosque lluvioso?). Se recomienda utilizar subclases de ENVO pertenecientes a la clase bioma: +\n"
+"http://purl.obolibrary.org/obo/ENVO_00000428\n"
+"| Recomendado\n\n"
+"| term:mixs[env_local_scale]\n"
+"| litter layer [ENVO:01000338]\n"
+"| *Equivalente al env_feature en MIxS v4* +\n"
+"En este elemento, se reporta la entidad o entidades que están en la localidad cercana a los especímenes o muestras, y cree que tienen influencias causales significativas sobre la muestra o especímen. Por favor utilice términos que estén presentes en ENVO y tengan una granularidad espacial menor a la documentada en env_broad_scale\n"
+"| Recomendado\n\n"
+"| term:mixs[env_medium]\n"
+"| soil[ENVO:00001998]\n"
+"| *Equivalente al env_material en MIxS v4* +\n"
+"En este elemento, se reporta cuál material o materiales (separados por una barra vertical “|”) estaban en la vecindad inmediata de los especímenes o muestras antes del muestreo, utiliando una o más subclases de ENVO pertenecientes a la clase material medioambiental: +\n"
+"http://purl.obolibrary.org/obo/ENVO_00010483\n"
+"| Recomendado\n\n"
+"| term:mixs[lib_layout]\n"
+"| Pareada\n"
+"| *Equivalente a lib_const_meth en MIxS v4* +\n"
+"Especifica si se espera una configuración de lecturas individual, pareada o de otro tipo\n"
+"| Recomendado\n\n"
+"| term:mixs[seq_meth]\n"
+"| Illumina HiSeq 1500\n"
+"| El método o plataforma de secuenciación utilizada\n"
+"| Altamente recomendado\n\n"
+"| term:mixs[otu_class_appr]\n"
+"| dada2; 1.14.0; ASV\n"
+"| El algoritmo y el nivel de agrupamiento (si es relevante) utilizado para la definición de OTUs o ASVs\n"
+"| Altamente recomendado\n\n"
+"| term:mixs[otu_seq_comp_appr]\n"
+"| blastn;2.6.0+;e-value cutoff: 0.001\n"
+"| La herramienta y los umbrales utilizado para asignar nombres a los OTUs o ASVs al nivel de especie \"species-level\"\n"
+"| Altamente recomendado\n\n"
+"| term:mixs[otu_db]\n"
+"| Genbank nr;221, UNITE;8.2\n"
+"| La base de datos de referencia (es decir, las secuencias que no fueron generadas como parte del estudio) utilizadas para asignar la taxonomía a los OTUs o ASVs\n"
+"| Altamente recomendado\n"
 
 #. type: Title ====
 #: 200.en.adoc:395
@@ -1370,7 +1445,94 @@ msgid "| Field name\n"
 "| _Gadus_\n"
 "| Higher taxonomy\n"
 "| Recommended\n"
-msgstr ""
+msgstr "| Elemento\n"
+"| Ejemplos\n"
+"| Descripción\n"
+"| Obligatoriedad\n\n"
+"| term:dwc[basisOfRecord]\n"
+"| MaterialSample\n"
+"| Denota el origen o evidencia específica de la que se deriva el registro- un subtipo de dcterms:type. Para registros derivados de ADN (ver <<category-i,Category I>> y <<category-iii,Category III>>), use MaterialSample.\n"
+"| Obligatorio\n\n"
+"| term:dwc[occurrenceStatus]\n"
+"| Present, Absent\n"
+"| Estado que da cuenta de la presencia o ausencia de un taxón en una ubicación.\n"
+"| Obligatorio\n\n"
+"| term:dwc[eventID]\n"
+"| urn:uuid:a964765b-22c4-439a-jkgt-2\n"
+"| Un identificador único para la información asociada con el evento (algo que ocurre en un lugar y tiempo determinado). Puede ser un identificador único global o un identificador específico para el conjunto de datos.\n"
+"| Altamente recomendado\n\n"
+"| term:dwc[eventDate]\n"
+"| 2020-01-05\n"
+"| La fecha durante la cual se produjo el evento de observación. LaDate when the event was recorded. Debe estar documentada en el esquema de codificación ISO 8601-1:2019. Para más información, revise https://dwc.tdwg.org/terms/#dwc:eventDate\n"
+"| Obligatorio\n\n"
+"| term:dwc[recordedBy]\n"
+"| \"Oliver P. Pearson \\| Anita K. Pearson\"\n"
+"| Una lista (concatenada y separada) de los nombres de las personas, grupos u organizaciones responsables de la colecta u observación del espécimen. La práctica recomendada es sepearar la valores con una barra vertical (' \\| '). Incluir información sobre el observador mejora la reproducibilidad científica (Groom et al. 2020).\n"
+"| Altamente recomendado\n\n"
+"| term:dwc[organismQuantity]\n"
+"| 50\n"
+"| Numero positivo de droplets/chambers en la muestra\n"
+"| Altamente recomendado para ddPCR, dPCR\n\n"
+"| term:dwc[organismQuantityType]\n"
+"| ddPCR droplets +\n"
+"dPCR chambers\n"
+"| El tipo de partición\n"
+"| Altamente recomendado para ddPCR, dPCR\n\n"
+"| term:dwc[sampleSizeValue]\n"
+"| 20000\n"
+"| El número de particiones aceptadas (n), e.g. representa el número aceptado de droplets en ddPCR o chambers en dPCR.\n"
+"| Altamente recomendado para ddPCR, dPCR\n\n"
+"| term:dwc[sampleSizeUnit]\n"
+"| ddPCR droplets +\n"
+"dPCR chambers\n"
+"| El tipo de partición, debería ser igual al valor presente en organismQuantityType\t\n"
+"| Altamente recomendado para ddPCR, dPCR\n\n"
+"| term:dwc[materialSampleID]\n"
+"| https://www.ncbi.nlm.nih.gov/biosample/15224856 +\n"
+" +\n"
+"urn:uuid:a964805b-33c2-439a-beaa-6379ebbfcd03\n"
+"| Un identificador para muestras de material (no hace referencia a muestras digitales sino físicas, como exicados o tejidos). Use el ID BioSample si uno fue obtenido de un archivo de nucleótidos. En ausencia de un identificador único global persistente, puede construir uno usando una combinación de identificadores en el registro, de tal forma que el materialSampleID sea globalmente único.\t\n"
+"| Altamente recomendado\n\n"
+"| term:dwc[samplingProtocol]\n"
+"| Trampa de luz UV\n"
+"| El nombre, la descripción o la referencia del método o protocolo de muestreo usado durante el evento de muestreo. https://dwc.tdwg.org/terms/#dwc:samplingProtocol\n"
+"| Recomendado\n\n"
+"| term:dwc[decimalLatitude]\n"
+"| 60.545207\n"
+"| La latitud geográfica (en grados decimales, utilizando el sistema de referencia espacial provisto en geodeticDatum) del centro geográfico de una ubicación. Los valores positivos se encuentran al norte del ecuador, los valores negativos están al sur del mismo. Los valores admitidos se encuentran entre -90 y 90.\n"
+"| Altamente recomendado\n\n"
+"| term:dwc[decimalLongitude]\n"
+"| 24.174556\n"
+"| La longitud geográfica (en grados decimales, mediante el sistema de referencia espacial provisto en geodeticDatum) del centro geográfico de una ubicación. Los valores positivos se encuentran al este del meridiano de Greenwich, los valores negativos se encuentran al oeste de la misma. Los valores admitidos se encuentran entre -180 y 180.\n"
+"| Altamente recomendado\n\n"
+"| term:dwc[scientificName]\n"
+"| _Gadus morhua_ L. 1758, BOLD:ACF1143\n"
+"| Nombre científico del taxón conocido más cercano (especie o superior) o un identificador para un OTU de BOLD o UNITE\n"
+"| Obligatorio\n\n"
+"| term:dwc[kingdom]\n"
+"| Animalia\n"
+"| Taxonomía superior\n"
+"| Altamente recomendado\n\n"
+"| term:dwc[phylum]\n"
+"| Chordata\n"
+"| Taxonomía superior\n"
+"| Recomendado\n\n"
+"| term:dwc[class]\n"
+"| Actinopterygii\n"
+"| Taxonomía superior\n"
+"| Recomendado\n\n"
+"| term:dwc[order]\n"
+"| Gadiformes\n"
+"| Taxonomía superior\n"
+"| Recomendado\n\n"
+"| term:dwc[family]\n"
+"| Gadidae\n"
+"| Taxonomía superior\n"
+"| Recomendado\n\n"
+"| term:dwc[genus]\n"
+"| _Gadus_\n"
+"| Taxonomía superior\n"
+"| Recomendado\n"
 
 #. type: Block title
 #: 200.en.adoc:516
@@ -1652,7 +1814,26 @@ msgid "| Field name\n"
 "| Phototrophic eukaryote\n"
 "| The name of the taxon in an external database, corresponding to the taxon concept ID.\n"
 "| Recommended\n"
-msgstr ""
+msgstr "| Elemento\n"
+"| Valor/ejemplo (OBIS)\n"
+"| Descripción\n"
+"| Obligatoriedad\n\n"
+"| term:dwc[scientificName]\n"
+"| incertae sedis\n"
+"| El nombre científico para secuencias desconocidas recomendado por OBIS. Use este nombre cuando la secuencia/taxonomía es desconocida. Esta recomendación difiere de la de GBIF, donde se recomienda utilizar el nombre del taxón tal como fue recuperado del clasificador, incluso cuando no es estrictamente un nombre científico.\n"
+"| Obligatorio\n\n"
+"| term:dwc[scientificNameID]\n"
+"| urn:lsid:marinespecies.org:taxname:12\n"
+"| El ID del nombre científico de \"incertae sedis\" según la base de datos de WoRMS utilizado para secuencias desconocidas por recomendación de OBIS. Use este ID cuando la secuencia/taxonomía es desconocida.\n"
+"| Altamente recomendado\n\n"
+"| term:dwc[taxonConceptID]\n"
+"| NCBI:txid1899546\n"
+"| El identificador (ID) es una base de datos taxonómica externa, por ejemplo un repositorio de secuenias de referencia.\n"
+"| Recomendado\n\n"
+"| term:dwc[verbatimIdentification]\n"
+"| Eucariota fototrópico\n"
+"| El nombre del taxón en una base de datos externa, correspondiente al ID del concepto del taxón.\n"
+"| Recomendado\n"
 
 #. type: Title ==
 #: 300.en.adoc:1
@@ -1799,7 +1980,7 @@ msgstr ""
 #: glossary.en.adoc:14
 #, no-wrap
 msgid "[[dwc-standard]]Darwin Core (DwC) standard"
-msgstr ""
+msgstr "[[dwc-standard]]Estándar Darwin Core (DwC)"
 
 #. type: Plain text
 #: glossary.en.adoc:15
@@ -1810,12 +1991,12 @@ msgstr ""
 #: glossary.en.adoc:15
 #, no-wrap
 msgid "[[data-vocabulary]]Data vocabulary"
-msgstr ""
+msgstr "[[data-vocabulary]]Vocabulario Controlado"
 
 #. type: Plain text
 #: glossary.en.adoc:17
 msgid "Set of preferred terms or concepts with specific, well-defined meanings and interrelationships, facilitating data exchange and reuse."
-msgstr ""
+msgstr "Grupo de términos o conceptos preferidos, con significados específicos e interrelaciones bien definidas, facilitando el intercambio y reutilización de datos."
 
 #. type: Labeled list
 #: glossary.en.adoc:17
@@ -1843,7 +2024,7 @@ msgstr ""
 #: glossary.en.adoc:19
 #, no-wrap
 msgid "[[doi]]Digital Object Identifier (DOI)"
-msgstr ""
+msgstr "[[doi]]Identificador Único Digital (DOI)"
 
 #. type: Plain text
 #: glossary.en.adoc:20
@@ -1942,12 +2123,12 @@ msgstr ""
 #: glossary.en.adoc:28
 #, no-wrap
 msgid "[[gbif]]Global Biodiversity Information Facility (GBIF)"
-msgstr ""
+msgstr "[[gbif]]Sistema Global de Información sobre Biodiversidad (GBIF)"
 
 #. type: Plain text
 #: glossary.en.adoc:29
 msgid "International network and research infrastructure, mainly focused on mobilizing and providing open access to global biodiversity data."
-msgstr ""
+msgstr "Red internacional e infraestructura de datos, enfocada principalmente en movilizar y proveer acceso abierto a datos globales de biodiversidad."
 
 #. type: Labeled list
 #: glossary.en.adoc:29
@@ -2173,7 +2354,7 @@ msgstr ""
 #: glossary.en.adoc:49
 #, no-wrap
 msgid "[[specimen]]Specimen"
-msgstr ""
+msgstr "[[specimen]]Espécimen"
 
 #. type: Plain text
 #: glossary.en.adoc:50
@@ -2206,7 +2387,7 @@ msgstr ""
 #: glossary.en.adoc:52
 #, no-wrap
 msgid "[[unite]]UNITE"
-msgstr ""
+msgstr "[[unite]]UNITE"
 
 #. type: Plain text
 #: glossary.en.adoc:53
