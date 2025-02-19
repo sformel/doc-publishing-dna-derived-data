@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: publishing-ddd\n"
 "POT-Creation-Date: 2024-03-19 10:11+0000\n"
-"PO-Revision-Date: 2025-02-19 20:00\n"
+"PO-Revision-Date: 2025-02-19 21:26\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -2065,7 +2065,7 @@ msgstr "[[asv]] Variante de Secuencia de Amplicón (ASV)"
 #. type: Plain text
 #: glossary.en.adoc:7
 msgid "Unique DNA sequence derived from high-throughput sequencing and denoising, and assumed to represent a biologically real sequence variant. See also <<otu,Operational Taxonomic Unit (OTU)>> and https://doi.org/10.1038/ismej.2017.119[(Callahan et al. 2017)^]."
-msgstr ""
+msgstr "Secuencia única de ADN derivado de técnicas de secuenciación masiva y denoising, se asume que representa una variante de secuencia biológica real. Vea también <<otu,Operational Taxonomic Unit (OTU)>> y https://doi.org/10.1038/ismej.2017.119[(Callahan et al. 2017)^]."
 
 #. type: Labeled list
 #: glossary.en.adoc:7
@@ -2142,7 +2142,7 @@ msgstr "[[dwc-a]]Archivo Darwin Core (DwC-A)"
 #. type: Plain text
 #: glossary.en.adoc:14
 msgid "Compressed (ZIP) file format for exchange of biodiversity data compiled in accordance with the <<dwc-standard,Darwin Core (DwC) standard>>. Essentially a self-contained set of interconnected CSV files and an XML document describing included files and data columns, and their mutual relationships."
-msgstr ""
+msgstr "Formato de archivo comprimido (ZIP) para el intercambio de datos de biodiversidad de acuerdo al <<dwc-standard,Darwin Core (DwC) standard>>. Esencialmente es un grupo de archivos CSV autocontenidos e interconectados y un documento XML que describe los archivos incluidos y las columnas de datos, y las relaciones mutuas."
 
 #. type: Labeled list
 #: glossary.en.adoc:14
@@ -2181,12 +2181,12 @@ msgstr ""
 #: glossary.en.adoc:18
 #, no-wrap
 msgid "[[denoising]]Denoising"
-msgstr ""
+msgstr "[[denoising]]Denoising"
 
 #. type: Plain text
 #: glossary.en.adoc:19
 msgid "In metabarcoding, method for separation of true biological sequences (see <<asv,ASVs>>) from spurious sequence variants caused by PCR amplification and sequencing error."
-msgstr ""
+msgstr "En metabarcoding, el método para separar las secuencias biológicas reales (vea <<asv,ASVs>>) de secuencias espurias causadas por la amplificación de la PCR y el error de secuenciación."
 
 #. type: Labeled list
 #: glossary.en.adoc:19
@@ -2214,18 +2214,18 @@ msgstr ""
 #: glossary.en.adoc:21
 #, no-wrap
 msgid "[[dna-marker]]DNA marker"
-msgstr ""
+msgstr "[[dna-marker]]Marcador de AND"
 
 #. type: Plain text
 #: glossary.en.adoc:22
 msgid "A DNA fragment used as a marker of some property (e.g., taxonomic affiliation). May, but does not have to, be a gene or a part of a gene."
-msgstr ""
+msgstr "Un fragmento de ADN utilizado como marcador para alguna propiedad (e.g. afiliación taxonómica). Puede, pero no tiene que ser un gen o parte de un gen."
 
 #. type: Labeled list
 #: glossary.en.adoc:22
 #, no-wrap
 msgid "[[dna-db]]DNA metabarcoding database"
-msgstr ""
+msgstr "[[dna-db]]Base de datos para ADN de metabarcoding"
 
 #. type: Plain text
 #: glossary.en.adoc:23
@@ -2258,18 +2258,18 @@ msgstr ""
 #: glossary.en.adoc:25
 #, no-wrap
 msgid "[[edna]]Environmental DNA (eDNA)"
-msgstr ""
+msgstr "[[edna]]ADN ambiental (eDNA)"
 
 #. type: Plain text
 #: glossary.en.adoc:26
 msgid "DNA from an environmental sample, e.g. soil, water, air or host organism. An often used definition is that environmental DNA is the genetic material (DNA) obtained from environmental samples without any obvious evidence of biological source material (https://doi.org/10.1016/j.biocon.2014.11.019[Thomsen and Willerslev 2015^])."
-msgstr ""
+msgstr "ADN de una muestra ambiental, e.g. suelo, agua, aire o un organismo hospedero. Una definición utilizada frecuentemente es que el ADN ambiental es el material genético (ADN) obtenido de muestras ambientales sin ninguna fuente biológica de evidencia obvia (https://doi.org/10.1016/j.biocon.2014.11.019[Thomsen and Willerslev 2015^])."
 
 #. type: Labeled list
 #: glossary.en.adoc:26
 #, no-wrap
 msgid "[[ena]]European Nucleotide Archive (ENA)"
-msgstr ""
+msgstr "[[ena]]Repositorio Europeo de Nucleótidos (ENA)"
 
 #. type: Plain text
 #: glossary.en.adoc:27
