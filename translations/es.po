@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: publishing-ddd\n"
 "POT-Creation-Date: 2024-03-19 10:11+0000\n"
-"PO-Revision-Date: 2025-02-19 21:26\n"
+"PO-Revision-Date: 2025-02-19 22:28\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -2153,7 +2153,7 @@ msgstr "[[dwc-standard]]Estándar Darwin Core (DwC)"
 #. type: Plain text
 #: glossary.en.adoc:15
 msgid "Standard for sharing and publishing biodiversity data, originating from the Biodiversity Information Standards (TDWG) community. In principle, a set of terms used for describing different entities of biodiversity observations, such as sampling events, occurrences and taxa. Current Darwin Core terms are described in the https://dwc.tdwg.org/terms/[Quick Reference Guide]."
-msgstr ""
+msgstr "Estándar para compartir y publicar datos sobre biodiversidad, desarrollado por la organización de información de estándares para biodiversidad (TDWG). En principio, es un grupo de elementos usados para describir distintos tipos de observaciones de biodiversidad, como eventos de muestreo, registros biológicos y listas de chequeo. Los elementos del Darwin Core actuales están descritos en la https://dwc.tdwg.org/terms/[Guía de Referencia Rápida]."
 
 #. type: Labeled list
 #: glossary.en.adoc:15
@@ -2489,18 +2489,18 @@ msgstr ""
 #: glossary.en.adoc:46
 #, no-wrap
 msgid "[[sample]]Sample"
-msgstr ""
+msgstr "[[sample]]Muestra"
 
 #. type: Plain text
 #: glossary.en.adoc:47
 msgid "Material (water, soil, gut content, etc) obtained for analysis."
-msgstr ""
+msgstr "Material (agua, suelo, contenido estomacal, etc.) obtenido para análisis."
 
 #. type: Labeled list
 #: glossary.en.adoc:47
 #, no-wrap
 msgid "[[seq-align]]Sequence alignment"
-msgstr ""
+msgstr "[[seq-align]]Alineamiento de secuencias"
 
 #. type: Plain text
 #: glossary.en.adoc:48
@@ -2527,7 +2527,7 @@ msgstr "[[specimen]]Espécimen"
 #. type: Plain text
 #: glossary.en.adoc:50
 msgid "An individual animal, plant, fungus, etc. used as an example of its species or type for scientific study or display."
-msgstr ""
+msgstr "Un individuo, animal, planta, hongos, etc. Usado como un ejemplo de su especie o un espécimen tipo para estudio científico o exhibición."
 
 #. type: Labeled list
 #: glossary.en.adoc:50
@@ -2566,7 +2566,7 @@ msgstr ""
 #: glossary.en.adoc:53
 #, no-wrap
 msgid "[[zotu]]Zero radius otu (zOTU)"
-msgstr ""
+msgstr "[[zotu]]Radio cero de otu (zOTU)"
 
 #. type: Plain text
 #: glossary.en.adoc:54
