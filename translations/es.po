@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: publishing-ddd\n"
 "POT-Creation-Date: 2024-03-19 10:11+0000\n"
-"PO-Revision-Date: 2025-02-19 22:28\n"
+"PO-Revision-Date: 2025-02-19 23:50\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -1280,23 +1280,23 @@ msgstr "| term:mixs[DNA_sequence]\n"
 "| Altamente recomendado\n\n"
 "| term:mixs[pcr_primer_forward]\n"
 "| GGACTACHVGGGTWTCTAAT\n"
-"| La secuencia del cebador directo utilizado para el proceso de amplificación del gen, locus o subfragmento\n"
+"| La secuencia del primer directo utilizado para el proceso de amplificación del gen, locus o subfragmento\n"
 "| Altamente recomendado\n\n"
 "| term:mixs[pcr_primer_reverse]\n"
 "| GGACTACHVGGGTWTCTAAT\n"
-"| La secuencia del cebador inverso utilizado para el proceso de amplificación del gen, locus o subfragmento\n"
+"| La secuencia del primer inverso utilizado para el proceso de amplificación del gen, locus o subfragmento\n"
 "| Altamente recomendado\n\n"
 "| term:mixs[pcr_primer_name_forward]\n"
 "| jgLCO1490\n"
-"| El nombre del cebador directo utilizado\n"
+"| El nombre del primer directo utilizado\n"
 "| Altamente recomendado\n\n"
 "| term:mixs[pcr_primer_name_reverse]\n"
 "| jgHCO2198\n"
-"| El nombre del cebador inverso utilizado\n"
+"| El nombre del primer inverso utilizado\n"
 "| Altamente recomendado\n\n"
 "| term:mixs[pcr_primer_reference]\n"
 "| https://doi.org/10.1186/1742-9994-10-34\n"
-"| Referencia para los cebadores\n"
+"| Referencia para los primers\n"
 "| Altamente recomendado\n\n"
 "| term:mixs[env_broad_scale]\n"
 "| forest biome [ENVO:01000174]\n"
@@ -1781,7 +1781,7 @@ msgstr "| Elemento\n"
 "| \n\n"
 "| term:mixs[amplificationReactionVolumeUnit]\n"
 "| µl\n"
-"| Unidad utilizada para el volumen de reacción de la PCR. Many of the instruments require preparation of a much larger initial sample volume than is actually analysed.\n"
+"| Unidad utilizada para el volumen de reacción de la PCR. Muchos de los instrumentos requiere la preparación de una cantidad inicial de muestra más grande que el volumen finalmente analizado.\n"
 "| \n\n"
 "| term:mixs[pcr_analysis_software]\n"
 "| BIO-RAD QuantaSoft\n"
@@ -1801,23 +1801,23 @@ msgstr "| Elemento\n"
 "| Altamente recomendado\n\n"
 "| term:mixs[pcr_primer_forward]\n"
 "| GGACTACHVGGGTWTCTAAT\n"
-"| La secuencia del cebador directo utilizado para el proceso de amplificación del gen, locus o subfragmento.\n"
+"| La secuencia del primer directo utilizado para el proceso de amplificación del gen, locus o subfragmento.\n"
 "| Altamente recomendado\n\n"
 "| term:mixs[pcr_primer_reverse]\n"
 "| GGACTACHVGGGTWTCTAAT\n"
-"| La secuencia del cebador inverso utilizado para el proceso de amplificación del gen, locus o subfragmento.\n"
+"| La secuencia del primer inverso utilizado para el proceso de amplificación del gen, locus o subfragmento.\n"
 "| Altamente recomendado\n\n"
 "| term:mixs[pcr_primer_name_forward]\n"
 "| jgLCO1490\n"
-"| El nombre del cebador directo utilizado\n"
+"| El nombre del primer directo utilizado\n"
 "| Altamente recomendado\n\n"
 "| term:mixs[pcr_primer_name_reverse]\n"
 "| jgHCO2198\n"
-"| El nombre del cebador inverso utilizado\n"
+"| El nombre del primer inverso utilizado\n"
 "| Altamente recomendado\n\n"
 "| term:mixs[pcr_primer_reference]\n"
 "| https://doi.org/10.1186/1742-9994-10-34\n"
-"| Referencia para los cebadores\n"
+"| Referencia para los primers\n"
 "| Altamente recomendado\n\n"
 "| term:mixs[env_broad_scale]\n"
 "| forest biome [ENVO:01000174]\n"
@@ -2434,7 +2434,7 @@ msgstr ""
 #: glossary.en.adoc:41
 #, no-wrap
 msgid "[[otu]]Operational Taxonomic Unit (OTU)"
-msgstr ""
+msgstr "[[otu]]Unidad taxonómica operativa (OTU)"
 
 #. type: Plain text
 #: glossary.en.adoc:42
@@ -2445,12 +2445,12 @@ msgstr ""
 #: glossary.en.adoc:42
 #, no-wrap
 msgid "[[pcr]]Polymerase Chain Reaction (PCR)"
-msgstr ""
+msgstr "[[pcr]]Reacción en Cadena de la Polimerasa (PCR)"
 
 #. type: Plain text
 #: glossary.en.adoc:43
 msgid "Technique for fast amplification and detection of specific fragments of target DNA (or RNA) sequences. Amplified regions are determined by the pair of <<primer,PCR primers>> used in the reaction."
-msgstr ""
+msgstr "Técnica para la amplificación rápida y la detección de fragmentos específicos de secuencias de ADN objetivo (o de ARN). Las regiones amplificadas son determinadas por el par de <<primer,PCR primers>> usados en la reacción."
 
 #. type: Labeled list
 #: glossary.en.adoc:43
@@ -2461,13 +2461,13 @@ msgstr "[[pipeline]]Pipeline"
 #. type: Plain text
 #: glossary.en.adoc:44
 msgid "In bioinformatics, a set of algorithms or tools applied in a predefined workflow to process e.g. <<hts,High-throughput sequencing (HTS)>> data."
-msgstr ""
+msgstr "En bioinformática, es un grupo de algoritmos o herramientas aplicadas en un flujo de trabajo preestablecido, por ejemplo para datos de <<hts,High-throughput sequencing (HTS)>>."
 
 #. type: Labeled list
 #: glossary.en.adoc:44
 #, no-wrap
 msgid "[[primer]]Primers (PCR primers)"
-msgstr ""
+msgstr "[[primer]]Primers (PCR primers)"
 
 #. type: Plain text
 #: glossary.en.adoc:45
@@ -2505,13 +2505,13 @@ msgstr "[[seq-align]]Alineamiento de secuencias"
 #. type: Plain text
 #: glossary.en.adoc:48
 msgid "Bioinformatic process of comparing and arranging two or more molecular (DNA, RNA or protein) sequences to detect similarities caused by e.g. evolutionary relatedness."
-msgstr ""
+msgstr "Proceso bioinformático para comparar y reorganizar dos o más secuencias de moléculas (ADN, ARN o proteína) para detectar similitudes causadas por relaciones evolutivas."
 
 #. type: Labeled list
 #: glossary.en.adoc:48
 #, no-wrap
 msgid "[[sh]]Species Hypothesis (SH)"
-msgstr ""
+msgstr "[[sh]]Hipótesis de especie (SH)"
 
 #. type: Plain text
 #: glossary.en.adoc:49
@@ -2549,7 +2549,7 @@ msgstr ""
 #. type: Plain text
 #: glossary.en.adoc:52
 msgid "Sequencing of DNA fragments isolated with hybridization probes."
-msgstr ""
+msgstr "Secuenciación de fragmentos de ADN asilados con sondas de hibridación."
 
 #. type: Labeled list
 #: glossary.en.adoc:52
