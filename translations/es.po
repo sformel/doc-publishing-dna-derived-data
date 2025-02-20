@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: publishing-ddd\n"
 "POT-Creation-Date: 2024-03-19 10:11+0000\n"
-"PO-Revision-Date: 2025-02-20 15:16\n"
+"PO-Revision-Date: 2025-02-20 16:49\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -2098,7 +2098,7 @@ msgstr "[[bold]] Sistema de datos de código de barras de vida (BOLD)"
 #. type: Plain text
 #: glossary.en.adoc:10
 msgid "http://www.boldsystems.org/[BOLD^] is the reference database maintained by the Centre for Biodiversity Genomics in Guelph on behalf of the International Barcode of Life Consortium (https://ibol.org/[IBOL^]). It hosts data on barcode reference specimens and sequences for eukaryote species, particularly COI for animals, and maintains the Barcode Index Number (http://www.boldsystems.org/index.php/Public_BarcodeIndexNumber_Home[BIN^]; https://doi.org/10.1371/journal.pone.0066213[Ratnasingham & Hebert 2013^]) system, identifiers for OTUs of approximately species rank, based on clusters of closely similar sequences."
-msgstr ""
+msgstr "http://www.boldsystems.org/[BOLD^] es la base de datos de referencia mantenida por el Centro de Genómica de la biodiversidad en Guelph, respaldado por el Consorcio Internacional de códigos de barras (https://ibol.org/[IBOL^]) por sus siglas en inglés. Alberga datos de códigos de barras para especímenes de referencia y secuencias para especies de Eucariota, particularmente COI para animales, y mantiene el sistema Barcode Index Number (http://www.boldsystems.org/index.php/Public_BarcodeIndexNumber_Home[BIN^]; https://doi.org/10.1371/journal.pone.0066213[Ratnasingham & Hebert 2013^]), que son identificadores para OTUs aproximadamente al rango de especie, basado en agrupamientos de secuencias muy similares."
 
 #. type: Labeled list
 #: glossary.en.adoc:10
@@ -2170,12 +2170,12 @@ msgstr "Grupo de términos o conceptos preferidos, con significados específicos
 #: glossary.en.adoc:17
 #, no-wrap
 msgid "[[ddpcr]]ddPCR (droplet digital Polymerase Chain Reaction)"
-msgstr ""
+msgstr "[[ddpcr]]ddPCR (Reacción en cadena de polimerasa digital en gota)"
 
 #. type: Plain text
 #: glossary.en.adoc:18
 msgid "Droplet digital <<pcr,PCR>>. Method for measuring absolute amount of DNA (number of copies) of one marker in a sample. See also <<qpcr,qPCR>>."
-msgstr ""
+msgstr "<<pcr,PCR>> digital en gota. Método para medir la cantidad absoluta de ADN (número de copias) de un marcador en una muestra. Ver también <<qpcr,qPCR>>."
 
 #. type: Labeled list
 #: glossary.en.adoc:18
@@ -2197,18 +2197,18 @@ msgstr "[[doi]]Identificador Único Digital (DOI)"
 #. type: Plain text
 #: glossary.en.adoc:20
 msgid "Long-lasting reference used to uniquely identify (and locate) digital information objects, such as a biodiversity data set or a scientific publication."
-msgstr ""
+msgstr "Referencia de larga duración utilizada para identificar (y localizar) de forma única un Objeto Digital, como un conjunto de datos o una publicación científica."
 
 #. type: Labeled list
 #: glossary.en.adoc:20
 #, no-wrap
 msgid "[[barcoding]]DNA barcoding and metabarcoding (amplicon sequencing)"
-msgstr ""
+msgstr "[[barcoding]]Código de barras de ADN y metabarcoding (secuencia de amplicón)"
 
 #. type: Plain text
 #: glossary.en.adoc:21
 msgid "Use of short, standardized DNA fragments to identify individual organisms via sequencing. Metabarcoding combines barcoding with high-throughput DNA sequencing, using universal primers to amplify and sequence large groups of organisms in eDNA samples."
-msgstr ""
+msgstr "Uso de fragmentos cortos y estandarizados de ADN para identificar organismos individuales a través de secuenciación. El metabarcoding combina el uso de códigos de baras con secuenciación de alto rendimiento, utilizando primers universales para amplificar y secuenciar grupos generales de organimos en muestras de ADN ambiental (eDNA)."
 
 #. type: Labeled list
 #: glossary.en.adoc:21
@@ -2230,29 +2230,29 @@ msgstr "[[dna-db]]Base de datos para ADN de metabarcoding"
 #. type: Plain text
 #: glossary.en.adoc:23
 msgid "Database containing DNA sequences (DNA barcodes) from previously recovered or studied organisms. The reference sequences were ideally generated from individuals of described, well-studied species-with the type specimen serving as the ideal-or higher taxonomic level (e.g., genus, family), but may also stem from eDNA sequencing efforts. It is wise not to trust “reference sequences” blindly."
-msgstr ""
+msgstr "Base de datos que contiene secuencias de ADN (códigos de barras de ADN) de organismos previamente estudiados o recuperados. Las secuencias de referencia son idealmente generadas a partir de individuos de especies descritas y bien estudiadas (utilizando el espécimen tipo como fuente ideal) o de un nivel taxonómico superior (e.g. género, familia), pero también pueden provenir de esfuerzos de secuenciación de ADN ambiental. Es recomendado no confiar ciegamente en las \"secuencias de referencia\"."
 
 #. type: Labeled list
 #: glossary.en.adoc:23
 #, no-wrap
 msgid "[[dna-probe]]DNA probe"
-msgstr ""
+msgstr "[[dna-probe]]Sonda de ADN"
 
 #. type: Plain text
 #: glossary.en.adoc:24
 msgid "A short, synthetic single-stranded DNA fragment with fluorescent labelling that binds to a selected region of target DNA (marker) during PCR. Increases specificity and can be used in addition to primers in <<qpcr,qPCR>> and <<ddpcr,ddPCR>> to detect and quantify a genetic marker."
-msgstr ""
+msgstr "Un fragmento corto de ADN sintético de hebra simple con un etiquetado fluorescente que se une a la región seleccionada del ADN objetivo (marcador) durante la PCR. Incrementa la especificidad y puede ser utilizado como adición a los primers en <<qpcr,qPCR>> y <<ddpcr,ddPCR>> para detectar y cuantificar un marcador genérico."
 
 #. type: Labeled list
 #: glossary.en.adoc:24
 #, no-wrap
 msgid "[[embl]]European Bioinformatics Institute (EMBL-EBI)"
-msgstr ""
+msgstr "[[embl]]Instituto Europeo de Bioinformática (EMBL-EBI)"
 
 #. type: Plain text
 #: glossary.en.adoc:25
 msgid "Intergovernmental organization for bioinformatics research and services, part of the European Molecular Biology Laboratory (EMBL), providing eg. (raw) sequence reads and assembly data via <<ena,the European Nucleotide Archive (ENA)>>."
-msgstr ""
+msgstr "Organización intergubernamental para la investigación bioinformática y de servicios, parte del Laboratorio Europeo de Biología Molecular (EMBL), proporcionando lecturas de secuencias (sin procesar) y datos de ensamblaje a través de <<ena,the European Nucleotide Archive (ENA)>>."
 
 #. type: Labeled list
 #: glossary.en.adoc:25
@@ -2274,7 +2274,7 @@ msgstr "[[ena]]Repositorio Europeo de Nucleótidos (ENA)"
 #. type: Plain text
 #: glossary.en.adoc:27
 msgid "European repository for nucleotide sequences, covering raw sequencing data, sequence assembly information and functional annotation. Includes the <<sra,Sequence Read Archive (SRA)>>, and is maintained by the European Bioinformatics Institute (EMBL-EBI), as part of <<insdc, the International Nucleotide Sequence Database Collaboration (INSDC)>>."
-msgstr ""
+msgstr "Repositorio Europeo para secuencias de nucleotidos, abarcando secuencias sin procesar, secuencias con informacion ensamblada y anotaciones funcionales. Incluye la <<sra,Sequence Read Archive (SRA)>> y es mantenido por el Instituo Europeo de Bioinformática (EMBL-EBI), como parte del <<insdc, the International Nucleotide Sequence Database Collaboration (INSDC)>>."
 
 #. type: Labeled list
 #: glossary.en.adoc:27
@@ -2285,7 +2285,7 @@ msgstr "[[fastq]]FASTQ"
 #. type: Plain text
 #: glossary.en.adoc:28
 msgid "Text-based standard for storing molecular sequences and associated quality measures deriving from <<hts,High-throughput sequencing (HTS)>>. For each sequence position, single ASCII-characters are used to represent base call (identified nucleotide) and score, respectively."
-msgstr ""
+msgstr "Archivo de texto estándar para guardar información molecular de secuencias y los controles de calidad asociados, derivados de <<hts,High-throughput sequencing (HTS)>>. Para cada posición de secuencia, se utilizan caracteres individuales tipo ASCII que representan un llamado base (nucleotido identificado) y un puntaje, respectivamente."
 
 #. type: Labeled list
 #: glossary.en.adoc:28
@@ -2302,29 +2302,29 @@ msgstr "Red internacional e infraestructura de datos, enfocada principalmente en
 #: glossary.en.adoc:29
 #, no-wrap
 msgid "[[ggbn]]Global Genome Biodiversity Network (GGBN)"
-msgstr ""
+msgstr "[[ggbn]]Red Global de Biodiversidad Genómica (GGBN)"
 
 #. type: Plain text
 #: glossary.en.adoc:30
 msgid "International network of institutions concerned with efficient sharing and usage of genomic biodiversity samples and associated metadata, e.g. promoting the Darwin Core-compatible GGBN Data Standard."
-msgstr ""
+msgstr "Red internacional de instituciones interesadas en el eficiente intercambio y uso de muestras genéticas de biodiversidad y sus metadatos asociados, por ejemplo promoviendo el estándar de datos GGBN, que es compatible con el Darwin Core."
 
 #. type: Labeled list
 #: glossary.en.adoc:30
 #, no-wrap
 msgid "[[gps]]Global Positioning System (GPS)"
-msgstr ""
+msgstr "[[gps]]Sistema de Posicionamiento Global (GPS)"
 
 #. type: Plain text
 #: glossary.en.adoc:31
 msgid "Satellite navigation system operated by the United States Space Force."
-msgstr ""
+msgstr "Sistema de navegación satelital operado por la Fuerza Espacial de los Estados Unidos de América."
 
 #. type: Labeled list
 #: glossary.en.adoc:31
 #, no-wrap
 msgid "[[hts]]High-throughput sequencing (HTS)"
-msgstr ""
+msgstr "[[hts]]Secuenciación de alto rendimiento (HTS)"
 
 #. type: Plain text
 #: glossary.en.adoc:32
@@ -2335,7 +2335,7 @@ msgstr ""
 #: glossary.en.adoc:32
 #, no-wrap
 msgid "[[ingest]]Ingestion"
-msgstr ""
+msgstr "[[ingest]]Ingestión"
 
 #. type: Plain text
 #: glossary.en.adoc:33
@@ -2346,7 +2346,7 @@ msgstr ""
 #: glossary.en.adoc:33
 #, no-wrap
 msgid "[[index]]Indexing"
-msgstr ""
+msgstr "[[index]]Indexación"
 
 #. type: Plain text
 #: glossary.en.adoc:34
@@ -2368,7 +2368,7 @@ msgstr ""
 #: glossary.en.adoc:35
 #, no-wrap
 msgid "[[metagenomics]]Metagenomics"
-msgstr ""
+msgstr "[[metagenomics]]Metagenómica"
 
 #. type: Plain text
 #: glossary.en.adoc:36
@@ -2390,7 +2390,7 @@ msgstr ""
 #: glossary.en.adoc:37
 #, no-wrap
 msgid "[[motu]]molecular Operational Taxonomic Unit (mOTU)"
-msgstr ""
+msgstr "[[motu]]Unidad molecular taxonómica operativa (mOTU)"
 
 #. type: Plain text
 #: glossary.en.adoc:38
@@ -2478,7 +2478,7 @@ msgstr ""
 #: glossary.en.adoc:45
 #, no-wrap
 msgid "[[qpcr]]qPCR (quantitative Polymerase Chain Reaction)"
-msgstr ""
+msgstr "[[qpcr]]qPCR (Reacción en cadena de polimerasa cuantitativa)"
 
 #. type: Plain text
 #: glossary.en.adoc:46
