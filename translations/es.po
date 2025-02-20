@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: publishing-ddd\n"
 "POT-Creation-Date: 2024-03-19 10:11+0000\n"
-"PO-Revision-Date: 2025-02-19 23:50\n"
+"PO-Revision-Date: 2025-02-20 15:16\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -2087,7 +2087,7 @@ msgstr "[[bins]] Números de índice de códigos de barras (BIN)"
 #. type: Plain text
 #: glossary.en.adoc:9
 msgid "Species-level <<otu,Operational Taxonomic Units (OTUs)>> derived from clustering of the cytochrome c oxidase I (COI) gene in animals. Each BIN is assigned a globally unique identifier, and is made available in searchable database within the <<bold,Barcode of Life Data System (BOLD)>>."
-msgstr ""
+msgstr "<<otu,Operational Taxonomic Units (OTUs)>> a nivel de especie (species-level) derivados de un proceso de agrupamiento del gen Citocromo oxidasa I (COI) en animales. Cada BIN es asignado con un identificador único global y está disponible para búsqueda en la base de datos <<bold,Barcode of Life Data System (BOLD)>>."
 
 #. type: Labeled list
 #: glossary.en.adoc:9
