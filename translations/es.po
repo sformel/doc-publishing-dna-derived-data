@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: publishing-ddd\n"
 "POT-Creation-Date: 2024-03-19 10:11+0000\n"
-"PO-Revision-Date: 2025-02-20 21:13\n"
+"PO-Revision-Date: 2025-02-21 14:34\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -2533,7 +2533,7 @@ msgstr "Un individuo, animal, planta, hongos, etc. Usado como un ejemplo de su e
 #: glossary.en.adoc:50
 #, no-wrap
 msgid "[[sra]]Sequence Read Archive (SRA)"
-msgstr ""
+msgstr "[[sra]]Archivador de lecturas de secuencias (SRA)"
 
 #. type: Plain text
 #: glossary.en.adoc:51
