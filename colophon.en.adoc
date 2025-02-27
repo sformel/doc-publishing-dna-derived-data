@@ -48,6 +48,8 @@ Version {revnumber} released on {revdate}.
 
 This version adds paragraph on marine datasets and the Ocean Biodiversity Information System (OBIS) along with some minor text edits throughout. 
 
+A minor update (Feb 2025) adds information and links to the https://mdt.gbif-test.org/[Metabarcoding Data Toolkit^]
+
 === Abstract
 
 When genetic information is used to describe or classify a taxon, most users will foresee its use in the context of molecular ecology or phylogenetic research. It is important to realize that a sequence with coordinates and a timestamp is a valuable biodiversity occurrence which is useful in a much broader context than its original purpose. To realize this potential, DNA-derived data needs to be discoverable through biodiversity data platforms. This guide will teach you the principles and approaches of exposing “sequences with dates and coordinates” in the context of broader biodiversity data. The guide covers choices of particular schemas and terms, common pitfalls and good practice, without going into platform-specific details. It will benefit anyone interested in better exposure of DNA-derived data through general biodiversity data platforms, including national biodiversity portals.

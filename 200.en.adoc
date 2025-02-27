@@ -77,11 +77,11 @@ This category concerns data where a DNA sequence or detection through PCR is the
 
 ===== Examples of DNA-derived occurrence datasets
 
-* MGnify (2019) Impact of rainforest transformation on phylogenetic and functional diversity of soil prokaryotic communities in Sumatra (Indonesia). Sampling event dataset https://doi.org/10.15468/osp7hi accessed via GBIF.org on 2020-04-16.
-* MGnify (2020) Marine metagenomes from the bioGEOTRACES project. Sampling event dataset https://doi.org/10.15468/oifcho accessed via GBIF.org on 2020-04-16.
-* Bessey C, Jarman SN, Berry O et al. (2020) Maximizing fish detection with eDNA metabarcoding. Environmental DNA: 1–12. https://doi.org/10.1002/edn3.74 (Atlas of Living Australia website at https://collections.ala.org.au/public/show/dr14581. Accessed 24 June 2020)
+* Holman L E, Bohmann K (2025). Eukaryotic metabarcoding (18S rRNA V9 region) of environmental DNA from an archived marine sediment record, Skagerrak, North Sea, spanning 8000 years. Globe Institute. Occurrence dataset https://doi.org/10.15468/2ve69k accessed via GBIF.org on 2025-02-27.
+* Flanders Research Institute for Agriculture, Fisheries and Food (ILVO): BulkDNA macrobenthos from sandextraction sites in the Belgian part of the North Sea https://doi.org/10.15468/djwzhu accessed via GBIF.org on 2025-02-27.
+* Peña Rojas L E (2025). Bacterias presentes en diferentes etapas de la estacion experimental acuapónica de la sede Colibrí Universidad de Ibagué. Instituto de Investigación de Recursos Biológicos Alexander von Humboldt. Occurrence dataset https://doi.org/10.15468/2g4brh accessed via GBIF.org on 2025-02-27.
 
-For guidance on how to format and share these datasets, see <<mapping-metabarcoding-edna-and-barcoding-data>>. General guidelines for Darwin Core occurrence datasets are also available through the https://ipt.gbif.org/manual/en/ipt/latest/occurrence-data#templates[DwC-A template for occurrence datasets] and https://www.gbif.org/data-quality-requirements-occurrences[Data quality requirements for occurrences].
+To specifically format and share metabarcoding datasets, we suggest the user friendly Metabarcoding Data Toolkit (MDT) – see the specific guide for that: https://doi.org/10.35035/doc-wkpc-m352[Metabarcoding Data Toolkit – user guide]. For more general guidance on how to format and share these dna-derived data, see <<mapping-metabarcoding-edna-and-barcoding-data>>. General guidelines for Darwin Core occurrence datasets are also available through the https://ipt.gbif.org/manual/en/ipt/latest/occurrence-data#templates[DwC-A template for occurrence datasets] and https://www.gbif.org/data-quality-requirements-occurrences[Data quality requirements for occurrences].
 
 [[category-ii]]
 ==== Category II: Enriched occurrences
@@ -144,6 +144,8 @@ As a first step in preparing your data for publishing, you should make sure your
 <<<
 
 ==== Mapping metabarcoding (eDNA) and barcoding data
+
+NB: To format and share metabarcoding datasets, we suggest the user friendly Metabarcoding Data Toolkit (MDT) – that has a specific guide (https://doi.org/10.35035/doc-wkpc-m352[Metabarcoding Data Toolkit – user guide]) that includes dedicated versions of the tables in this section.
 
 This section provides mapping recommendations for Categories I and II.
 
