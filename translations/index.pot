@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2024-03-19 10:11+0000\n"
+"POT-Creation-Date: 2025-02-27 11:33+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -271,14 +271,21 @@ msgid ""
 "Information System (OBIS) along with some minor text edits throughout."
 msgstr ""
 
+#. type: Plain text
+#: colophon.en.adoc:52
+msgid ""
+"A minor update (Feb 2025) adds information and links to the "
+"https://mdt.gbif-test.org/[Metabarcoding Data Toolkit^]"
+msgstr ""
+
 #. type: Title ===
-#: colophon.en.adoc:51
+#: colophon.en.adoc:53
 #, no-wrap
 msgid "Abstract"
 msgstr ""
 
 #. type: Plain text
-#: colophon.en.adoc:53
+#: colophon.en.adoc:55
 msgid ""
 "When genetic information is used to describe or classify a taxon, most users "
 "will foresee its use in the context of molecular ecology or phylogenetic "
@@ -769,7 +776,9 @@ msgid ""
 "precise reinterpretation of data, intra-specific population genetic analyses "
 "(https://doi.org/10.1111/eva.12882[Sigsgaard et al. 2019^]) and is likely to "
 "increase identification accuracy, and for this reason we recommend to share "
-"(unclustered) ASV data."
+"(unclustered) ASV data. In 2024, GBIF started the "
+"https://www.gbif.org/metabarcoding[Metabarcoding Data Programme^] to "
+"facilitate the publication of eDNA metabarcoding data through GBIF."
 msgstr ""
 
 #. type: Title ====
@@ -1555,33 +1564,39 @@ msgstr ""
 #. type: Plain text
 #: 200.en.adoc:81
 msgid ""
-"MGnify (2019) Impact of rainforest transformation on phylogenetic and "
-"functional diversity of soil prokaryotic communities in Sumatra "
-"(Indonesia). Sampling event dataset https://doi.org/10.15468/osp7hi accessed "
-"via GBIF.org on 2020-04-16."
+"Holman L E, Bohmann K (2025). Eukaryotic metabarcoding (18S rRNA V9 region) "
+"of environmental DNA from an archived marine sediment record, Skagerrak, "
+"North Sea, spanning 8000 years. Globe Institute. Occurrence dataset "
+"https://doi.org/10.15468/2ve69k accessed via GBIF.org on 2025-02-27."
 msgstr ""
 
 #. type: Plain text
 #: 200.en.adoc:82
 msgid ""
-"MGnify (2020) Marine metagenomes from the bioGEOTRACES project. Sampling "
-"event dataset https://doi.org/10.15468/oifcho accessed via GBIF.org on "
-"2020-04-16."
+"Flanders Research Institute for Agriculture, Fisheries and Food (ILVO): "
+"BulkDNA macrobenthos from sandextraction sites in the Belgian part of the "
+"North Sea https://doi.org/10.15468/djwzhu accessed via GBIF.org on "
+"2025-02-27."
 msgstr ""
 
 #. type: Plain text
 #: 200.en.adoc:83
 msgid ""
-"Bessey C, Jarman SN, Berry O et al. (2020) Maximizing fish detection with "
-"eDNA metabarcoding. Environmental DNA: 1–12. https://doi.org/10.1002/edn3.74 "
-"(Atlas of Living Australia website at "
-"https://collections.ala.org.au/public/show/dr14581. Accessed 24 June 2020)"
+"Peña Rojas L E (2025). Bacterias presentes en diferentes etapas de la "
+"estacion experimental acuapónica de la sede Colibrí Universidad de "
+"Ibagué. Instituto de Investigación de Recursos Biológicos Alexander von "
+"Humboldt. Occurrence dataset https://doi.org/10.15468/2g4brh accessed via "
+"GBIF.org on 2025-02-27."
 msgstr ""
 
 #. type: Plain text
-#: 200.en.adoc:85 200.en.adoc:98
+#: 200.en.adoc:85
 msgid ""
-"For guidance on how to format and share these datasets, see "
+"To specifically format and share metabarcoding datasets, we suggest the user "
+"friendly Metabarcoding Data Toolkit (MDT) – see the specific guide for that: "
+"https://doi.org/10.35035/doc-wkpc-m352[Metabarcoding Data Toolkit – user "
+"guide]. For more general guidance on how to format and share these "
+"dna-derived data, see "
 "<<mapping-metabarcoding-edna-and-barcoding-data>>. General guidelines for "
 "Darwin Core occurrence datasets are also available through the "
 "https://ipt.gbif.org/manual/en/ipt/latest/occurrence-data#templates[DwC-A "
@@ -1642,6 +1657,18 @@ msgid ""
 "2459-2474. https://doi.org/10.1002/ece3.4858, (Atlas of Living Australia "
 "website at https://collections.ala.org.au/public/show/dr11663. Accessed 24 "
 "June 2020)"
+msgstr ""
+
+#. type: Plain text
+#: 200.en.adoc:98
+msgid ""
+"For guidance on how to format and share these datasets, see "
+"<<mapping-metabarcoding-edna-and-barcoding-data>>. General guidelines for "
+"Darwin Core occurrence datasets are also available through the "
+"https://ipt.gbif.org/manual/en/ipt/latest/occurrence-data#templates[DwC-A "
+"template for occurrence datasets] and "
+"https://www.gbif.org/data-quality-requirements-occurrences[Data quality "
+"requirements for occurrences]."
 msgstr ""
 
 #. type: Title ====
@@ -1906,8 +1933,8 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: 200.en.adoc:145 200.en.adoc:288 200.en.adoc:394 200.en.adoc:514
-#: 200.en.adoc:731 200.en.adoc:742 200.en.adoc:804 glossary.en.adoc:55
+#: 200.en.adoc:145 200.en.adoc:290 200.en.adoc:396 200.en.adoc:516
+#: 200.en.adoc:733 200.en.adoc:744 200.en.adoc:806 glossary.en.adoc:55
 #: bibliography.en.adoc:74
 msgid "<<<"
 msgstr ""
@@ -1920,11 +1947,20 @@ msgstr ""
 
 #. type: Plain text
 #: 200.en.adoc:149
+msgid ""
+"NB: To format and share metabarcoding datasets, we suggest the user friendly "
+"Metabarcoding Data Toolkit (MDT) – that has a specific guide "
+"(https://doi.org/10.35035/doc-wkpc-m352[Metabarcoding Data Toolkit – user "
+"guide]) that includes dedicated versions of the tables in this section."
+msgstr ""
+
+#. type: Plain text
+#: 200.en.adoc:151
 msgid "This section provides mapping recommendations for Categories I and II."
 msgstr ""
 
 #. type: Block title
-#: 200.en.adoc:151
+#: 200.en.adoc:153
 #, no-wrap
 msgid ""
 "Recommended fields for "
@@ -1934,7 +1970,7 @@ msgstr ""
 
 #.  The [.break-all]#ASV:…# is to allow the identifier to be broken at any character, rather than stretching the text cell.
 #. type: Table
-#: 200.en.adoc:245
+#: 200.en.adoc:247
 #, no-wrap
 msgid ""
 "| Field name\n"
@@ -2073,7 +2109,7 @@ msgid ""
 msgstr ""
 
 #. type: Table
-#: 200.en.adoc:285
+#: 200.en.adoc:287
 msgid ""
 "| term:dwc[taxonID] | [.break-all]#ASV:7bdb57487bee022ba30c03c3e7ca50e1# | "
 "For eDNA data, it is recommended to use an MD5 hash of the sequence and "
@@ -2090,7 +2126,7 @@ msgid ""
 msgstr ""
 
 #. type: Block title
-#: 200.en.adoc:290
+#: 200.en.adoc:292
 #, no-wrap
 msgid ""
 "Recommended fields from the DNA derived data extension (a selection) for "
@@ -2099,7 +2135,7 @@ msgstr ""
 
 #.  The [.break-all]#TCTA…# is to allow the sequence to be broken at any character, rather than stretching the text cell.
 #. type: Table
-#: 200.en.adoc:298
+#: 200.en.adoc:300
 #, no-wrap
 msgid ""
 "| Field name\n"
@@ -2110,7 +2146,7 @@ msgid ""
 msgstr ""
 
 #. type: Table
-#: 200.en.adoc:391
+#: 200.en.adoc:393
 #, no-wrap
 msgid ""
 "| term:mixs[DNA_sequence]\n"
@@ -2231,26 +2267,26 @@ msgid ""
 msgstr ""
 
 #. type: Title ====
-#: 200.en.adoc:395
+#: 200.en.adoc:397
 #, no-wrap
 msgid "Mapping ddPCR / qPCR data"
 msgstr ""
 
 #. type: Plain text
-#: 200.en.adoc:398
+#: 200.en.adoc:400
 msgid ""
 "This section provides mapping recommendations for "
 "https://academic.oup.com/view-large/199871507[Category III]."
 msgstr ""
 
 #. type: Block title
-#: 200.en.adoc:400
+#: 200.en.adoc:402
 #, no-wrap
 msgid "Recommended fields for Occurrence core for ddPCR/qPCR data"
 msgstr ""
 
 #. type: Table
-#: 200.en.adoc:511
+#: 200.en.adoc:513
 #, no-wrap
 msgid ""
 "| Field name\n"
@@ -2389,7 +2425,7 @@ msgid ""
 msgstr ""
 
 #. type: Block title
-#: 200.en.adoc:516
+#: 200.en.adoc:518
 #, no-wrap
 msgid ""
 "Recommended fields from the "
@@ -2398,7 +2434,7 @@ msgid ""
 msgstr ""
 
 #. type: Table
-#: 200.en.adoc:727
+#: 200.en.adoc:729
 #, no-wrap
 msgid ""
 "| Field name\n"
@@ -2663,13 +2699,13 @@ msgid ""
 msgstr ""
 
 #. type: Title ===
-#: 200.en.adoc:732
+#: 200.en.adoc:734
 #, no-wrap
 msgid "Marine datasets and the Ocean Biodiversity Information System (OBIS)"
 msgstr ""
 
 #. type: Plain text
-#: 200.en.adoc:735
+#: 200.en.adoc:737
 msgid ""
 "When working with datasets originating in the marine environment, it is "
 "recommended that the information is published also in the "
@@ -2687,7 +2723,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: 200.en.adoc:737
+#: 200.en.adoc:739
 msgid ""
 "To ensure consistent taxonomic nomenclature OBIS uses the "
 "https://www.marinespecies.org/[World Register of Marine Species^] (WoRMS) as "
@@ -2716,7 +2752,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: 200.en.adoc:739
+#: 200.en.adoc:741
 msgid ""
 "Another required field in OBIS data submissions are geographic "
 "coordinates. OBIS performs additional quality checks related to marine data; "
@@ -2732,7 +2768,7 @@ msgid ""
 msgstr ""
 
 #. type: Block title
-#: 200.en.adoc:744
+#: 200.en.adoc:746
 #, no-wrap
 msgid ""
 "OBIS requirements and recommendations for recording DNA-based "
@@ -2742,7 +2778,7 @@ msgid ""
 msgstr ""
 
 #. type: Table
-#: 200.en.adoc:771
+#: 200.en.adoc:773
 #, no-wrap
 msgid ""
 "| Field name\n"
@@ -2778,7 +2814,7 @@ msgid ""
 msgstr ""
 
 #. type: Block title
-#: 200.en.adoc:774
+#: 200.en.adoc:776
 #, no-wrap
 msgid ""
 "OBIS requirements and recommendations for recording sequences that cannot be "
@@ -2786,7 +2822,7 @@ msgid ""
 msgstr ""
 
 #. type: Table
-#: 200.en.adoc:801
+#: 200.en.adoc:803
 #, no-wrap
 msgid ""
 "| Field name\n"
