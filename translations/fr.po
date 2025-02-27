@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: publishing-ddd\n"
 "POT-Creation-Date: 2025-02-27 11:54+0000\n"
-"PO-Revision-Date: 2025-02-27 13:18\n"
+"PO-Revision-Date: 2025-02-27 14:45\n"
 "Last-Translator: \n"
 "Language-Team: French\n"
 "Language: fr_FR\n"
@@ -193,7 +193,7 @@ msgstr "Cette version ajoute un paragraphe à propos des jeux de données marine
 #. type: Plain text
 #: colophon.en.adoc:52
 msgid "A minor update (Feb 2025) adds information and links to the https://mdt.gbif-test.org/[Metabarcoding Data Toolkit^]"
-msgstr ""
+msgstr "Une mise à jour mineure (février 2025) ajoute des informations et des liens vers le https://mdt.gbif-test.org/[Metabarcoding Data Toolkit^]"
 
 #. type: Title ===
 #: colophon.en.adoc:53
@@ -417,7 +417,7 @@ msgstr "La génération de données dérivées de séquences ADN augmente rapide
 #. type: Plain text
 #: 100.en.adoc:60
 msgid "The identification and classification of organisms from sequence data and marker-based surveys depends on access to a reference library of sequences taken from morphologically identified specimens that are matched against the newly generated sequences. The efficacy of classification depends on the completeness (coverage) and the reliability of reference libraries, as well as the tools used to carry out the classification. These are all moving targets, making it essential to apply taxonomic expertise and caution in the interpreting results (<<taxonomy-of-sequences>>). Availability of of all verified <<asv,amplicon sequence variants>> (https://doi.org/10.1038/ismej.2017.119[Сallahan et al. 2017^]) allow for precise reinterpretation of data, intra-specific population genetic analyses (https://doi.org/10.1111/eva.12882[Sigsgaard et al. 2019^]) and is likely to increase identification accuracy, and for this reason we recommend to share (unclustered) ASV data. In 2024, GBIF started the https://www.gbif.org/metabarcoding[Metabarcoding Data Programme^] to facilitate the publication of eDNA metabarcoding data through GBIF."
-msgstr ""
+msgstr "L'identification et la classification des organismes à partir de données de séquences et d'études basées sur des marqueurs dépendent de l'accès à une bibliothèque de référence de séquences extraites de spécimens identifiés morphologiquement et comparées aux séquences nouvellement générées. L'efficacité de la classification dépend de l'exhaustivité (couverture) et de la fiabilité des bibliothèques de référence, ainsi que des outils utilisés pour effectuer la classification. Il s'agit de cibles mouvantes, ce qui rend essentiel l'application d'une expertise taxonomique et de prudence dans l'interprétation des résultats (<<taxonomie des séquences>>). La disponibilité de toutes les <<asv,variantes de séquences d'amplicon>> vérifiées (https://doi.org/10.1038/ismej.2017.119[Сallahan et al. 2017^]) permet une réinterprétation précise des données, des analyses génétiques intraspécifiques de population (https://doi.org/10.1111/eva.12882[Sigsgaard et al. 2019^]) et est susceptible d'augmenter la précision de l'identification, et pour cette raison, nous recommandons de partager les données ASV (non groupées). En 2024, le GBIF a lancé le https://www.gbif.org/metabarcoding[Programme de données de métabarcodage^] pour faciliter la publication des données de métabarcodage de l'ADN environnemental via le GBIF."
 
 #. type: Title ====
 #: 100.en.adoc:61
@@ -817,17 +817,17 @@ msgstr "Exemples de jeux de données d'occurrences dérivées de l'ADN"
 #. type: Plain text
 #: 200.en.adoc:81
 msgid "Holman L E, Bohmann K (2025). Eukaryotic metabarcoding (18S rRNA V9 region) of environmental DNA from an archived marine sediment record, Skagerrak, North Sea, spanning 8000 years. Globe Institute. Occurrence dataset https://doi.org/10.15468/2ve69k accessed via GBIF.org on 2025-02-27."
-msgstr ""
+msgstr "Holman L E, Bohmann K (2025). Eukaryotic metabarcoding (18S rRNA V9 region) of environmental DNA from an archived marine sediment record, Skagerrak, North Sea, spanning 8000 years. Globe Institute. Jeu de données d'occurrences https://doi.org/10.15468/2ve69k accédé via GBIF.org le 2025-02-27."
 
 #. type: Plain text
 #: 200.en.adoc:82
 msgid "Flanders Research Institute for Agriculture, Fisheries and Food (ILVO): BulkDNA macrobenthos from sandextraction sites in the Belgian part of the North Sea https://doi.org/10.15468/djwzhu accessed via GBIF.org on 2025-02-27."
-msgstr ""
+msgstr "Flanders Research Institute for Agriculture, Fisheries and Food (ILVO): BulkDNA macrobenthos from sandextraction sites in the Belgian part of the North Sea https://doi.org/10.15468/djwzhu accédé via GBIF.org le 2025-02-27."
 
 #. type: Plain text
 #: 200.en.adoc:83
 msgid "Peña Rojas L E (2025). Bacterias presentes en diferentes etapas de la estacion experimental acuapónica de la sede Colibrí Universidad de Ibagué. Instituto de Investigación de Recursos Biológicos Alexander von Humboldt. Occurrence dataset https://doi.org/10.15468/2g4brh accessed via GBIF.org on 2025-02-27."
-msgstr ""
+msgstr "Peña Rojas L E (2025). Bacterias presentes en diferentes etapas de la estacion experimental acuapónica de la sede Colibrí Universidad de Ibagué. Instituto de Investigación de Recursos Biológicos Alexander von Humboldt. Jeu de données d'occurrence https://doi.org/10.15468/2g4brh accédé via GBIF.org le 2025-02-27."
 
 #. type: Plain text
 #: 200.en.adoc:85
