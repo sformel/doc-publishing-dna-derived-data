@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: publishing-ddd\n"
 "POT-Creation-Date: 2025-02-27 11:54+0000\n"
-"PO-Revision-Date: 2025-02-27 13:18\n"
+"PO-Revision-Date: 2025-02-27 14:44\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -193,7 +193,7 @@ msgstr "Esta versión añade un párrafo sobre los conjuntos de datos marinos y 
 #. type: Plain text
 #: colophon.en.adoc:52
 msgid "A minor update (Feb 2025) adds information and links to the https://mdt.gbif-test.org/[Metabarcoding Data Toolkit^]"
-msgstr ""
+msgstr "Actualización menor (febrero de 2025), agrega información y enlaces a https://mdt.gbif-test.org/[Kit de herramientas de datos de Metabarcoding^]"
 
 #. type: Title ===
 #: colophon.en.adoc:53
