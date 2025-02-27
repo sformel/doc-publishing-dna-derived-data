@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: publishing-ddd\n"
-"POT-Creation-Date: 2024-03-19 10:11+0000\n"
-"PO-Revision-Date: 2024-12-11 03:26\n"
+"POT-Creation-Date: 2025-02-27 11:54+0000\n"
+"PO-Revision-Date: 2025-02-27 13:18\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Traditional\n"
 "Language: zh_TW\n"
@@ -190,14 +190,19 @@ msgstr "版本 {revnumber} 發布於 {revdate}。"
 msgid "This version adds paragraph on marine datasets and the Ocean Biodiversity Information System (OBIS) along with some minor text edits throughout."
 msgstr "此版本新增了有關海洋資料集和海洋生物多樣性信息系統 (OBIS) 的文字段落，以及小部分的文字編輯。"
 
+#. type: Plain text
+#: colophon.en.adoc:52
+msgid "A minor update (Feb 2025) adds information and links to the https://mdt.gbif-test.org/[Metabarcoding Data Toolkit^]"
+msgstr ""
+
 #. type: Title ===
-#: colophon.en.adoc:51
+#: colophon.en.adoc:53
 #, no-wrap
 msgid "Abstract"
 msgstr "摘要"
 
 #. type: Plain text
-#: colophon.en.adoc:53
+#: colophon.en.adoc:55
 msgid "When genetic information is used to describe or classify a taxon, most users will foresee its use in the context of molecular ecology or phylogenetic research. It is important to realize that a sequence with coordinates and a timestamp is a valuable biodiversity occurrence which is useful in a much broader context than its original purpose. To realize this potential, DNA-derived data needs to be discoverable through biodiversity data platforms. This guide will teach you the principles and approaches of exposing “sequences with dates and coordinates” in the context of broader biodiversity data. The guide covers choices of particular schemas and terms, common pitfalls and good practice, without going into platform-specific details. It will benefit anyone interested in better exposure of DNA-derived data through general biodiversity data platforms, including national biodiversity portals."
 msgstr "使用基因資訊來描述或鑑定物種分類群時，大多使用者會預設這些資料將會使用在分子生物或演化學的研究上。然而，同時擁有座標與時間資訊的基因序列是一個有價值的生物多樣性出現紀錄，相較其最初目的，可更廣泛的被使用。為了實現這一潛力，DNA衍生資料需要可以在生物多樣性資訊的平台上供搜尋。這份教學文件將帶領您了解公開 “帶有時間與座標資訊的序列” 的生物多樣性資料的原理和方法。此文件涵蓋了特定的概要和術語、常見問題與合適的操作流程建議、且不討論各平台的細節。此文件將受益任何對使用各生物多樣性資訊平台 (包括國家級生物多樣性入口網站) 有興趣的人更順利地公開DNA衍生資料。"
 
@@ -411,8 +416,8 @@ msgstr "由於<<barcoding,DNA-metabarcoding>>的迅速發展，序列衍生資�
 
 #. type: Plain text
 #: 100.en.adoc:60
-msgid "The identification and classification of organisms from sequence data and marker-based surveys depends on access to a reference library of sequences taken from morphologically identified specimens that are matched against the newly generated sequences. The efficacy of classification depends on the completeness (coverage) and the reliability of reference libraries, as well as the tools used to carry out the classification. These are all moving targets, making it essential to apply taxonomic expertise and caution in the interpreting results (<<taxonomy-of-sequences>>). Availability of of all verified <<asv,amplicon sequence variants>> (https://doi.org/10.1038/ismej.2017.119[Сallahan et al. 2017^]) allow for precise reinterpretation of data, intra-specific population genetic analyses (https://doi.org/10.1111/eva.12882[Sigsgaard et al. 2019^]) and is likely to increase identification accuracy, and for this reason we recommend to share (unclustered) ASV data."
-msgstr "調查中使用序列或目標區間 (marker-based) 的定序並要成功鑑定物種，取決於那些已在形態上做了相關研究並已辨識的標本中所提取的基因序列。這些序列存在在基因序列資料庫中才能與調查所產出的新序列進行比對。分類的有效性取決於基因序列資料庫的完整性 (覆蓋率) 和可靠性，以及用於進行分類的分析工具。這些都是不斷在變化中的目標，因此在解釋結果時應謹慎且運用分類學專業知識 (<<基因序列的分類學>>)。所有經過驗證的 <<asv, ASV (Amplicon Sequence Variants)>> (https://doi.org/10.1038/ismej.2017.119[Сallahan等人，2017^]) 將有機會在未來對資料進行重分析讓其更精確、進行種內族群遺傳分析 (https://doi.org/10.1111/eva.12882[Sigsgaard等人，2019^]) 並且可能增加鑑定的準確性。基於這個原因，我們建議發布共享 (序列未分群的，unclustered) ASV資料。"
+msgid "The identification and classification of organisms from sequence data and marker-based surveys depends on access to a reference library of sequences taken from morphologically identified specimens that are matched against the newly generated sequences. The efficacy of classification depends on the completeness (coverage) and the reliability of reference libraries, as well as the tools used to carry out the classification. These are all moving targets, making it essential to apply taxonomic expertise and caution in the interpreting results (<<taxonomy-of-sequences>>). Availability of of all verified <<asv,amplicon sequence variants>> (https://doi.org/10.1038/ismej.2017.119[Сallahan et al. 2017^]) allow for precise reinterpretation of data, intra-specific population genetic analyses (https://doi.org/10.1111/eva.12882[Sigsgaard et al. 2019^]) and is likely to increase identification accuracy, and for this reason we recommend to share (unclustered) ASV data. In 2024, GBIF started the https://www.gbif.org/metabarcoding[Metabarcoding Data Programme^] to facilitate the publication of eDNA metabarcoding data through GBIF."
+msgstr ""
 
 #. type: Title ====
 #: 100.en.adoc:61
@@ -811,23 +816,23 @@ msgstr "DNA衍生出現紀錄資料集範例"
 
 #. type: Plain text
 #: 200.en.adoc:81
-msgid "MGnify (2019) Impact of rainforest transformation on phylogenetic and functional diversity of soil prokaryotic communities in Sumatra (Indonesia). Sampling event dataset https://doi.org/10.15468/osp7hi accessed via GBIF.org on 2020-04-16."
-msgstr "MGnify (2019) Impact of rainforest transformation on phylogenetic and functional diversity of soil prokaryotic communities in Sumatra (Indonesia). Sampling event dataset https://doi.org/10.15468/osp7hi accessed via GBIF.org on 2020-04-16."
+msgid "Holman L E, Bohmann K (2025). Eukaryotic metabarcoding (18S rRNA V9 region) of environmental DNA from an archived marine sediment record, Skagerrak, North Sea, spanning 8000 years. Globe Institute. Occurrence dataset https://doi.org/10.15468/2ve69k accessed via GBIF.org on 2025-02-27."
+msgstr ""
 
 #. type: Plain text
 #: 200.en.adoc:82
-msgid "MGnify (2020) Marine metagenomes from the bioGEOTRACES project. Sampling event dataset https://doi.org/10.15468/oifcho accessed via GBIF.org on 2020-04-16."
-msgstr "MGnify (2020) Marine metagenomes from the bioGEOTRACES project. Sampling event dataset https://doi.org/10.15468/oifcho accessed via GBIF.org on 2020-04-16."
+msgid "Flanders Research Institute for Agriculture, Fisheries and Food (ILVO): BulkDNA macrobenthos from sandextraction sites in the Belgian part of the North Sea https://doi.org/10.15468/djwzhu accessed via GBIF.org on 2025-02-27."
+msgstr ""
 
 #. type: Plain text
 #: 200.en.adoc:83
-msgid "Bessey C, Jarman SN, Berry O et al. (2020) Maximizing fish detection with eDNA metabarcoding. Environmental DNA: 1–12. https://doi.org/10.1002/edn3.74 (Atlas of Living Australia website at https://collections.ala.org.au/public/show/dr14581. Accessed 24 June 2020)"
-msgstr "Bessey C, Jarman SN, Berry O et al. (2020) Maximizing fish detection with eDNA metabarcoding. Environmental DNA: 1–12. https://doi.org/10.1002/edn3.74 (Atlas of Living Australia website at https://collections.ala.org.au/public/show/dr14581. Accessed 24 June 2020)"
+msgid "Peña Rojas L E (2025). Bacterias presentes en diferentes etapas de la estacion experimental acuapónica de la sede Colibrí Universidad de Ibagué. Instituto de Investigación de Recursos Biológicos Alexander von Humboldt. Occurrence dataset https://doi.org/10.15468/2g4brh accessed via GBIF.org on 2025-02-27."
+msgstr ""
 
 #. type: Plain text
-#: 200.en.adoc:85 200.en.adoc:98
-msgid "For guidance on how to format and share these datasets, see <<mapping-metabarcoding-edna-and-barcoding-data>>. General guidelines for Darwin Core occurrence datasets are also available through the https://ipt.gbif.org/manual/en/ipt/latest/occurrence-data#templates[DwC-A template for occurrence datasets] and https://www.gbif.org/data-quality-requirements-occurrences[Data quality requirements for occurrences]."
-msgstr "請參考 <<mapping-metabarcoding-edna-和barcoding資料>> 以了解如何格式化和分享這些資料集。有關達爾文核心出現紀錄資料集可通過link:https://ipt.gbif.org/manual/zh/ipt/latest/occurrence-data#templates[達爾文核心出現紀錄資料集的DwC-A模板]和link:https://www.gbif.org/zh-tw/data-quality-requirements-occurrences[出現紀錄資料的品質要求]獲得。"
+#: 200.en.adoc:85
+msgid "To specifically format and share metabarcoding datasets, we suggest the user friendly https://mdt.gbif-test.org/[Metabarcoding Data Toolkit (MDT)^] – and consult the dedicated guide material: https://doi.org/10.35035/doc-wkpc-m352[Metabarcoding Data Toolkit – user guide]. For more general guidance on how to format and share these dna-derived data, see <<mapping-metabarcoding-edna-and-barcoding-data>>. General guidelines for Darwin Core occurrence datasets are also available through the https://ipt.gbif.org/manual/en/ipt/latest/occurrence-data#templates[DwC-A template for occurrence datasets] and https://www.gbif.org/data-quality-requirements-occurrences[Data quality requirements for occurrences]."
+msgstr ""
 
 #. type: Title ====
 #: 200.en.adoc:87
@@ -860,6 +865,11 @@ msgstr "Takamura K (2019) Chironomid Specimen records in the Chironomid DNA Barc
 #: 200.en.adoc:96
 msgid "Bessey C, Jarman SN, Stat M, Rohner CA, Bunce M, Koziol A, Power M, Rambahiniarison JM, Ponzo A, Richardson AJ & Berry O (2019) DNA metabarcoding assays reveal a diverse prey assemblage for Mobula rays in the Bohol Sea, Philippines. Ecology and Evolution 9 (5) 2459-2474. https://doi.org/10.1002/ece3.4858, (Atlas of Living Australia website at https://collections.ala.org.au/public/show/dr11663. Accessed 24 June 2020)"
 msgstr "Bessey C, Jarman SN, Stat M, Rohner CA, Bunce M, Koziol A, Power M, Rambahiniarison JM, Ponzo A, Richardson AJ & Berry O (2019) DNA metabarcoding assays reveal a diverse prey assemblage for Mobula rays in the Bohol Sea, Philippines. Ecology and Evolution 9 (5) 2459-2474. https://doi.org/10.1002/ece3.4858, (Atlas of Living Australia website at https://collections.ala.org.au/public/show/dr11663. Accessed 24 June 2020)"
+
+#. type: Plain text
+#: 200.en.adoc:98
+msgid "For guidance on how to format and share these datasets, see <<mapping-metabarcoding-edna-and-barcoding-data>>. General guidelines for Darwin Core occurrence datasets are also available through the https://ipt.gbif.org/manual/en/ipt/latest/occurrence-data#templates[DwC-A template for occurrence datasets] and https://www.gbif.org/data-quality-requirements-occurrences[Data quality requirements for occurrences]."
+msgstr "請參考 <<mapping-metabarcoding-edna-和barcoding資料>> 以了解如何格式化和分享這些資料集。有關達爾文核心出現紀錄資料集可通過link:https://ipt.gbif.org/manual/zh/ipt/latest/occurrence-data#templates[達爾文核心出現紀錄資料集的DwC-A模板]和link:https://www.gbif.org/zh-tw/data-quality-requirements-occurrences[出現紀錄資料的品質要求]獲得。"
 
 #. type: Title ====
 #: 200.en.adoc:100
@@ -981,8 +991,8 @@ msgid "As a first step in preparing your data for publishing, you should make su
 msgstr "初步在準備資料進行發布時，您應確保您的字段名稱/列標題符合link:https://dwc.tdwg.org/terms/[達爾文核心資料標準]。在許多情況下這很簡易，如將您的“lat”或“latitude”字段重命名為“decimalLatitude”。然而，達爾文核心標準非常彈性，一些術語的使用方式會因資料類型而異。例如，字段term:dwc[organismQuantity]和term:dwc[organismQuantityType]可用於描述個體數量、百分比生物量或Braun-Blanquet量表上的分數、以及樣本中ASV的read數量。因此，我們在這裡提供了必填字段和建議字段的表，並提供了描述和範例 (<<table-01,表格1>>、<<table-02,表格 2>>、<<table-03,表格 3>>和<<table-04,表格 4>>)。將DNA衍生資料發布在出現紀錄核心集的建議源於希望這些發布的序列可以作為出現紀錄的證據。另外，也可使用出現紀錄核心集和擴充文件的其他字段 (例如link:http://rs.gbif.org/extension/obis/extended_measurement_or_fact.xml[擴展測量或事實擴充 (eMoF)])。當序列來自一個生物體 (例如寄生蟲、腸道內容物、附生生物等) 時，此出現紀錄與宿主的相關聯可以通過達爾文核心的link:https://dwc.tdwg.org/terms/#resourcerelationship[資源關係擴充]來實現 (例如 link:https://www.gbif.org/zh-tw/species/143610775/verbatim[])。 最重要的建議是盡可能使用全球獨一 (如果可用) 和其他永久識別碼來標識所有資料字段和參數 (在下表的所有ID字段中)。"
 
 #. type: Plain text
-#: 200.en.adoc:145 200.en.adoc:288 200.en.adoc:394 200.en.adoc:514
-#: 200.en.adoc:731 200.en.adoc:742 200.en.adoc:804 glossary.en.adoc:55
+#: 200.en.adoc:145 200.en.adoc:290 200.en.adoc:396 200.en.adoc:516
+#: 200.en.adoc:733 200.en.adoc:744 200.en.adoc:806 glossary.en.adoc:55
 #: bibliography.en.adoc:74
 msgid "<<<"
 msgstr "<<<"
@@ -995,18 +1005,23 @@ msgstr "Mapping metabarcoding (eDNA) 和barcoding資料"
 
 #. type: Plain text
 #: 200.en.adoc:149
+msgid "NB: To format and share metabarcoding datasets, we suggest the user friendly https://mdt.gbif-test.org/[Metabarcoding Data Toolkit (MDT)^] which has a specific guide (https://doi.org/10.35035/doc-wkpc-m352[Metabarcoding Data Toolkit – user guide]) that includes dedicated versions of the tables in this section."
+msgstr ""
+
+#. type: Plain text
+#: 200.en.adoc:151
 msgid "This section provides mapping recommendations for Categories I and II."
 msgstr "此部分呈現類別一與二在mapping上的建議。"
 
 #. type: Block title
-#: 200.en.adoc:151
+#: 200.en.adoc:153
 #, no-wrap
 msgid "Recommended fields for http://rs.gbif.org/core/dwc_occurrence_2020-04-15.xml[Occurrence core] for Metabarcoding data"
 msgstr "給link:http://rs.gbif.org/core/dwc_occurrence_2020-04-15.xml[出現紀錄核心集]的字段建議，用於Metabarcoding類型的資料"
 
 #.  The [.break-all]#ASV:…# is to allow the identifier to be broken at any character, rather than stretching the text cell.
 #. type: Table
-#: 200.en.adoc:245
+#: 200.en.adoc:247
 #, no-wrap
 msgid "| Field name\n"
 "| Examples\n"
@@ -1158,19 +1173,19 @@ msgstr "| 字段名稱\n"
 "| 強烈建議\n\n"
 
 #. type: Table
-#: 200.en.adoc:285
+#: 200.en.adoc:287
 msgid "| term:dwc[taxonID] | [.break-all]#ASV:7bdb57487bee022ba30c03c3e7ca50e1# | For eDNA data, it is recommended to use an MD5 hash of the sequence and prepend it with “ASV:”. See also <<taxonomy-of-sequences>>.  | Highly recommended, if DNA_sequence is not provided | term:dwc[scientificName] | _Gadus morhua_ L. 1758, BOLD:ACF1143 | Scientific name of the closest known taxon (species or higher) or an OTU identifier from BOLD (BIN) or UNITE (SH)  | Required | term:dwc[kingdom] | Animalia | Higher taxonomy | Highly recommended | term:dwc[phylum] | Chordata | Higher taxonomy | Recommended | term:dwc[class] | Actinopterygii | Higher taxonomy | Recommended | term:dwc[order] | Gadiformes | Higher taxonomy | Recommended | term:dwc[family] | Gadidae | Higher taxonomy | Recommended | term:dwc[genus] | _Gadus_ | Higher taxonomy | Recommended"
 msgstr "| term:dwc[taxonID] | [.break-all]#ASV:7bdb57487bee022ba30c03c3e7ca50e1# | eDNA資料建議使用序列的MD5 hash，開頭再加上“ASV:”。參考 <<基因序列的分類學>>。 | 如沒提供 DNA_sequence，強烈建議填寫 | term:dwc[scientificName] | _Gadus morhua_ L. 1758, BOLD:ACF1143 | 最接近已知的分類單位 (物種或更高階層) 的學名，或來自BOLD或UNITE的OTU ID。  | 必填 | term:dwc[kingdom] | Animalia | 更高階層分類 | 強烈建議 | term:dwc[phylum] | Chordata | 更高階層分類 | 建議 | term:dwc[class] | Actinopterygii | 更高階層分類 | 建議 | term:dwc[order] | Gadiformes | 更高階層分類 | 建議 | term:dwc[family] | Gadidae | 更高階層分類 | 建議 | term:dwc[genus] | _Gadus_ | 更高階層分類 | 建議"
 
 #. type: Block title
-#: 200.en.adoc:290
+#: 200.en.adoc:292
 #, no-wrap
 msgid "Recommended fields from the DNA derived data extension (a selection) for metabarcoding data"
 msgstr "DNA衍生資料擴充中 (部分) 建議用於metabarcoding資料的字段"
 
 #.  The [.break-all]#TCTA…# is to allow the sequence to be broken at any character, rather than stretching the text cell.
 #. type: Table
-#: 200.en.adoc:298
+#: 200.en.adoc:300
 #, no-wrap
 msgid "| Field name\n"
 "| Examples\n"
@@ -1182,7 +1197,7 @@ msgstr "| 字段名稱\n"
 "| 填寫建議\n\n"
 
 #. type: Table
-#: 200.en.adoc:391
+#: 200.en.adoc:393
 #, no-wrap
 msgid "| term:mixs[DNA_sequence]\n"
 "| [.break-all]#TCTATCCTCAATTATAGGTCATAATTCACCATCAGTAGATTTAGGAATTTTCTCTATTCATATTGCAGGTGTATCATCAATTATAGGATCAATTAATTTTATTGTAACAATTTTAAATATACATACAAAAACTCATTCATTAAACTTTTTACCATTATTTTCATGATCAGTTCTAGTTACAGCAATTCTCCTTTTATTATCATTA#\n"
@@ -1336,24 +1351,24 @@ msgstr "| term:mixs[DNA_sequence]\n"
 "| 強烈建議\n"
 
 #. type: Title ====
-#: 200.en.adoc:395
+#: 200.en.adoc:397
 #, no-wrap
 msgid "Mapping ddPCR / qPCR data"
 msgstr "Mapping ddPCR / qPCR 資料"
 
 #. type: Plain text
-#: 200.en.adoc:398
+#: 200.en.adoc:400
 msgid "This section provides mapping recommendations for https://academic.oup.com/view-large/199871507[Category III]."
 msgstr "此部分呈現link:https://academic.oup.com/view-large/199871507[類別三]在mapping上的建議。"
 
 #. type: Block title
-#: 200.en.adoc:400
+#: 200.en.adoc:402
 #, no-wrap
 msgid "Recommended fields for Occurrence core for ddPCR/qPCR data"
 msgstr "給ddPCR/qPCR資料類型的出現紀錄核心集的字段建議"
 
 #. type: Table
-#: 200.en.adoc:511
+#: 200.en.adoc:513
 #, no-wrap
 msgid "| Field name\n"
 "| Examples\n"
@@ -1533,13 +1548,13 @@ msgstr "| 字段名稱\n"
 "| 建議\n"
 
 #. type: Block title
-#: 200.en.adoc:516
+#: 200.en.adoc:518
 #, no-wrap
 msgid "Recommended fields from the https://rs.gbif.org/extension/gbif/1.0/dna_derived_data_2021-07-05.xml[DNA derived data extension] (a selection) for ddPCR/qPCR data"
 msgstr "link:https://rs.gbif.org/extension/gbif/1.0/dna_derived_data_2021-07-05.xml[DNA衍生資料擴充^] (部分) 建議用於ddPCR/qPCR資料的字段"
 
 #. type: Table
-#: 200.en.adoc:727
+#: 200.en.adoc:729
 #, no-wrap
 msgid "| Field name\n"
 "| Examples\n"
@@ -1879,34 +1894,34 @@ msgstr "| 字段名稱\n"
 "| 強烈建議 \n"
 
 #. type: Title ===
-#: 200.en.adoc:732
+#: 200.en.adoc:734
 #, no-wrap
 msgid "Marine datasets and the Ocean Biodiversity Information System (OBIS)"
 msgstr "海洋資料集和海洋生物多樣性信息系統 (OBIS)"
 
 #. type: Plain text
-#: 200.en.adoc:735
+#: 200.en.adoc:737
 msgid "When working with datasets originating in the marine environment, it is recommended that the information is published also in the https://obis.org[Ocean Biodiversity Information System^] (OBIS) in addition to GBIF. OBIS is a global biodiversity database, which is specialized in providing reliable and accessible data related to marine life and is a part of the IOC-UNESCO. Like GBIF, and ALA, OBIS uses the DwC-A format for data indexing and publishing. By publishing marine datasets through OBIS in addition to other biodiversity databases, the data can reach a broader audience, and diverse groups working in the field of marine biodiversity, as datasets in OBIS are often used for UN processes. With the focus on marine datasets, stringent quality controls on the data increase the reliability of the data and lead to small differences in what information is required for publishing in OBIS as opposed to GBIF."
 msgstr "在處理來自海洋環境的資料集時，除了GBIF之外，也建議將資料發布在link:https://obis.org[海洋生物多樣性信息系統(OBIS)^]。 OBIS是一個全球性的生物多樣性資料庫，是IOC-UNESCO的一部分，專門提供與海洋生物相關的可靠並可查找的資料。與GBIF和ALA一樣，OBIS使用DwC-A格式進行資料索引和發布。同時將海洋資料集通過其他生物多樣性資料庫和OBIS發布，資料可以觸及更廣泛的受眾以及在海洋生物多樣性領域工作的多個社群，因為OBIS中的資料常應用在聯合國的相關工作。海洋資料發布到OBIS時所需的資訊與GBIF有些不同的小差異，這些差異帶出了資料嚴格品質管控，提高了海洋資料集資料的可信度。"
 
 #. type: Plain text
-#: 200.en.adoc:737
+#: 200.en.adoc:739
 msgid "To ensure consistent taxonomic nomenclature OBIS uses the https://www.marinespecies.org/[World Register of Marine Species^] (WoRMS) as the only taxonomic backbone. This is the case also for occurrences derived from genetic data; a scientific name linked to a scientific name ID from the WoRMS database is highly recommended information for publishing. If a scientific name ID is not provided, OBIS will try to match the scientific name with WoRMS during ingestion, but this should be avoided whenever possible. Scientific names not listed in WoRMS are acceptable, and will be submitted to WoRMS for review and possible inclusion in the register. Fully unclassified sequences are recommended to be classified as \"incertae sedis\", with the WoRMS `scientificNameID` urn:lsid:marinespecies.org:taxname:12. This will ensure correct interpretation by both GBIF and OBIS. Additionally, it is recommended that sequence identifiers from the used reference databases (e.g. Barcode index numbers: BINs from BOLD) be added in the `taxonConceptID` field of the occurrence core table. In this way OBIS will retain its taxonomic backbone based on WoRMS, while enabling linking to disparate reference sequence databases. Names from reference databases which are not strictly scientific names, can be added as `verbatimIdentification`. Automatic classification of species names can often be done through the WoRMS taxon match services and R packages like worrms and taxize. In the future, OBIS plans to periodically search and update the taxonomic assignments of submitted sequences as reference databases develop with time, so recording the sequence information linked to each occurrence is highly recommended."
 msgstr "為了確保一致的分類學命名方式，OBIS使用link:https://www.marinespecies.org/[世界海洋物種名錄^] (WoRMS) 作為唯一的分類學骨幹。這也適用於從基因資料衍生的出現記錄；從WoRMS資料庫中，連結出現紀錄學名到WoRMS資料庫的scientific name ID是高度推薦的做法。如果未提供scientific name ID，OBIS將在資料詮釋過程中嘗試將學名與WoRMS比對，但應避免這樣做。未列在WoRMS中的學名是可以被接受的，WoRMS將會在後續資料詮釋過程中進行審查並可能納入學名到資料庫裡。未分類的序列建議分類為“incertae sedis”，並將WoRMS的 `scientificNameID` 輸入為 urn:lsid:marinespecies.org:taxname:12。這將確保GBIF和OBIS可正確的詮釋資料。此外，建議將所使用的序列資料庫 (例如BOLD中的Barcode index numbers：BINs) 的序列識別碼添加到出現紀錄核心表的 `taxonConceptID` 字段中。通過這種方式，OBIS將保留基於WoRMS的分類學骨架，同時實現與不同的參考序列資料庫的連結。如果來自參考資料庫的名稱不是嚴格的學名，可以添加為 `verbatimIdentification`。物種學名的自動分類通常可以通過WoRMS分類比對工具和R套件 (如worrms和taxize) 來完成。將來OBIS計劃定期搜索和更新已發布序列的分類，因此也強烈建議記錄序列與每個出現相關聯的資訊。"
 
 #. type: Plain text
-#: 200.en.adoc:739
+#: 200.en.adoc:741
 msgid "Another required field in OBIS data submissions are geographic coordinates. OBIS performs additional quality checks related to marine data; e.g. that coordinates for strictly marine species are not on land, and that the depth value reported is in a reasonable range. Finally, it should be mentioned that in addition OBIS supports the use of the http://rs.gbif.org/extension/obis/extended_measurement_or_fact.xml[extended Measurement or Fact (eMoF)]. This extension allows linking environmental data and sampling facts to sampling events or occurrences, as well as biological measurements to occurrences in a flexible and standardized manner. OBIS has an example eDNA metabarcoding dataset with scripts for data formatting available at https://github.com/iobis/dataset-edna."
 msgstr "OBIS資料提交中的另一個必填字段是地理坐標。OBIS進行了與海洋數據相關的額外品質檢查；例如：海洋物種的坐標不應在陸地上、深度值應在合理的範圍內。最後值得一提的是，OBIS還支持使用擴充測量或事實 (eMoF)。該擴充允許以彈性和標準化的方式將環境數據、採樣資訊與事件或出現紀錄相關聯，以及將生物測量與出現紀錄相關聯。OBIS具有eDNA metabarcoding資料集的資料模板當作範例，可參考 https://github.com/iobis/dataset-edna 。"
 
 #. type: Block title
-#: 200.en.adoc:744
+#: 200.en.adoc:746
 #, no-wrap
 msgid "OBIS requirements and recommendations for recording DNA-based occurrences. The table highlights important differences in field values and requirements compared to when publishing to GBIF. Here exemplified with a DNA detection of Blue whale (Balaenoptera musculus). "
 msgstr "OBIS對DNA-based出現紀錄的紀錄要求和建議。此表突出了與發布到GBIF時字段值和要求的重要差異。這裡以藍鯨 (Balaenoptera musculus) 的DNA檢測為例進行說明。 "
 
 #. type: Table
-#: 200.en.adoc:771
+#: 200.en.adoc:773
 #, no-wrap
 msgid "| Field name\n"
 "| Value/example (OBIS)\n"
@@ -1950,13 +1965,13 @@ msgstr "| 字段名稱\n"
 "| 建議\n"
 
 #. type: Block title
-#: 200.en.adoc:774
+#: 200.en.adoc:776
 #, no-wrap
 msgid "OBIS requirements and recommendations for recording sequences that cannot be classified to a scientific name at any taxonomic level. "
 msgstr "OBIS對無法在任何分類階層上歸類學名的序列的紀錄要求和建議。 "
 
 #. type: Table
-#: 200.en.adoc:801
+#: 200.en.adoc:803
 #, no-wrap
 msgid "| Field name\n"
 "| Value (OBIS)\n"

@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: publishing-ddd\n"
-"POT-Creation-Date: 2024-03-19 10:11+0000\n"
-"PO-Revision-Date: 2025-01-15 16:33\n"
+"POT-Creation-Date: 2025-02-27 11:54+0000\n"
+"PO-Revision-Date: 2025-02-27 13:18\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -190,14 +190,19 @@ msgstr "Versión {revnumber} liberada en {revdate}."
 msgid "This version adds paragraph on marine datasets and the Ocean Biodiversity Information System (OBIS) along with some minor text edits throughout."
 msgstr "Esta versión añade un párrafo sobre los conjuntos de datos marinos y el Sistema de Información sobre la Biodiversidad del Océano (OBIS) junto con algunas ediciones menores de texto."
 
+#. type: Plain text
+#: colophon.en.adoc:52
+msgid "A minor update (Feb 2025) adds information and links to the https://mdt.gbif-test.org/[Metabarcoding Data Toolkit^]"
+msgstr ""
+
 #. type: Title ===
-#: colophon.en.adoc:51
+#: colophon.en.adoc:53
 #, no-wrap
 msgid "Abstract"
 msgstr "Resumen"
 
 #. type: Plain text
-#: colophon.en.adoc:53
+#: colophon.en.adoc:55
 msgid "When genetic information is used to describe or classify a taxon, most users will foresee its use in the context of molecular ecology or phylogenetic research. It is important to realize that a sequence with coordinates and a timestamp is a valuable biodiversity occurrence which is useful in a much broader context than its original purpose. To realize this potential, DNA-derived data needs to be discoverable through biodiversity data platforms. This guide will teach you the principles and approaches of exposing “sequences with dates and coordinates” in the context of broader biodiversity data. The guide covers choices of particular schemas and terms, common pitfalls and good practice, without going into platform-specific details. It will benefit anyone interested in better exposure of DNA-derived data through general biodiversity data platforms, including national biodiversity portals."
 msgstr "Cuando se utiliza información genética para describir o clasificar un taxón, la mayoría de los usuarios preveerán su uso en el contexto de la ecología molecular o la investigación genética. Es importante darse cuenta de que una secuencia con coordenadas y una marca de tiempo, es una valiosa ocurrencia sobre biodiversidad que es útil en un contexto mucho más amplio que su propósito original. Para evidenciar este potencial, es necesario que los datos derivados de ADN se puedan rastrear a través de plataformas de datos sobre biodiversidad. Esta guía le enseñará los principios y enfoques para disponer “secuencias con fechas y coordenadas” en el contexto más amplio de los datos sobre biodiversidad. La guía cubre opciones de esquemas y términos particulares, fallas comunes y buenas prácticas, sin entrar en detalles específicos de las plataformas. Esto beneficiará a cualquiera que esté interesado en una mejor exposición de los datos derivados de ADN mediante plataformas de datos sobre biodiversidad, incluidos los portales nacionales."
 
@@ -411,8 +416,8 @@ msgstr "La generación de datos derivados de secuencias actualmente está aument
 
 #. type: Plain text
 #: 100.en.adoc:60
-msgid "The identification and classification of organisms from sequence data and marker-based surveys depends on access to a reference library of sequences taken from morphologically identified specimens that are matched against the newly generated sequences. The efficacy of classification depends on the completeness (coverage) and the reliability of reference libraries, as well as the tools used to carry out the classification. These are all moving targets, making it essential to apply taxonomic expertise and caution in the interpreting results (<<taxonomy-of-sequences>>). Availability of of all verified <<asv,amplicon sequence variants>> (https://doi.org/10.1038/ismej.2017.119[Сallahan et al. 2017^]) allow for precise reinterpretation of data, intra-specific population genetic analyses (https://doi.org/10.1111/eva.12882[Sigsgaard et al. 2019^]) and is likely to increase identification accuracy, and for this reason we recommend to share (unclustered) ASV data."
-msgstr "La identificación y clasificación de los organismos a partir de datos de secuencias y estudios basados en marcadores dependen del acceso a una biblioteca de referencia con secuencias tomadas de especímenes morfológicamente identificados, que se comparan con las secuencias recién generadas. La eficacia de la clasificación depende de la completitud (cobertura) y la fiabilidad de las bibliotecas de referencia, así como de las herramientas utilizadas para realizar la clasificación. Todos estos son factores variables, por lo cual es esencial aplicar la experiencia taxonómica e interpretar los resultados con precaución (<<taxonomy-of-sequences>>). La disponibilidad de todas las <<asv,amplicon sequence variants>> verificadas (https://doi.org/10.1038/ismej.2017.119[Сallahan et al. 2017^]) permite una reinterpretación precisa de los datos, análisis intraespecíficos de genética de poblaciones (https://doi.org/10.1111/eva.12882[Sigsgaard et al. 2019^]) y un probable aumento en la precisión de la identificación; por esta razón recomendamos compartir los datos ASV (no agrupados)."
+msgid "The identification and classification of organisms from sequence data and marker-based surveys depends on access to a reference library of sequences taken from morphologically identified specimens that are matched against the newly generated sequences. The efficacy of classification depends on the completeness (coverage) and the reliability of reference libraries, as well as the tools used to carry out the classification. These are all moving targets, making it essential to apply taxonomic expertise and caution in the interpreting results (<<taxonomy-of-sequences>>). Availability of of all verified <<asv,amplicon sequence variants>> (https://doi.org/10.1038/ismej.2017.119[Сallahan et al. 2017^]) allow for precise reinterpretation of data, intra-specific population genetic analyses (https://doi.org/10.1111/eva.12882[Sigsgaard et al. 2019^]) and is likely to increase identification accuracy, and for this reason we recommend to share (unclustered) ASV data. In 2024, GBIF started the https://www.gbif.org/metabarcoding[Metabarcoding Data Programme^] to facilitate the publication of eDNA metabarcoding data through GBIF."
+msgstr ""
 
 #. type: Title ====
 #: 100.en.adoc:61
@@ -811,23 +816,23 @@ msgstr "Ejemplos de conjuntos de datos de registros biológicos derivados de ADN
 
 #. type: Plain text
 #: 200.en.adoc:81
-msgid "MGnify (2019) Impact of rainforest transformation on phylogenetic and functional diversity of soil prokaryotic communities in Sumatra (Indonesia). Sampling event dataset https://doi.org/10.15468/osp7hi accessed via GBIF.org on 2020-04-16."
-msgstr "MGnify (2019) Impact of rainforest transformation on phylogenetic and functional diversity of soil prokaryotic communities in Sumatra (Indonesia). Sampling event dataset https://doi.org/10.15468/osp7hi accessed via GBIF.org on 2020-04-16."
+msgid "Holman L E, Bohmann K (2025). Eukaryotic metabarcoding (18S rRNA V9 region) of environmental DNA from an archived marine sediment record, Skagerrak, North Sea, spanning 8000 years. Globe Institute. Occurrence dataset https://doi.org/10.15468/2ve69k accessed via GBIF.org on 2025-02-27."
+msgstr ""
 
 #. type: Plain text
 #: 200.en.adoc:82
-msgid "MGnify (2020) Marine metagenomes from the bioGEOTRACES project. Sampling event dataset https://doi.org/10.15468/oifcho accessed via GBIF.org on 2020-04-16."
-msgstr "MGnify (2020) Marine metagenomes from the bioGEOTRACES project. Sampling event dataset https://doi.org/10.15468/oifcho accessed via GBIF.org on 2020-04-16."
+msgid "Flanders Research Institute for Agriculture, Fisheries and Food (ILVO): BulkDNA macrobenthos from sandextraction sites in the Belgian part of the North Sea https://doi.org/10.15468/djwzhu accessed via GBIF.org on 2025-02-27."
+msgstr ""
 
 #. type: Plain text
 #: 200.en.adoc:83
-msgid "Bessey C, Jarman SN, Berry O et al. (2020) Maximizing fish detection with eDNA metabarcoding. Environmental DNA: 1–12. https://doi.org/10.1002/edn3.74 (Atlas of Living Australia website at https://collections.ala.org.au/public/show/dr14581. Accessed 24 June 2020)"
-msgstr "Bessey C, Jarman SN, Berry O et al. (2020) Maximizing fish detection with eDNA metabarcoding. Environmental DNA: 1–12. https://doi.org/10.1002/edn3.74 (Atlas of Living Australia website at https://collections.ala.org.au/public/show/dr14581. Accessed 24 June 2020)"
+msgid "Peña Rojas L E (2025). Bacterias presentes en diferentes etapas de la estacion experimental acuapónica de la sede Colibrí Universidad de Ibagué. Instituto de Investigación de Recursos Biológicos Alexander von Humboldt. Occurrence dataset https://doi.org/10.15468/2g4brh accessed via GBIF.org on 2025-02-27."
+msgstr ""
 
 #. type: Plain text
-#: 200.en.adoc:85 200.en.adoc:98
-msgid "For guidance on how to format and share these datasets, see <<mapping-metabarcoding-edna-and-barcoding-data>>. General guidelines for Darwin Core occurrence datasets are also available through the https://ipt.gbif.org/manual/en/ipt/latest/occurrence-data#templates[DwC-A template for occurrence datasets] and https://www.gbif.org/data-quality-requirements-occurrences[Data quality requirements for occurrences]."
-msgstr "Para obtener orientación sobre cómo dar formato y compartir estos conjuntos de datos, consulta <<mapping-metabarcoding-edna-and-barcoding-data>>. También están disponibles las directrices generales para los conjuntos de datos de ocurrencias de Darwin Core a través de https://ipt.gbif.org/manual/es/ipt/latest/occurrence-data#templates[plantilla DwC-A para conjuntos de datos de ocurrencias] y https://www.gbif.org/data-quality-requirements-occurrences[recomendaciones de calidad de datos para ocurrencias]."
+#: 200.en.adoc:85
+msgid "To specifically format and share metabarcoding datasets, we suggest the user friendly https://mdt.gbif-test.org/[Metabarcoding Data Toolkit (MDT)^] – and consult the dedicated guide material: https://doi.org/10.35035/doc-wkpc-m352[Metabarcoding Data Toolkit – user guide]. For more general guidance on how to format and share these dna-derived data, see <<mapping-metabarcoding-edna-and-barcoding-data>>. General guidelines for Darwin Core occurrence datasets are also available through the https://ipt.gbif.org/manual/en/ipt/latest/occurrence-data#templates[DwC-A template for occurrence datasets] and https://www.gbif.org/data-quality-requirements-occurrences[Data quality requirements for occurrences]."
+msgstr ""
 
 #. type: Title ====
 #: 200.en.adoc:87
@@ -860,6 +865,11 @@ msgstr "Takamura K (2019) Chironomid Specimen records in the Chironomid DNA Barc
 #: 200.en.adoc:96
 msgid "Bessey C, Jarman SN, Stat M, Rohner CA, Bunce M, Koziol A, Power M, Rambahiniarison JM, Ponzo A, Richardson AJ & Berry O (2019) DNA metabarcoding assays reveal a diverse prey assemblage for Mobula rays in the Bohol Sea, Philippines. Ecology and Evolution 9 (5) 2459-2474. https://doi.org/10.1002/ece3.4858, (Atlas of Living Australia website at https://collections.ala.org.au/public/show/dr11663. Accessed 24 June 2020)"
 msgstr "Bessey C, Jarman SN, Stat M, Rohner CA, Bunce M, Koziol A, Power M, Rambahiniarison JM, Ponzo A, Richardson AJ & Berry O (2019) DNA metabarcoding assays reveal a diverse prey assemblage for Mobula rays in the Bohol Sea, Philippines. Ecology and Evolution 9 (5) 2459-2474. https://doi.org/10.1002/ece3.4858, (Atlas of Living Australia website at https://collections.ala.org.au/public/show/dr11663. Accessed 24 June 2020)"
+
+#. type: Plain text
+#: 200.en.adoc:98
+msgid "For guidance on how to format and share these datasets, see <<mapping-metabarcoding-edna-and-barcoding-data>>. General guidelines for Darwin Core occurrence datasets are also available through the https://ipt.gbif.org/manual/en/ipt/latest/occurrence-data#templates[DwC-A template for occurrence datasets] and https://www.gbif.org/data-quality-requirements-occurrences[Data quality requirements for occurrences]."
+msgstr "Para obtener orientación sobre cómo dar formato y compartir estos conjuntos de datos, consulta <<mapping-metabarcoding-edna-and-barcoding-data>>. También están disponibles las directrices generales para los conjuntos de datos de ocurrencias de Darwin Core a través de https://ipt.gbif.org/manual/es/ipt/latest/occurrence-data#templates[plantilla DwC-A para conjuntos de datos de ocurrencias] y https://www.gbif.org/data-quality-requirements-occurrences[recomendaciones de calidad de datos para ocurrencias]."
 
 #. type: Title ====
 #: 200.en.adoc:100
@@ -981,8 +991,8 @@ msgid "As a first step in preparing your data for publishing, you should make su
 msgstr "Como primer paso en la preparación de sus datos para su publicación, debe asegurarse de que los nombres de sus campos / encabezados de sus columnas siguen el https://dwc. dwg.org/terms/[Estándar Darwin Core]. En muchos casos esto es sencillo, como renombrar su campo `lat` o `latitude` a `decimalLatitude`. Sin embargo, el estándar Darwin Core es bastante flexible y algunos términos se utilizan de diferentes maneras, dependiendo del tipo de datos. Un ejemplo de esto son los elementos term:dwc[organismQuantity] y term:dwc[organismQuantityType], que podrían utilizarse para describir el número de individuos, porcentaje de biomasa o una valor en la escala Braun-Blanquet, así como el número de lecturas de una ASV dentro de una muestra. Por lo tanto, aquí proporcionamos tablas de elementos obligatorios y recomendados con descripciones y ejemplos (<<table-01,Table 1>>, <<table-02,Table 2>>, <<table-03,Table 3>> and <<table-04, Table 4>>). La recomendación de utilizar el core de Registros biológicos para los datos derivados de ADN, surge del fuerte deseo de compartir la secuencia para ayudar a calificar la determinación. Elementos y extensiones adicionales (como la extensión http://rs.gbif. rg/extension/obis/extended_measurement_or_fact.xml[Medidas o Hechos Extendida (eMoF)]) son aplicables - tanto al core de Registro biológicos como al core de eventos. Cuando una secuencia es derivada de un organismo (por ejemplo, parásitos, contenidos estomacales, epibiontes, etc.). la observación puede estar vinculada a la observación del organismo anfitrión. Esto se puede lograr utilizando la extensión (https://dwc. dwg.org/terms/#resourcerelationship[Relación del Recurso]) de Darwin Core (por ejemplo, https://www.gbif. rg/species/143610775/verbatim). Tal vez la recomendación más importante sea utilizar identificadores únicos globales (cuando estén disponibles) y otros identificadores permanentes para tantos elementos y parámetros como sea posible (en todos los elementos ID de las siguientes tablas)."
 
 #. type: Plain text
-#: 200.en.adoc:145 200.en.adoc:288 200.en.adoc:394 200.en.adoc:514
-#: 200.en.adoc:731 200.en.adoc:742 200.en.adoc:804 glossary.en.adoc:55
+#: 200.en.adoc:145 200.en.adoc:290 200.en.adoc:396 200.en.adoc:516
+#: 200.en.adoc:733 200.en.adoc:744 200.en.adoc:806 glossary.en.adoc:55
 #: bibliography.en.adoc:74
 msgid "<<<"
 msgstr "<<<"
@@ -995,18 +1005,23 @@ msgstr "Mapeando datos de metabarcoding (eDNA) y barcoding"
 
 #. type: Plain text
 #: 200.en.adoc:149
+msgid "NB: To format and share metabarcoding datasets, we suggest the user friendly https://mdt.gbif-test.org/[Metabarcoding Data Toolkit (MDT)^] which has a specific guide (https://doi.org/10.35035/doc-wkpc-m352[Metabarcoding Data Toolkit – user guide]) that includes dedicated versions of the tables in this section."
+msgstr ""
+
+#. type: Plain text
+#: 200.en.adoc:151
 msgid "This section provides mapping recommendations for Categories I and II."
 msgstr "Esta sección proporciona recomendaciones de mapeo para las Categorías I y II."
 
 #. type: Block title
-#: 200.en.adoc:151
+#: 200.en.adoc:153
 #, no-wrap
 msgid "Recommended fields for http://rs.gbif.org/core/dwc_occurrence_2020-04-15.xml[Occurrence core] for Metabarcoding data"
 msgstr "Elementos recomendados del http://rs.gbif.org/core/dwc_occurrence_2020-04-15.xml[core de Registros biológicos] para datos de Metabarcoding"
 
 #.  The [.break-all]#ASV:…# is to allow the identifier to be broken at any character, rather than stretching the text cell.
 #. type: Table
-#: 200.en.adoc:245
+#: 200.en.adoc:247
 #, no-wrap
 msgid "| Field name\n"
 "| Examples\n"
@@ -1158,19 +1173,19 @@ msgstr "| Elemento\n"
 "| Altamente recomendado\n\n"
 
 #. type: Table
-#: 200.en.adoc:285
+#: 200.en.adoc:287
 msgid "| term:dwc[taxonID] | [.break-all]#ASV:7bdb57487bee022ba30c03c3e7ca50e1# | For eDNA data, it is recommended to use an MD5 hash of the sequence and prepend it with “ASV:”. See also <<taxonomy-of-sequences>>.  | Highly recommended, if DNA_sequence is not provided | term:dwc[scientificName] | _Gadus morhua_ L. 1758, BOLD:ACF1143 | Scientific name of the closest known taxon (species or higher) or an OTU identifier from BOLD (BIN) or UNITE (SH)  | Required | term:dwc[kingdom] | Animalia | Higher taxonomy | Highly recommended | term:dwc[phylum] | Chordata | Higher taxonomy | Recommended | term:dwc[class] | Actinopterygii | Higher taxonomy | Recommended | term:dwc[order] | Gadiformes | Higher taxonomy | Recommended | term:dwc[family] | Gadidae | Higher taxonomy | Recommended | term:dwc[genus] | _Gadus_ | Higher taxonomy | Recommended"
 msgstr "| term:dwc[taxonID] | [.break-all]#ASV:7bdb57487bee022ba30c03c3e7ca50e1# | Para datos de eDNA, es recomendado utilizar un hash MD5 de la secuencia precedida por \"ASV:\". Más información <<taxonomy-of-sequences>>.  | Altamente recomendado, si el elemento DNA_sequence no está presente | term:dwc[scientificName] | _Gadus morhua_ L. 1758, BOLD:ACF1143 | Nombre científico del taxón conocido más cercano (especie o superior) o un identificador para un OTU de BOLD (BIN) o UNITE (SH)  | Obligatorio | term:dwc[kingdom] | Animalia | Clasificación superior | Altamente recomendado | term:dwc[phylum] | Chordata | Clasificación superior | Recomendado | term:dwc[class] | Actinopterygii | Clasificación superior | Recomendado | term:dwc[order] | Gadiformes | Clasificación superior | Recomendado | term:dwc[family] | Gadidae | Clasificación superior | Recomendado | term:dwc[genus] | _Gadus_ | Clasificación superior | Recomendado"
 
 #. type: Block title
-#: 200.en.adoc:290
+#: 200.en.adoc:292
 #, no-wrap
 msgid "Recommended fields from the DNA derived data extension (a selection) for metabarcoding data"
 msgstr "Elementos recomendados de la extensión datos derivados de ADN (una selección) para datos de metabarcoding"
 
 #.  The [.break-all]#TCTA…# is to allow the sequence to be broken at any character, rather than stretching the text cell.
 #. type: Table
-#: 200.en.adoc:298
+#: 200.en.adoc:300
 #, no-wrap
 msgid "| Field name\n"
 "| Examples\n"
@@ -1182,7 +1197,7 @@ msgstr "| Elemento\n"
 "| Obligatoriedad\n\n"
 
 #. type: Table
-#: 200.en.adoc:391
+#: 200.en.adoc:393
 #, no-wrap
 msgid "| term:mixs[DNA_sequence]\n"
 "| [.break-all]#TCTATCCTCAATTATAGGTCATAATTCACCATCAGTAGATTTAGGAATTTTCTCTATTCATATTGCAGGTGTATCATCAATTATAGGATCAATTAATTTTATTGTAACAATTTTAAATATACATACAAAAACTCATTCATTAAACTTTTTACCATTATTTTCATGATCAGTTCTAGTTACAGCAATTCTCCTTTTATTATCATTA#\n"
@@ -1280,23 +1295,23 @@ msgstr "| term:mixs[DNA_sequence]\n"
 "| Altamente recomendado\n\n"
 "| term:mixs[pcr_primer_forward]\n"
 "| GGACTACHVGGGTWTCTAAT\n"
-"| La secuencia del cebador directo utilizado para el proceso de amplificación del gen, locus o subfragmento\n"
+"| La secuencia del primer directo utilizado para el proceso de amplificación del gen, locus o subfragmento\n"
 "| Altamente recomendado\n\n"
 "| term:mixs[pcr_primer_reverse]\n"
 "| GGACTACHVGGGTWTCTAAT\n"
-"| La secuencia del cebador inverso utilizado para el proceso de amplificación del gen, locus o subfragmento\n"
+"| La secuencia del primer inverso utilizado para el proceso de amplificación del gen, locus o subfragmento\n"
 "| Altamente recomendado\n\n"
 "| term:mixs[pcr_primer_name_forward]\n"
 "| jgLCO1490\n"
-"| El nombre del cebador directo utilizado\n"
+"| El nombre del primer directo utilizado\n"
 "| Altamente recomendado\n\n"
 "| term:mixs[pcr_primer_name_reverse]\n"
 "| jgHCO2198\n"
-"| El nombre del cebador inverso utilizado\n"
+"| El nombre del primer inverso utilizado\n"
 "| Altamente recomendado\n\n"
 "| term:mixs[pcr_primer_reference]\n"
 "| https://doi.org/10.1186/1742-9994-10-34\n"
-"| Referencia para los cebadores\n"
+"| Referencia para los primers\n"
 "| Altamente recomendado\n\n"
 "| term:mixs[env_broad_scale]\n"
 "| forest biome [ENVO:01000174]\n"
@@ -1338,24 +1353,24 @@ msgstr "| term:mixs[DNA_sequence]\n"
 "| Altamente recomendado\n"
 
 #. type: Title ====
-#: 200.en.adoc:395
+#: 200.en.adoc:397
 #, no-wrap
 msgid "Mapping ddPCR / qPCR data"
 msgstr "Mapeando datos ddPCR / qPCR"
 
 #. type: Plain text
-#: 200.en.adoc:398
+#: 200.en.adoc:400
 msgid "This section provides mapping recommendations for https://academic.oup.com/view-large/199871507[Category III]."
 msgstr "Esta sección proporciona recomendaciones de mapeo para https://academic.oup.com/view-large/199871507 [Categoría III]."
 
 #. type: Block title
-#: 200.en.adoc:400
+#: 200.en.adoc:402
 #, no-wrap
 msgid "Recommended fields for Occurrence core for ddPCR/qPCR data"
 msgstr "Campos recomendados para el core de registros biológicos para datos ddPCR/qPCR"
 
 #. type: Table
-#: 200.en.adoc:511
+#: 200.en.adoc:513
 #, no-wrap
 msgid "| Field name\n"
 "| Examples\n"
@@ -1535,13 +1550,13 @@ msgstr "| Elemento\n"
 "| Recomendado\n"
 
 #. type: Block title
-#: 200.en.adoc:516
+#: 200.en.adoc:518
 #, no-wrap
 msgid "Recommended fields from the https://rs.gbif.org/extension/gbif/1.0/dna_derived_data_2021-07-05.xml[DNA derived data extension] (a selection) for ddPCR/qPCR data"
 msgstr "Campos recomendados de la extensión de datos derivados de ADN https://rs.gbif.org/extension/gbif/1.0/dna_derived_data_2021-07-05.xml (una selección) para datos de ddPCR/qPCR"
 
 #. type: Table
-#: 200.en.adoc:727
+#: 200.en.adoc:729
 #, no-wrap
 msgid "| Field name\n"
 "| Examples\n"
@@ -1712,37 +1727,205 @@ msgid "| Field name\n"
 "| The assay's ability to quantify copy number at low levels\n"
 "| Highly recommended\n"
 "| \n"
-msgstr ""
+msgstr "| Elemento\n"
+"| Ejemplos\n"
+"| Descripción\n"
+"| Obligatoriedad\n\n"
+"| term:mixs[sop]\n"
+"| https://www.protocols.io/view/protocol-for-dna-extraction-and-quantitative-pcr-d-vwie7ce +\n"
+" +\n"
+"https://doi.org/10.17504/protocols.io.vwie7ce\n"
+"| Los procedimientos operativos estándar utilizados en el montaje y/o anotación de los genomas, metagenomas o secuencias ambientales. +\n"
+"Una referencia a un protocolo bien documentado, por ejemplo usar https://protocols.io[protocols.io]\n"
+"| Altamente recomendado\n\n"
+"| term:mixs[annealingTemp]\n"
+"| 60\n"
+"| La temperatura de reacción durante la cual se realizó la fase de anillado de la PCR.\n"
+"| Obligatorio si se presentó fase de anillado\n\n"
+"| term:mixs[annealingTempUnit]\n"
+"| Grados Centígrados\n"
+"| \n"
+"| Altamente recomendado\n\n"
+"| term:mixs[pcr_cond]\n"
+"| desnaturalización inicial:94_3;anillado:50_1;elongación:72_1.5;elongación final:72_10;35\n"
+"| Descripción de las condiciones de reacción y componentes de la PCR siguiendo la estructura \"desnaturalización inicial:94degC_1.5min; anillado=...\"\n"
+"| Altamente recomendado\n\n"
+"| term:mixs[probeReporter]\n"
+"| FAM\n"
+"| Tipo de fluoróforo (reportado) utilizado. La sonda se hibrida dentro del ADN objetivo amplificado. La actividad de la Polimerasa degrada la sonda que se hibrido a la plantilla y la sonda libera los fluoróforos desde y rompe las proximidades del quencher, permitiendo la fluorescencia del fluoróforo.\n"
+"| Altamente recomendado\n\n"
+"| term:mixs[probeQuencher]\n"
+"| NFQ-MGB\n"
+"| Tipo de quencher utilizado. La molécula de quencher disminuye la fluorescencia emitida por el fluoróforo cuando es excitada por la fuente de luz del ciclo, siempre y cuando el fluoróforo y el quencher estén cerca, el quencher inhibe cualquier secuencia de fluorescencia.\n"
+"| Altamente recomendado\n\n"
+"| term:mixs[ampliconSize]\n"
+"| 83\n"
+"| Longitúd del amplicón en pares de bases\n"
+"| Altamente recomendado\n\n"
+"| term:mixs[thresholdQuantificationCycle]\n"
+"| 0.3\n"
+"| Umbral para el cambio en fluorescencia entre señales de ciclos\n"
+"| qPCR: Altamente recomendado\n\n"
+"| term:mixs[baselineValue]\n"
+"| 15\n"
+"| El número de ciclos cuando la señal de fluorescencia del objetivo de amplificación está por debajo de la fluorescencia de fondo que no es originada por el objetivo real de amplificación.\n"
+"| qPCR: Altamente recomendado\n\n"
+"| term:mixs[quantificationCycle]\n"
+"| 37.9450950622558\n"
+"| El número de ciclos requerido para que la señal de fluorescencia cruce el valor de umbral para la línea base. Ciclo de cuantificación (Cq), umbral de ciclo (Ct), punto de cruce (Cp), y punto de partida (TOP) se refieren al mismo valor del instrumento de medida en tiempo real. Usar el umbral de ciclo (Cq), es preferible de acuerdo al estándar de datos [RDML (Real-Time PCR Data Markup Language)](http://www.rdml.org)\n"
+"| \n\n"
+"| term:mixs[automaticThresholdQuantificationCycle]\n"
+"| no\n"
+"| Especifica si el umbral fue fijado, ya sea por el instrumento o manualmente\n"
+"| \n\n"
+"| term:mixs[automaticBaselineValue]\n"
+"| no\n"
+"| Especifica si la línea base fue fijada, ya sea por el instrumento o manualmente\n"
+"| \n\n"
+"| term:mixs[contaminationAssessment]\n"
+"| no\n"
+"| Especifica si se realizó evaluación de contaminación para ADN o ARN\n"
+"| \n\n"
+"| term:mixs[estimatedNumberOfCopies]\n"
+"| 10300\n"
+"| Número de moléculas objetivo por µl. El número de copias promedio por partición (?) puede ser calculado usando el número de particiones (n) y el número estimado de copias en el volumen total de todas las particiones (m) con la fórmula ?=m/n.\n"
+"| \n\n"
+"| term:mixs[amplificationReactionVolume]\n"
+"| 22\n"
+"| Volumen de reacción de la PCR\n"
+"| \n\n"
+"| term:mixs[amplificationReactionVolumeUnit]\n"
+"| µl\n"
+"| Unidad utilizada para el volumen de reacción de la PCR. Muchos de los instrumentos requiere la preparación de una cantidad inicial de muestra más grande que el volumen finalmente analizado.\n"
+"| \n\n"
+"| term:mixs[pcr_analysis_software]\n"
+"| BIO-RAD QuantaSoft\n"
+"| El programa utilizado para analizar las ejecuciones de la d(d)PCR.\n"
+"| \n\n"
+"| term:mixs[experimentalVariance]\n"
+"|\n"
+"| Se recomienda realizar multiples réplicas para evaluar la varianza total experimental. Cuando experimentos simples de dPCR son realizados, un estimador mínimo de la varianza debido solamente al error de conteo debe ser calculado a partir de la distribución binomial (o una equivalente).\n"
+"| \n\n"
+"| term:mixs[target_gene]\n"
+"| 16S rRNA, 18S rRNA, nif, amoA, rpo\n"
+"| El gen objetivo o nombre del marcador para estudios basados en marcadores.\n"
+"| Altamente recomendado\n\n"
+"| term:mixs[target_subfragment]\n"
+"| V6, V9, ITS\n"
+"| Nombre del subfragmento de un gen o marcador importante, por ejemplo para identificar regiones especiales en genes marcadores como la región hipervariable V6 del gen rRNA 16S\n"
+"| Altamente recomendado\n\n"
+"| term:mixs[pcr_primer_forward]\n"
+"| GGACTACHVGGGTWTCTAAT\n"
+"| La secuencia del primer directo utilizado para el proceso de amplificación del gen, locus o subfragmento.\n"
+"| Altamente recomendado\n\n"
+"| term:mixs[pcr_primer_reverse]\n"
+"| GGACTACHVGGGTWTCTAAT\n"
+"| La secuencia del primer inverso utilizado para el proceso de amplificación del gen, locus o subfragmento.\n"
+"| Altamente recomendado\n\n"
+"| term:mixs[pcr_primer_name_forward]\n"
+"| jgLCO1490\n"
+"| El nombre del primer directo utilizado\n"
+"| Altamente recomendado\n\n"
+"| term:mixs[pcr_primer_name_reverse]\n"
+"| jgHCO2198\n"
+"| El nombre del primer inverso utilizado\n"
+"| Altamente recomendado\n\n"
+"| term:mixs[pcr_primer_reference]\n"
+"| https://doi.org/10.1186/1742-9994-10-34\n"
+"| Referencia para los primers\n"
+"| Altamente recomendado\n\n"
+"| term:mixs[env_broad_scale]\n"
+"| forest biome [ENVO:01000174]\n"
+"| *Equivalente al env_biome en MIxS v4* + \n"
+"En este elemento, se reporta de cuál ecosistema superior provienen los especímenes o muestras. Los sistemas identificados deben tener una granularidad espacial gruesa, para proveer de información general del contexto medioambiental donde la muestra fue realizada (e.g. ¿estaba en el desierto o en el bosque lluvioso?). Se recomienda utilizar subclases de ENVO pertenecientes a la clase bioma: +\n"
+"http://purl.obolibrary.org/obo/ENVO_00000428\n"
+"| Recomendado\n\n"
+"| term:mixs[env_local_scale\t]\n"
+"| litter layer [ENVO:01000338]\n"
+"| *Equivalente al env_feature en MIxS v4* +\n"
+"En este elemento, se reporta la entidad o entidades que están en la localidad cercana a los especímenes o muestras, y cree que tienen influencias causales significativas sobre la muestra o especímen. Por favor utilice términos que estén presentes en ENVO y tengan una granularidad espacial menor a la documentada en env_broad_scale.\n"
+"| Recomendado\n\n"
+"| term:mixs[env_medium]\n"
+"| soil [ENVO:00001998]\n"
+"| *Equivalente al env_material en MIxS v4* +\n"
+"En este elemento, se reporta cuál material o materiales (separados por una barra vertical “|”) estaban en la vecindad inmediata de los especímenes o muestras antes del muestreo, utiliando una o más subclases de ENVO pertenecientes a la clase material medioambiental: +\n"
+"http://purl.obolibrary.org/obo/ENVO_00010483\n"
+"| Recomendado\n\n"
+"| term:mixs[concentration]\n"
+"| 67.5\n"
+"| Concentración del ADN (peso ng/volumen µl), ver también http://terms.tdwg.org/wiki/ggbn:concentration\n"
+"| Recomendado\n\n"
+"| term:mixs[concentrationUnit]\n"
+"| ng/µl\n"
+"| Unidad utilizada para la medida de concentración, ver tamvbién http://terms.tdwg.org/wiki/ggbn:concentrationUnit\n"
+"| Recomendado\n\n"
+"| term:mixs[methodDeterminationConcentrationAndRatios]\n"
+"| Nanodrop, Qubit\n"
+"| Descripción del método utilizado para medir la concentración, ver también http://terms.tdwg.org/wiki/ggbn:methodDeterminationConcentrationAndRatios\n"
+"| Recomendado\t\n\n"
+"| term:mixs[ratioOfAbsorbance260_230]\n"
+"| 1.89\n"
+"| Relación de absorbancia a 260 nm y 230 nm para evaluar la pureza del ADN. (Generalmente una medida secundaria, indicando principalmente EDTA, carbohidratos, fenol), (solo para muestras de ADN). Ver también http://terms.tdwg.org/wiki/ggbn:ratioOfAbsorbance260_230\n"
+"| Recomendado\n\n"
+"| term:mixs[ratioOfAbsorbance260_280]\n"
+"| 1.91\n"
+"| Relación de absorbancia a 280 nm y 230 nm para evaluar la pureza del ADN. (Generalmente una medida secundaria, indicando principalmente EDTA, carbohidratos, fenol), (solo para muestras de ADN). Ver también http://terms.tdwg.org/wiki/ggbn:ratioOfAbsorbance260_280\n"
+"| Recomendado\n\n"
+"| term:mixs[samp_collect_device]\n"
+"| biopsia, botella Niskin, Ahoyador\n"
+"| El método o dispositivo utilizado para colectar la muestra\n"
+"| Recomendado\n\n"
+"| term:mixs[samp_mat_process]\n"
+"| Filtrado de agua marina, muestras guardadas en etanol\n"
+"| Cualquier proceso aplicado a la muestra durante o después de extraerla del medio ambiente. Este elemento acepta OBI, para buscar los término OBI (v 2018-02-12) por favor vea http://purl.bioontology.org/ontology/OBI\n"
+"| Recomendado\n\n"
+"| term:mixs[samp_size]\n"
+"| 5 litros\n"
+"| La cantidad o tamaño de la muestra (volumen, masa o área) que fue colectada\n"
+"| Recomendado\n\n"
+"| term:mixs[size_frac]\n"
+"| 0-0.22 micrometros\n"
+"| El tamañao del poro de filtrado utilizado en la preparación de la muestra\n"
+"| Recomendado\n\n"
+"| term:mixs[pcr_primer_lod]\n"
+"| 51\n"
+"| La habilidad del ensayo para detectar el objetivo a bajos niveles\n"
+"| Altamente recomendado\n\n"
+"| term:mixs[pcr_primer_loq]\n"
+"| 184\n"
+"| La habilidad del ensayo para cuantificar el número de copias a bajos niveles\n"
+"| Altamente recomendado\n"
+"|\n"
 
 #. type: Title ===
-#: 200.en.adoc:732
+#: 200.en.adoc:734
 #, no-wrap
 msgid "Marine datasets and the Ocean Biodiversity Information System (OBIS)"
 msgstr "Conjuntos de datos marinos y el Sistema de Información sobre la Biodiversidad Oceánica (OBIS)"
 
 #. type: Plain text
-#: 200.en.adoc:735
+#: 200.en.adoc:737
 msgid "When working with datasets originating in the marine environment, it is recommended that the information is published also in the https://obis.org[Ocean Biodiversity Information System^] (OBIS) in addition to GBIF. OBIS is a global biodiversity database, which is specialized in providing reliable and accessible data related to marine life and is a part of the IOC-UNESCO. Like GBIF, and ALA, OBIS uses the DwC-A format for data indexing and publishing. By publishing marine datasets through OBIS in addition to other biodiversity databases, the data can reach a broader audience, and diverse groups working in the field of marine biodiversity, as datasets in OBIS are often used for UN processes. With the focus on marine datasets, stringent quality controls on the data increase the reliability of the data and lead to small differences in what information is required for publishing in OBIS as opposed to GBIF."
 msgstr "Cuando se trabaja con conjuntos de datos originarios del entorno marino, se recomienda que la información se publique también en el https://obis.org[Ocean Biodiversity Information System^] (OBIS) además de GBIF. OBIS es una base de datos mundial sobre biodiversidad, que se especializa en proporcionar datos fiables y accesibles relacionados con la vida marina y forma parte del IOC-UNESCO. Al igual que GBIF, y ALA, OBIS utiliza el formato DwC-A para la indexación y publicación de datos. Al publicar conjuntos de datos marinos a través de OBIS además de otras bases de datos de biodiversidad, los datos pueden llegar a un público más amplio y a diversos grupos que trabajan en el campo de la biodiversidad marina, ya que los conjuntos de datos de OBIS se utilizan a menudo para los procesos de las Naciones Unidas. Con el foco en los conjuntos de datos marinos, los estrictos controles de calidad de los datos aumentan la fiabilidad de los datos y dan lugar a pequeñas diferencias en la información que se necesita para publicar en OBIS en comparación con GBIF."
 
 #. type: Plain text
-#: 200.en.adoc:737
+#: 200.en.adoc:739
 msgid "To ensure consistent taxonomic nomenclature OBIS uses the https://www.marinespecies.org/[World Register of Marine Species^] (WoRMS) as the only taxonomic backbone. This is the case also for occurrences derived from genetic data; a scientific name linked to a scientific name ID from the WoRMS database is highly recommended information for publishing. If a scientific name ID is not provided, OBIS will try to match the scientific name with WoRMS during ingestion, but this should be avoided whenever possible. Scientific names not listed in WoRMS are acceptable, and will be submitted to WoRMS for review and possible inclusion in the register. Fully unclassified sequences are recommended to be classified as \"incertae sedis\", with the WoRMS `scientificNameID` urn:lsid:marinespecies.org:taxname:12. This will ensure correct interpretation by both GBIF and OBIS. Additionally, it is recommended that sequence identifiers from the used reference databases (e.g. Barcode index numbers: BINs from BOLD) be added in the `taxonConceptID` field of the occurrence core table. In this way OBIS will retain its taxonomic backbone based on WoRMS, while enabling linking to disparate reference sequence databases. Names from reference databases which are not strictly scientific names, can be added as `verbatimIdentification`. Automatic classification of species names can often be done through the WoRMS taxon match services and R packages like worrms and taxize. In the future, OBIS plans to periodically search and update the taxonomic assignments of submitted sequences as reference databases develop with time, so recording the sequence information linked to each occurrence is highly recommended."
 msgstr "Para asegurar una nomenclatura taxonómica consistente OBIS utiliza el https://www.marinespecies.org/[Registro Mundial de Especies Marinas^] (WoRMS) como única fuente taxonómica. Este es el caso también de las ocurrencias derivadas de datos genéticos; un nombre científico vinculado al identificador de un nombre científico de la base de datos de WoRMS es información altamente recomendada para su publicación. Si no se proporciona un identificador de nombre científico, OBIS tratará de hacer coincidir el nombre científico con WoRMS durante el proceso de ingesta de la base de datos, pero esto debe evitarse siempre que sea posible. Los nombres científicos no listados en WoRMS son aceptables, y serán enviados a WoRMS para su revisión y posible inclusión en el registro. Se recomienda que las secuencias no clasificadas sean documentadas como \"incertae sedis\", con el `scientificNameID` urn:lsid:marinespecies. rg:taxname:12 de WoRMS. Esto garantizará una interpretación correcta tanto por GBIF como por OBIS. Adicionalmente, se recomienda que los identificadores de secuencia de las bases de datos de referencia usadas (p.ej. los Barcode Index Numbers: los BINs de BOLD) se agregan en el campo `taxonConceptID` de la tabla principal de la ocurrencia. De esta manera, OBIS conservará su columna vertebral taxonómica basada en WoRMS, al tiempo que permitirá enlazar las bases de datos de secuencias de referencia. Los nombres de bases de datos de referencia que no son nombres estrictamente científicos, pueden ser añadidos como `verbatimIdentification`. La clasificación automática de nombres de especies se puede hacer a menudo a través del servicio de coincidencia de taxones de WoRMS y paquetes de R como worrms y taxize. En el futuro, OBIS planea buscar y actualizar periódicamente las asignaciones taxonómicas de secuencias enviadas a medida que las bases de datos de referencia se desarrollen con el tiempo, por lo que es altamente recomendable documentar la información de la secuencia genética vinculada a cada ocurrencia."
 
 #. type: Plain text
-#: 200.en.adoc:739
+#: 200.en.adoc:741
 msgid "Another required field in OBIS data submissions are geographic coordinates. OBIS performs additional quality checks related to marine data; e.g. that coordinates for strictly marine species are not on land, and that the depth value reported is in a reasonable range. Finally, it should be mentioned that in addition OBIS supports the use of the http://rs.gbif.org/extension/obis/extended_measurement_or_fact.xml[extended Measurement or Fact (eMoF)]. This extension allows linking environmental data and sampling facts to sampling events or occurrences, as well as biological measurements to occurrences in a flexible and standardized manner. OBIS has an example eDNA metabarcoding dataset with scripts for data formatting available at https://github.com/iobis/dataset-edna."
 msgstr "Otro elemento requerido para la publicación de datos a través de OBIS son las coordenadas geográficas. OBIS realiza controles de calidad adicionales relacionados a los datos marinos, por ejemplo que las coordenadas para especies estrictamente marinas no estén en tierra y que el valor de profundidad reportado esté en un rango razonable. Finalmente, se debe mencionar que adicionalmente OBIS suporta el uso de la http://rs.gbif.org/extension/obis/extended_measurement_or_fact.xml[extensión de Medidas o Hechos Extendida (eMoF)]. Esta extensión permite conectar datos abióticos ambientales y medidas o hechos asociadas al protocolo de muestreo, con los eventos de muestreo o los registros biológicos, así como a medidas bióticas asociadas a los registros, de una forma flexible y estandarizada. OBIS tiene un ejemplo de conjunto de datos de metabarcoding (eDNA) con scripts para realizar la transformación de los datos, que está disponible en https://github.com/iobis/dataset-edna."
 
 #. type: Block title
-#: 200.en.adoc:744
+#: 200.en.adoc:746
 #, no-wrap
 msgid "OBIS requirements and recommendations for recording DNA-based occurrences. The table highlights important differences in field values and requirements compared to when publishing to GBIF. Here exemplified with a DNA detection of Blue whale (Balaenoptera musculus). "
 msgstr "Requisitos y recomendaciones de OBIS para registrar ocurrencias basadas en ADN. La tabla resalta diferencias importantes en los valores de campo y requisitos en comparación con la publicación en GBIF. Aquí se ejemplifica con una detección de ADN de la ballena azul (Balaenoptera musculus). "
 
 #. type: Table
-#: 200.en.adoc:771
+#: 200.en.adoc:773
 #, no-wrap
 msgid "| Field name\n"
 "| Value/example (OBIS)\n"
@@ -1786,13 +1969,13 @@ msgstr "| Elemento\n"
 "| Recomendado\n"
 
 #. type: Block title
-#: 200.en.adoc:774
+#: 200.en.adoc:776
 #, no-wrap
 msgid "OBIS requirements and recommendations for recording sequences that cannot be classified to a scientific name at any taxonomic level. "
 msgstr "Requisitos y recomendaciones de OBIS para registrar secuencias que no pueden clasificarse como un nombre científico en ningún nivel taxonómico. "
 
 #. type: Table
-#: 200.en.adoc:801
+#: 200.en.adoc:803
 #, no-wrap
 msgid "| Field name\n"
 "| Value (OBIS)\n"
@@ -1897,7 +2080,7 @@ msgstr "[[asv]] Variante de Secuencia de Amplicón (ASV)"
 #. type: Plain text
 #: glossary.en.adoc:7
 msgid "Unique DNA sequence derived from high-throughput sequencing and denoising, and assumed to represent a biologically real sequence variant. See also <<otu,Operational Taxonomic Unit (OTU)>> and https://doi.org/10.1038/ismej.2017.119[(Callahan et al. 2017)^]."
-msgstr ""
+msgstr "Secuencia única de ADN derivado de técnicas de secuenciación masiva y denoising, se asume que representa una variante de secuencia biológica real. Vea también <<otu,Operational Taxonomic Unit (OTU)>> y https://doi.org/10.1038/ismej.2017.119[(Callahan et al. 2017)^]."
 
 #. type: Labeled list
 #: glossary.en.adoc:7
@@ -1919,7 +2102,7 @@ msgstr "[[bins]] Números de índice de códigos de barras (BIN)"
 #. type: Plain text
 #: glossary.en.adoc:9
 msgid "Species-level <<otu,Operational Taxonomic Units (OTUs)>> derived from clustering of the cytochrome c oxidase I (COI) gene in animals. Each BIN is assigned a globally unique identifier, and is made available in searchable database within the <<bold,Barcode of Life Data System (BOLD)>>."
-msgstr ""
+msgstr "<<otu,Operational Taxonomic Units (OTUs)>> a nivel de especie (species-level) derivados de un proceso de agrupamiento del gen Citocromo oxidasa I (COI) en animales. Cada BIN es asignado con un identificador único global y está disponible para búsqueda en la base de datos <<bold,Barcode of Life Data System (BOLD)>>."
 
 #. type: Labeled list
 #: glossary.en.adoc:9
@@ -1930,7 +2113,7 @@ msgstr "[[bold]] Sistema de datos de código de barras de vida (BOLD)"
 #. type: Plain text
 #: glossary.en.adoc:10
 msgid "http://www.boldsystems.org/[BOLD^] is the reference database maintained by the Centre for Biodiversity Genomics in Guelph on behalf of the International Barcode of Life Consortium (https://ibol.org/[IBOL^]). It hosts data on barcode reference specimens and sequences for eukaryote species, particularly COI for animals, and maintains the Barcode Index Number (http://www.boldsystems.org/index.php/Public_BarcodeIndexNumber_Home[BIN^]; https://doi.org/10.1371/journal.pone.0066213[Ratnasingham & Hebert 2013^]) system, identifiers for OTUs of approximately species rank, based on clusters of closely similar sequences."
-msgstr ""
+msgstr "http://www.boldsystems.org/[BOLD^] es la base de datos de referencia mantenida por el Centro de Genómica de la biodiversidad en Guelph, respaldado por el Consorcio Internacional de códigos de barras (https://ibol.org/[IBOL^]) por sus siglas en inglés. Alberga datos de códigos de barras para especímenes de referencia y secuencias para especies de Eucariota, particularmente COI para animales, y mantiene el sistema Barcode Index Number (http://www.boldsystems.org/index.php/Public_BarcodeIndexNumber_Home[BIN^]; https://doi.org/10.1371/journal.pone.0066213[Ratnasingham & Hebert 2013^]), que son identificadores para OTUs aproximadamente al rango de especie, basado en agrupamientos de secuencias muy similares."
 
 #. type: Labeled list
 #: glossary.en.adoc:10
@@ -1974,7 +2157,7 @@ msgstr "[[dwc-a]]Archivo Darwin Core (DwC-A)"
 #. type: Plain text
 #: glossary.en.adoc:14
 msgid "Compressed (ZIP) file format for exchange of biodiversity data compiled in accordance with the <<dwc-standard,Darwin Core (DwC) standard>>. Essentially a self-contained set of interconnected CSV files and an XML document describing included files and data columns, and their mutual relationships."
-msgstr ""
+msgstr "Formato de archivo comprimido (ZIP) para el intercambio de datos de biodiversidad de acuerdo al <<dwc-standard,Darwin Core (DwC) standard>>. Esencialmente es un grupo de archivos CSV autocontenidos e interconectados y un documento XML que describe los archivos incluidos y las columnas de datos, y las relaciones mutuas."
 
 #. type: Labeled list
 #: glossary.en.adoc:14
@@ -1985,7 +2168,7 @@ msgstr "[[dwc-standard]]Estándar Darwin Core (DwC)"
 #. type: Plain text
 #: glossary.en.adoc:15
 msgid "Standard for sharing and publishing biodiversity data, originating from the Biodiversity Information Standards (TDWG) community. In principle, a set of terms used for describing different entities of biodiversity observations, such as sampling events, occurrences and taxa. Current Darwin Core terms are described in the https://dwc.tdwg.org/terms/[Quick Reference Guide]."
-msgstr ""
+msgstr "Estándar para compartir y publicar datos sobre biodiversidad, desarrollado por la organización de información de estándares para biodiversidad (TDWG). En principio, es un grupo de elementos usados para describir distintos tipos de observaciones de biodiversidad, como eventos de muestreo, registros biológicos y listas de chequeo. Los elementos del Darwin Core actuales están descritos en la https://dwc.tdwg.org/terms/[Guía de Referencia Rápida]."
 
 #. type: Labeled list
 #: glossary.en.adoc:15
@@ -2002,23 +2185,23 @@ msgstr "Grupo de términos o conceptos preferidos, con significados específicos
 #: glossary.en.adoc:17
 #, no-wrap
 msgid "[[ddpcr]]ddPCR (droplet digital Polymerase Chain Reaction)"
-msgstr ""
+msgstr "[[ddpcr]]ddPCR (Reacción en cadena de polimerasa digital en gota)"
 
 #. type: Plain text
 #: glossary.en.adoc:18
 msgid "Droplet digital <<pcr,PCR>>. Method for measuring absolute amount of DNA (number of copies) of one marker in a sample. See also <<qpcr,qPCR>>."
-msgstr ""
+msgstr "<<pcr,PCR>> digital en gota. Método para medir la cantidad absoluta de ADN (número de copias) de un marcador en una muestra. Ver también <<qpcr,qPCR>>."
 
 #. type: Labeled list
 #: glossary.en.adoc:18
 #, no-wrap
 msgid "[[denoising]]Denoising"
-msgstr ""
+msgstr "[[denoising]]Denoising"
 
 #. type: Plain text
 #: glossary.en.adoc:19
 msgid "In metabarcoding, method for separation of true biological sequences (see <<asv,ASVs>>) from spurious sequence variants caused by PCR amplification and sequencing error."
-msgstr ""
+msgstr "En metabarcoding, el método para separar las secuencias biológicas reales (vea <<asv,ASVs>>) de secuencias espurias causadas por la amplificación de la PCR y el error de secuenciación."
 
 #. type: Labeled list
 #: glossary.en.adoc:19
@@ -2029,84 +2212,84 @@ msgstr "[[doi]]Identificador Único Digital (DOI)"
 #. type: Plain text
 #: glossary.en.adoc:20
 msgid "Long-lasting reference used to uniquely identify (and locate) digital information objects, such as a biodiversity data set or a scientific publication."
-msgstr ""
+msgstr "Referencia de larga duración utilizada para identificar (y localizar) de forma única un Objeto Digital, como un conjunto de datos o una publicación científica."
 
 #. type: Labeled list
 #: glossary.en.adoc:20
 #, no-wrap
 msgid "[[barcoding]]DNA barcoding and metabarcoding (amplicon sequencing)"
-msgstr ""
+msgstr "[[barcoding]]Código de barras de ADN y metabarcoding (secuencia de amplicón)"
 
 #. type: Plain text
 #: glossary.en.adoc:21
 msgid "Use of short, standardized DNA fragments to identify individual organisms via sequencing. Metabarcoding combines barcoding with high-throughput DNA sequencing, using universal primers to amplify and sequence large groups of organisms in eDNA samples."
-msgstr ""
+msgstr "Uso de fragmentos cortos y estandarizados de ADN para identificar organismos individuales a través de secuenciación. El metabarcoding combina el uso de códigos de baras con secuenciación de alto rendimiento, utilizando primers universales para amplificar y secuenciar grupos generales de organimos en muestras de ADN ambiental (eDNA)."
 
 #. type: Labeled list
 #: glossary.en.adoc:21
 #, no-wrap
 msgid "[[dna-marker]]DNA marker"
-msgstr ""
+msgstr "[[dna-marker]]Marcador de AND"
 
 #. type: Plain text
 #: glossary.en.adoc:22
 msgid "A DNA fragment used as a marker of some property (e.g., taxonomic affiliation). May, but does not have to, be a gene or a part of a gene."
-msgstr ""
+msgstr "Un fragmento de ADN utilizado como marcador para alguna propiedad (e.g. afiliación taxonómica). Puede, pero no tiene que ser un gen o parte de un gen."
 
 #. type: Labeled list
 #: glossary.en.adoc:22
 #, no-wrap
 msgid "[[dna-db]]DNA metabarcoding database"
-msgstr ""
+msgstr "[[dna-db]]Base de datos para ADN de metabarcoding"
 
 #. type: Plain text
 #: glossary.en.adoc:23
 msgid "Database containing DNA sequences (DNA barcodes) from previously recovered or studied organisms. The reference sequences were ideally generated from individuals of described, well-studied species-with the type specimen serving as the ideal-or higher taxonomic level (e.g., genus, family), but may also stem from eDNA sequencing efforts. It is wise not to trust “reference sequences” blindly."
-msgstr ""
+msgstr "Base de datos que contiene secuencias de ADN (códigos de barras de ADN) de organismos previamente estudiados o recuperados. Las secuencias de referencia son idealmente generadas a partir de individuos de especies descritas y bien estudiadas (utilizando el espécimen tipo como fuente ideal) o de un nivel taxonómico superior (e.g. género, familia), pero también pueden provenir de esfuerzos de secuenciación de ADN ambiental. Es recomendado no confiar ciegamente en las \"secuencias de referencia\"."
 
 #. type: Labeled list
 #: glossary.en.adoc:23
 #, no-wrap
 msgid "[[dna-probe]]DNA probe"
-msgstr ""
+msgstr "[[dna-probe]]Sonda de ADN"
 
 #. type: Plain text
 #: glossary.en.adoc:24
 msgid "A short, synthetic single-stranded DNA fragment with fluorescent labelling that binds to a selected region of target DNA (marker) during PCR. Increases specificity and can be used in addition to primers in <<qpcr,qPCR>> and <<ddpcr,ddPCR>> to detect and quantify a genetic marker."
-msgstr ""
+msgstr "Un fragmento corto de ADN sintético de hebra simple con un etiquetado fluorescente que se une a la región seleccionada del ADN objetivo (marcador) durante la PCR. Incrementa la especificidad y puede ser utilizado como adición a los primers en <<qpcr,qPCR>> y <<ddpcr,ddPCR>> para detectar y cuantificar un marcador genérico."
 
 #. type: Labeled list
 #: glossary.en.adoc:24
 #, no-wrap
 msgid "[[embl]]European Bioinformatics Institute (EMBL-EBI)"
-msgstr ""
+msgstr "[[embl]]Instituto Europeo de Bioinformática (EMBL-EBI)"
 
 #. type: Plain text
 #: glossary.en.adoc:25
 msgid "Intergovernmental organization for bioinformatics research and services, part of the European Molecular Biology Laboratory (EMBL), providing eg. (raw) sequence reads and assembly data via <<ena,the European Nucleotide Archive (ENA)>>."
-msgstr ""
+msgstr "Organización intergubernamental para la investigación bioinformática y de servicios, parte del Laboratorio Europeo de Biología Molecular (EMBL), proporcionando lecturas de secuencias (sin procesar) y datos de ensamblaje a través de <<ena,the European Nucleotide Archive (ENA)>>."
 
 #. type: Labeled list
 #: glossary.en.adoc:25
 #, no-wrap
 msgid "[[edna]]Environmental DNA (eDNA)"
-msgstr ""
+msgstr "[[edna]]ADN ambiental (eDNA)"
 
 #. type: Plain text
 #: glossary.en.adoc:26
 msgid "DNA from an environmental sample, e.g. soil, water, air or host organism. An often used definition is that environmental DNA is the genetic material (DNA) obtained from environmental samples without any obvious evidence of biological source material (https://doi.org/10.1016/j.biocon.2014.11.019[Thomsen and Willerslev 2015^])."
-msgstr ""
+msgstr "ADN de una muestra ambiental, e.g. suelo, agua, aire o un organismo hospedero. Una definición utilizada frecuentemente es que el ADN ambiental es el material genético (ADN) obtenido de muestras ambientales sin ninguna fuente biológica de evidencia obvia (https://doi.org/10.1016/j.biocon.2014.11.019[Thomsen and Willerslev 2015^])."
 
 #. type: Labeled list
 #: glossary.en.adoc:26
 #, no-wrap
 msgid "[[ena]]European Nucleotide Archive (ENA)"
-msgstr ""
+msgstr "[[ena]]Repositorio Europeo de Nucleótidos (ENA)"
 
 #. type: Plain text
 #: glossary.en.adoc:27
 msgid "European repository for nucleotide sequences, covering raw sequencing data, sequence assembly information and functional annotation. Includes the <<sra,Sequence Read Archive (SRA)>>, and is maintained by the European Bioinformatics Institute (EMBL-EBI), as part of <<insdc, the International Nucleotide Sequence Database Collaboration (INSDC)>>."
-msgstr ""
+msgstr "Repositorio Europeo para secuencias de nucleotidos, abarcando secuencias sin procesar, secuencias con informacion ensamblada y anotaciones funcionales. Incluye la <<sra,Sequence Read Archive (SRA)>> y es mantenido por el Instituo Europeo de Bioinformática (EMBL-EBI), como parte del <<insdc, the International Nucleotide Sequence Database Collaboration (INSDC)>>."
 
 #. type: Labeled list
 #: glossary.en.adoc:27
@@ -2117,7 +2300,7 @@ msgstr "[[fastq]]FASTQ"
 #. type: Plain text
 #: glossary.en.adoc:28
 msgid "Text-based standard for storing molecular sequences and associated quality measures deriving from <<hts,High-throughput sequencing (HTS)>>. For each sequence position, single ASCII-characters are used to represent base call (identified nucleotide) and score, respectively."
-msgstr ""
+msgstr "Archivo de texto estándar para guardar información molecular de secuencias y los controles de calidad asociados, derivados de <<hts,High-throughput sequencing (HTS)>>. Para cada posición de secuencia, se utilizan caracteres individuales tipo ASCII que representan un llamado base (nucleotido identificado) y un puntaje, respectivamente."
 
 #. type: Labeled list
 #: glossary.en.adoc:28
@@ -2134,122 +2317,122 @@ msgstr "Red internacional e infraestructura de datos, enfocada principalmente en
 #: glossary.en.adoc:29
 #, no-wrap
 msgid "[[ggbn]]Global Genome Biodiversity Network (GGBN)"
-msgstr ""
+msgstr "[[ggbn]]Red Global de Biodiversidad Genómica (GGBN)"
 
 #. type: Plain text
 #: glossary.en.adoc:30
 msgid "International network of institutions concerned with efficient sharing and usage of genomic biodiversity samples and associated metadata, e.g. promoting the Darwin Core-compatible GGBN Data Standard."
-msgstr ""
+msgstr "Red internacional de instituciones interesadas en el eficiente intercambio y uso de muestras genéticas de biodiversidad y sus metadatos asociados, por ejemplo promoviendo el estándar de datos GGBN, que es compatible con el Darwin Core."
 
 #. type: Labeled list
 #: glossary.en.adoc:30
 #, no-wrap
 msgid "[[gps]]Global Positioning System (GPS)"
-msgstr ""
+msgstr "[[gps]]Sistema de Posicionamiento Global (GPS)"
 
 #. type: Plain text
 #: glossary.en.adoc:31
 msgid "Satellite navigation system operated by the United States Space Force."
-msgstr ""
+msgstr "Sistema de navegación satelital operado por la Fuerza Espacial de los Estados Unidos de América."
 
 #. type: Labeled list
 #: glossary.en.adoc:31
 #, no-wrap
 msgid "[[hts]]High-throughput sequencing (HTS)"
-msgstr ""
+msgstr "[[hts]]Secuenciación de alto rendimiento (HTS)"
 
 #. type: Plain text
 #: glossary.en.adoc:32
 msgid "Different technologies for massively parallel sequencing, producing millions of DNA sequence reads from library preparations of genetic material, rather than targeting single amplicons as in traditional Sanger sequencing. Also called Next Generation Sequencing (NGS)."
-msgstr ""
+msgstr "Diferentes tecnologías utilizadas para la secuenciación masiva en paralelo, produciendo millones de lecturas de secuencias de ADN a partir de preparaciones de bibliotecas de material genético, en vez de tener como objetivo amplicones simples como es tradicional en la secuenciación Sanger. También es llamada Secuenciación de Nueva Generación (NGS)."
 
 #. type: Labeled list
 #: glossary.en.adoc:32
 #, no-wrap
 msgid "[[ingest]]Ingestion"
-msgstr ""
+msgstr "[[ingest]]Ingestión"
 
 #. type: Plain text
 #: glossary.en.adoc:33
 msgid "Process of importing data from heterogeneous sources, such as local databases, text files or spreadsheets, to a common destination system, such as an online <<biodiversity-data-platform, biodiversity data platform>>, for storage and further analysis. Typically includes steps of extraction, transformation (cleaning) and loading (ETL)."
-msgstr ""
+msgstr "Proceso de importar datos de fuentes heterogéneas, como bases de datos locales, archivos de texto u hojas de cálculo a un sistema de destino común, como una <<biodiversity-data-platform, biodiversity data platform>> en línea, para su almacenamiento y posterior análisis. Normalmente incluye pasos de extracción, transformación (limpieza) y carga (ETL)."
 
 #. type: Labeled list
 #: glossary.en.adoc:33
 #, no-wrap
 msgid "[[index]]Indexing"
-msgstr ""
+msgstr "[[index]]Indexación"
 
 #. type: Plain text
 #: glossary.en.adoc:34
 msgid "Organization of information in accordance with a specific schema or structure, making data easier to access and present."
-msgstr ""
+msgstr "Organización de la información de acuerdo a un esquema o estructura específica, logrando que los datos sean más fáciles de acceder y presentar."
 
 #. type: Labeled list
 #: glossary.en.adoc:34
 #, no-wrap
 msgid "[[insdc]]International Nucleotide Sequence Database Collaboration (INSDC)"
-msgstr ""
+msgstr "[[insdc]]Colaboración Internacional de Base de datos de Secuencias de Nucleótidos (INSDC)"
 
 #. type: Plain text
 #: glossary.en.adoc:35
 msgid "Joint effort of the DNA Databank of Japan (DDBJ), <<embl,EMBL>> and <<ncbi,NCBI>> to provide global public access to nucleotide sequence data and associated information."
-msgstr ""
+msgstr "Esfuerzo conjunto del Banco de ADN de Japón (DDBJ), <<embl,EMBL>> y <<ncbi,NCBI>> para proveer acceso público global a los datos de secuenciación de nucleótidos e información asociada."
 
 #. type: Labeled list
 #: glossary.en.adoc:35
 #, no-wrap
 msgid "[[metagenomics]]Metagenomics"
-msgstr ""
+msgstr "[[metagenomics]]Metagenómica"
 
 #. type: Plain text
 #: glossary.en.adoc:36
 msgid "PCR-free sequencing of random genomic fragments in a mixed sample."
-msgstr ""
+msgstr "Secuenciación sin PCR de fragmentos genéticos aleatorios en una muestra mixta."
 
 #. type: Labeled list
 #: glossary.en.adoc:36
 #, no-wrap
 msgid "[[mixs]]Minimum Information about any (x) Sequence (MIxS) standard"
-msgstr ""
+msgstr "[[mixs]]Estándar de Información mínima para cualquier (x) secuencia (MIxS)"
 
 #. type: Plain text
 #: glossary.en.adoc:37
 msgid "Family of standards (checklists) for sequence metadata, developed by the Genomic Standards Consortium (GSC)."
-msgstr ""
+msgstr "Familia de estándares (listas de chequeo) para metadatos de secuencias, desarrollado por el Consorcio de Estándares Genéticos (GSC)."
 
 #. type: Labeled list
 #: glossary.en.adoc:37
 #, no-wrap
 msgid "[[motu]]molecular Operational Taxonomic Unit (mOTU)"
-msgstr ""
+msgstr "[[motu]]Unidad molecular taxonómica operativa (mOTU)"
 
 #. type: Plain text
 #: glossary.en.adoc:38
 msgid "See <<otu,Operational Taxonomic Unit (OTU)>>."
-msgstr ""
+msgstr "Ver <<otu,Operational Taxonomic Unit (OTU)>>."
 
 #. type: Labeled list
 #: glossary.en.adoc:38
 #, no-wrap
 msgid "[[ncbi]]National Center for Biotechnology Information (NCBI)"
-msgstr ""
+msgstr "[[ncbi]] Centro Nacional para la Información Biotecnológica (NCBI)"
 
 #. type: Plain text
 #: glossary.en.adoc:39
 msgid "Division of United States National Library of Medicine (NLM) housing important bioinformatics resources, such as the GenBank database of DNA sequences, and the <<sra,Sequence Read Archive (SRA)>> of high throughput sequencing data."
-msgstr ""
+msgstr "División de la Librería Nacional de Medicina (NLM) de Estados Unidos de América que alberga importantes recursos bioinformáticos, como la base de datos de secuencias de AND GenBank, y el <<sra,Sequence Read Archive (SRA)>> para datos de secuencias de alto rendimiento."
 
 #. type: Labeled list
 #: glossary.en.adoc:39
 #, no-wrap
 msgid "[[ngs]]Next Generation Sequencing (NGS)"
-msgstr ""
+msgstr "[[ngs]] Secuenciación de nueva generación (NGS)"
 
 #. type: Plain text
 #: glossary.en.adoc:40
 msgid "See <<hts,High-throughput sequencing (HTS)>>."
-msgstr ""
+msgstr "Ver <<hts,High-throughput sequencing (HTS)>>."
 
 #. type: Labeled list
 #: glossary.en.adoc:40
@@ -2260,29 +2443,29 @@ msgstr "[[occurrence]]Registro biológico"
 #. type: Plain text
 #: glossary.en.adoc:41
 msgid "An existence of an Organism (sensu http://rs.tdwg.org/dwc/terms/Organism) at a particular place at a particular time."
-msgstr ""
+msgstr "La existencia de un organismo (sensu http://rs.tdwg.org/dwc/terms/Organism) en un lugar particular en un tiempo particular."
 
 #. type: Labeled list
 #: glossary.en.adoc:41
 #, no-wrap
 msgid "[[otu]]Operational Taxonomic Unit (OTU)"
-msgstr ""
+msgstr "[[otu]]Unidad taxonómica operativa (OTU)"
 
 #. type: Plain text
 #: glossary.en.adoc:42
 msgid "Cluster of organisms based on similarity in specific DNA marker sequence(s), used for taxonomic classification. Includes, for example, <<sh,Species Hypothesis>> in UNITE, and <<bins,Barcode Index Numbers>> in the Barcode of Life Data System (BOLD). <<asv,Amplicon Sequence Variants (ASVs)>> may be considered analogous to <<zotu,zero radius OTUs (zOTUs)>>."
-msgstr ""
+msgstr "Agrupamiento de organismos basados en la similitud de marcadores de secuencia(s) de ADN, utilizados para clasificación taxonómica. Incluye por ejemplo <<sh,Species Hypothesis>> en UNITE, y <<bins,Barcode Index Numbers>> en el Sistema de datos de código de barras de vida (BOLD). Los <<asv,Amplicon Sequence Variants (ASVs)>> pueden ser considerados análogos a los <<zotu,zero radius OTUs (zOTUs)>>."
 
 #. type: Labeled list
 #: glossary.en.adoc:42
 #, no-wrap
 msgid "[[pcr]]Polymerase Chain Reaction (PCR)"
-msgstr ""
+msgstr "[[pcr]]Reacción en Cadena de la Polimerasa (PCR)"
 
 #. type: Plain text
 #: glossary.en.adoc:43
 msgid "Technique for fast amplification and detection of specific fragments of target DNA (or RNA) sequences. Amplified regions are determined by the pair of <<primer,PCR primers>> used in the reaction."
-msgstr ""
+msgstr "Técnica para la amplificación rápida y la detección de fragmentos específicos de secuencias de ADN objetivo (o de ARN). Las regiones amplificadas son determinadas por el par de <<primer,PCR primers>> usados en la reacción."
 
 #. type: Labeled list
 #: glossary.en.adoc:43
@@ -2293,62 +2476,62 @@ msgstr "[[pipeline]]Pipeline"
 #. type: Plain text
 #: glossary.en.adoc:44
 msgid "In bioinformatics, a set of algorithms or tools applied in a predefined workflow to process e.g. <<hts,High-throughput sequencing (HTS)>> data."
-msgstr ""
+msgstr "En bioinformática, es un grupo de algoritmos o herramientas aplicadas en un flujo de trabajo preestablecido, por ejemplo para datos de <<hts,High-throughput sequencing (HTS)>>."
 
 #. type: Labeled list
 #: glossary.en.adoc:44
 #, no-wrap
 msgid "[[primer]]Primers (PCR primers)"
-msgstr ""
+msgstr "[[primer]]Primers (PCR primers)"
 
 #. type: Plain text
 #: glossary.en.adoc:45
 msgid "Short, synthetic, single-stranded DNA fragments that bind to a selected region of target DNA (marker) to initiate replication during <<pcr,PCR>>. A pair of primers is necessary for the polymerase enzyme to amplify the selected marker."
-msgstr ""
+msgstr "Fragmentos cortos sintéticos de hebra simple de ADN que se emparejan con la región objetivo de ADN (marcador) seleccionada para iniciar la replicación durante una <<pcr,PCR>>. Un par de primers es necesario para que la enzima polimerasa amplifique el marcador seleccionado."
 
 #. type: Labeled list
 #: glossary.en.adoc:45
 #, no-wrap
 msgid "[[qpcr]]qPCR (quantitative Polymerase Chain Reaction)"
-msgstr ""
+msgstr "[[qpcr]]qPCR (Reacción en cadena de polimerasa cuantitativa)"
 
 #. type: Plain text
 #: glossary.en.adoc:46
 msgid "Quantitative <<pcr,PCR>>. Method that measures relative DNA quantity of a marker in a sample. See also <<ddpcr,ddPCR>>."
-msgstr ""
+msgstr "<<pcr,PCR>> cuantitativa. Método que mide la cantidad relativa de ADN de un marcador en una muestra. Vea también <<ddpcr,ddPCR>>."
 
 #. type: Labeled list
 #: glossary.en.adoc:46
 #, no-wrap
 msgid "[[sample]]Sample"
-msgstr ""
+msgstr "[[sample]]Muestra"
 
 #. type: Plain text
 #: glossary.en.adoc:47
 msgid "Material (water, soil, gut content, etc) obtained for analysis."
-msgstr ""
+msgstr "Material (agua, suelo, contenido estomacal, etc.) obtenido para análisis."
 
 #. type: Labeled list
 #: glossary.en.adoc:47
 #, no-wrap
 msgid "[[seq-align]]Sequence alignment"
-msgstr ""
+msgstr "[[seq-align]]Alineamiento de secuencias"
 
 #. type: Plain text
 #: glossary.en.adoc:48
 msgid "Bioinformatic process of comparing and arranging two or more molecular (DNA, RNA or protein) sequences to detect similarities caused by e.g. evolutionary relatedness."
-msgstr ""
+msgstr "Proceso bioinformático para comparar y reorganizar dos o más secuencias de moléculas (ADN, ARN o proteína) para detectar similitudes causadas por relaciones evolutivas."
 
 #. type: Labeled list
 #: glossary.en.adoc:48
 #, no-wrap
 msgid "[[sh]]Species Hypothesis (SH)"
-msgstr ""
+msgstr "[[sh]]Hipótesis de especie (SH)"
 
 #. type: Plain text
 #: glossary.en.adoc:49
 msgid "Species-level <<otu,Operational Taxonomic Unit (OTU)>> as defined in the UNITE database and sequence management environment, for Fungi."
-msgstr ""
+msgstr "<<otu,Operational Taxonomic Unit (OTU)>> a nivel de especie (species-level) como está definido en la base de datos de UNITE y en el entorno de gestión de secuencias para hongos."
 
 #. type: Labeled list
 #: glossary.en.adoc:49
@@ -2359,29 +2542,29 @@ msgstr "[[specimen]]Espécimen"
 #. type: Plain text
 #: glossary.en.adoc:50
 msgid "An individual animal, plant, fungus, etc. used as an example of its species or type for scientific study or display."
-msgstr ""
+msgstr "Un individuo, animal, planta, hongos, etc. Usado como un ejemplo de su especie o un espécimen tipo para estudio científico o exhibición."
 
 #. type: Labeled list
 #: glossary.en.adoc:50
 #, no-wrap
 msgid "[[sra]]Sequence Read Archive (SRA)"
-msgstr ""
+msgstr "[[sra]]Archivador de lecturas de secuencias (SRA)"
 
 #. type: Plain text
 #: glossary.en.adoc:51
 msgid "Public repository of high throughput (<<ngs,NGS>>) sequencing data, with instances operated by <<ncbi,the National Center for Biotechnology Information (NCBI)>>, <<embl,the European Bioinformatics Institute (EMBL-EBI)>>, and the DNA Data Bank of Japan (DDBJ). Includes both raw (non-denoised) sequencing output and <<seq-align,sequence alignments>>. One of three components of <<ena, the European Nucleotide Archive (ENA)>>, and previously known as the Short Read Archive."
-msgstr ""
+msgstr "Repositorio público de datos de secuenciación de alto rendimiento (<<ngs,NGS>>), con instancias operadas por <<ncbi,the National Center for Biotechnology Information (NCBI)>>, <<embl,the European Bioinformatics Institute (EMBL-EBI)>> y el Banco de ADN de Japón (DDBJ). Incluye tanto resultados se secuencias sin procesar (sin denoising) y <<seq-align,sequence alignments>>. Uno de los tres componentes de <<ena, the European Nucleotide Archive (ENA)>>, y previamente conocido como Archivador de secuencias cortas."
 
 #. type: Labeled list
 #: glossary.en.adoc:51
 #, no-wrap
 msgid "[[tcs]]Target-capture sequencing"
-msgstr ""
+msgstr "[[tcs]]Secuenciación por captura de objetivo"
 
 #. type: Plain text
 #: glossary.en.adoc:52
 msgid "Sequencing of DNA fragments isolated with hybridization probes."
-msgstr ""
+msgstr "Secuenciación de fragmentos de ADN asilados con sondas de hibridación."
 
 #. type: Labeled list
 #: glossary.en.adoc:52
@@ -2392,13 +2575,13 @@ msgstr "[[unite]]UNITE"
 #. type: Plain text
 #: glossary.en.adoc:53
 msgid "UNITE is a web-based sequence management environment centred on the eukaryotic nuclear ribosomal ITS region. All public sequences are clustered into species hypotheses (SHs), which are assigned unique DOIs. An SH-matching service outputs various elements of information, including what species are present in eDNA samples, whether these species are potentially undescribed new species, other studies in which they were recovered, whether the species are alien to a region, and whether they are threatened. The DOIs are connected to the taxonomic backbone of the https://plutof.ut.ee/[PlutoF platform^] and https://www.gbif.org[GBIF^], such that they are accompanied by a taxon name where available. The data used in UNITE are hosted and managed in PlutoF. Data are represented through a range of standards, primarily https://dwc.tdwg.org/[Darwin Core^], https://gensc.org/mixs/[MIxS^], and https://github.com/RDA-DMP-Common/RDA-DMP-Common-Standard[DMP Common Standard^]; partial support is available for https://www.dcc.ac.uk/resources/metadata-standards/eml-ecological-metadata-language[EML^], https://pubmed.ncbi.nlm.nih.gov/20211251/[MCL^], and https://terms.tdwg.org/wiki/GGBN_Data_Standard[GGBN^]. PlutoF exports data primarily through the CSV and FASTA formats. PlutoF can also be used to publish data in GBIF (using the DwC format) and to prepare GenBank submission files. It is furthermore possible to download species lists from your data and download your project as a https://www.json.org/json-en.html[JSON] document with project data in hierarchically structured."
-msgstr ""
+msgstr "UNITE es una ambiente web para el manejo de secuencias, centrado en la región del ribosoma nuclear de los eucariotas ITS. Todas las secuencias públicas son agrupadas en hipótesis de especies (SH), a las que se les asigna un DOI único. Un servicio de comparación de SH produce varios elementos de información, incluyendo que especies están presentes en las muestras de eDNA, si estas especies son potencialmente nuevas especies no descritas, otros estudios en los cuales hayan sido recuperadas, si alas especies son invasoras en la región y si están amenazadas. Los DOIs está conectados con el árbol taxonómico de https://plutof.ut.ee/[PlutoF platform^] y https://www.gbif.org[GBIF^], de esa manera están acompañados por el nombre de un taxón cuando está disponible. Los datos usados en UNITE están alojados y manejados rn PlutoF. Los datos son representados a través de un rango de estándares, principalmente https://dwc.tdwg.org/[Darwin Core^], https://gensc.org/mixs/[MIxS^], y https://github.com/RDA-DMP-Common/RDA-DMP-Common-Standard[DMP Common Standard^]; con un suporte parcial disponible para https://www.dcc.ac.uk/resources/metadata-standards/eml-ecological-metadata-language[EML^], https://pubmed.ncbi.nlm.nih.gov/20211251/[MCL^], y https://terms.tdwg.org/wiki/GGBN_Data_Standard[GGBN^]. PlutoF exporta datos principalmente a través de los formatos CSV y FASTA. PlutoF también puede ser utilizado para publicar los datos en GBIF (usando el formato DwC) y para preparar los archivos para someterlos a GenBank. También es posible descargar las listas de especies a partir de sus datos y descargar su proyecto como un documento https://www.json.org/json-en.html[JSON] con los datos del proyecto en una estructura jerárquica."
 
 #. type: Labeled list
 #: glossary.en.adoc:53
 #, no-wrap
 msgid "[[zotu]]Zero radius otu (zOTU)"
-msgstr ""
+msgstr "[[zotu]]Radio cero de otu (zOTU)"
 
 #. type: Plain text
 #: glossary.en.adoc:54
