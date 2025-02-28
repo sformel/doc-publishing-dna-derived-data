@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: publishing-ddd\n"
-"POT-Creation-Date: 2025-02-27 11:54+0000\n"
-"PO-Revision-Date: 2025-02-27 13:18\n"
+"POT-Creation-Date: 2025-02-28 07:23+0000\n"
+"PO-Revision-Date: 2025-02-28 07:34\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -193,7 +193,7 @@ msgstr "Esta versión añade un párrafo sobre los conjuntos de datos marinos y 
 #. type: Plain text
 #: colophon.en.adoc:52
 msgid "A minor update (Feb 2025) adds information and links to the https://mdt.gbif-test.org/[Metabarcoding Data Toolkit^]"
-msgstr ""
+msgstr "Actualización menor (febrero de 2025), agrega información y enlaces a https://mdt.gbif-test.org/[Kit de herramientas de datos de Metabarcoding^]"
 
 #. type: Title ===
 #: colophon.en.adoc:53
@@ -826,7 +826,7 @@ msgstr ""
 
 #. type: Plain text
 #: 200.en.adoc:83
-msgid "Peña Rojas L E (2025). Bacterias presentes en diferentes etapas de la estacion experimental acuapónica de la sede Colibrí Universidad de Ibagué. Instituto de Investigación de Recursos Biológicos Alexander von Humboldt. Occurrence dataset https://doi.org/10.15468/2g4brh accessed via GBIF.org on 2025-02-27."
+msgid "Okrasińska A, Pawłowska J (2025). Metabarcoding of fungi in post-industrial soils. Institute of Evolutionary Biology, University of Warsaw. Occurrence dataset https://doi.org/10.15468/e4maz4 accessed via GBIF.org on 2025-02-28."
 msgstr ""
 
 #. type: Plain text
