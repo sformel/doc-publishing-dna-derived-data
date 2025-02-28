@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2025-02-27 11:54+0000\n"
+"POT-Creation-Date: 2025-02-28 07:23+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1582,11 +1582,9 @@ msgstr ""
 #. type: Plain text
 #: 200.en.adoc:83
 msgid ""
-"Peña Rojas L E (2025). Bacterias presentes en diferentes etapas de la "
-"estacion experimental acuapónica de la sede Colibrí Universidad de "
-"Ibagué. Instituto de Investigación de Recursos Biológicos Alexander von "
-"Humboldt. Occurrence dataset https://doi.org/10.15468/2g4brh accessed via "
-"GBIF.org on 2025-02-27."
+"Okrasińska A, Pawłowska J (2025). Metabarcoding of fungi in post-industrial "
+"soils. Institute of Evolutionary Biology, University of Warsaw. Occurrence "
+"dataset https://doi.org/10.15468/e4maz4 accessed via GBIF.org on 2025-02-28."
 msgstr ""
 
 #. type: Plain text
