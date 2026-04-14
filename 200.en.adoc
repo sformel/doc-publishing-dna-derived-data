@@ -693,7 +693,7 @@ http://purl.obolibrary.org/obo/ENVO_00010483
 
 | term:mixs[ratioOfAbsorbance260_280]
 | 1.91
-| Ratio of absorbance at 280 nm and 230 nm assessing DNA purity (mostly secondary measure, indicates mainly EDTA, carbohydrates, phenol), (DNA samples only). see also http://terms.tdwg.org/wiki/ggbn:ratioOfAbsorbance260_280
+| Ratio of absorbance at 260 nm and 280 nm assessing DNA purity (mostly secondary measure, indicates mainly EDTA, carbohydrates, phenol), (DNA samples only). see also http://terms.tdwg.org/wiki/ggbn:ratioOfAbsorbance260_280
 | Recommended
 
 | term:mixs[samp_collect_device]
