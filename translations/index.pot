@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2026-04-14 12:21+0000\n"
+"POT-Creation-Date: 2026-06-18 10:31+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1932,8 +1932,8 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: 200.en.adoc:145 200.en.adoc:290 200.en.adoc:396 200.en.adoc:516
-#: 200.en.adoc:733 200.en.adoc:744 200.en.adoc:806 glossary.en.adoc:55
+#: 200.en.adoc:145 200.en.adoc:300 200.en.adoc:406 200.en.adoc:536
+#: 200.en.adoc:753 200.en.adoc:764 200.en.adoc:826 glossary.en.adoc:55
 #: bibliography.en.adoc:74
 msgid "<<<"
 msgstr ""
@@ -1970,7 +1970,7 @@ msgstr ""
 
 #.  The [.break-all]#ASV:…# is to allow the identifier to be broken at any character, rather than stretching the text cell.
 #. type: Table
-#: 200.en.adoc:247
+#: 200.en.adoc:257
 #, no-wrap
 msgid ""
 "| Field name\n"
@@ -2090,13 +2090,36 @@ msgid ""
 "\\| ).\n"
 "| Recommended\n"
 "\n"
+"| term:dwc[country]\n"
+"| Denmark, Colombia, España\n"
+"| The name of the country or major administrative unit in which the "
+"dcterms:Location occurs. Recommended best practice is to use a controlled "
+"vocabulary such as the Getty Thesaurus of Geographic Names. Recommended best "
+"practice is to leave this field blank if the dcterms:Location spans multiple "
+"entities at this administrative level or if the dcterms:Location might be in "
+"one or another of multiple possible entities at this level. Multiplicity and "
+"uncertainty of the geographic entity can be captured either in the term "
+"dwc:higherGeography or in the term dwc:locality, or both.\n"
+"| Required, if known\n"
+"\n"
+"| term:dwc[countryCode]\n"
+"| AR, SV, XZ, ZZ\n"
+"| The standard code for the country in which the dcterms:Location "
+"occurs. Recommended best practice is to use an ISO 3166-1-alpha-2 country "
+"code, or 'ZZ' (for an unknown location or a location unassignable to a "
+"single country code), or 'XZ' (for the high seas beyond national "
+"jurisdictions). Multiplicity and uncertainty of the geographic entity can be "
+"captured either in the term dwc:higherGeography or in the term dwc:locality, "
+"or both.\n"
+"| Required, if known\n"
+"\n"
 "| term:dwc[decimalLatitude]\n"
 "| 60.545207\n"
 "| The geographic latitude (in decimal degrees, using the spatial reference "
 "system given in geodeticDatum) of the geographic centre of a "
 "Location. Positive values are north of the Equator, negative values are "
-"south of it. Legal values lie between -90 and 90, inclusive.\n"
-"| Highly recommended\n"
+"south of it. Legal values lie between -90 and 90, inclusive. \n"
+"| Required, if known\n"
 "\n"
 "| term:dwc[decimalLongitude]\n"
 "| 24.174556\n"
@@ -2104,12 +2127,12 @@ msgid ""
 "system given in geodeticDatum) of the geographic centre of a "
 "Location. Positive values are east of the Greenwich Meridian, negative "
 "values are west of it. Legal values lie between -180 and 180, inclusive.\n"
-"| Highly recommended\n"
+"| Required, if known\n"
 "\n"
 msgstr ""
 
 #. type: Table
-#: 200.en.adoc:287
+#: 200.en.adoc:297
 msgid ""
 "| term:dwc[taxonID] | [.break-all]#ASV:7bdb57487bee022ba30c03c3e7ca50e1# | "
 "For eDNA data, it is recommended to use an MD5 hash of the sequence and "
@@ -2126,7 +2149,7 @@ msgid ""
 msgstr ""
 
 #. type: Block title
-#: 200.en.adoc:292
+#: 200.en.adoc:302
 #, no-wrap
 msgid ""
 "Recommended fields from the DNA derived data extension (a selection) for "
@@ -2135,7 +2158,7 @@ msgstr ""
 
 #.  The [.break-all]#TCTA…# is to allow the sequence to be broken at any character, rather than stretching the text cell.
 #. type: Table
-#: 200.en.adoc:300
+#: 200.en.adoc:310
 #, no-wrap
 msgid ""
 "| Field name\n"
@@ -2146,7 +2169,7 @@ msgid ""
 msgstr ""
 
 #. type: Table
-#: 200.en.adoc:393
+#: 200.en.adoc:403
 #, no-wrap
 msgid ""
 "| term:mixs[DNA_sequence]\n"
@@ -2267,26 +2290,26 @@ msgid ""
 msgstr ""
 
 #. type: Title ====
-#: 200.en.adoc:397
+#: 200.en.adoc:407
 #, no-wrap
 msgid "Mapping ddPCR / qPCR data"
 msgstr ""
 
 #. type: Plain text
-#: 200.en.adoc:400
+#: 200.en.adoc:410
 msgid ""
 "This section provides mapping recommendations for "
 "https://academic.oup.com/view-large/199871507[Category III]."
 msgstr ""
 
 #. type: Block title
-#: 200.en.adoc:402
+#: 200.en.adoc:412
 #, no-wrap
 msgid "Recommended fields for Occurrence core for ddPCR/qPCR data"
 msgstr ""
 
 #. type: Table
-#: 200.en.adoc:513
+#: 200.en.adoc:533
 #, no-wrap
 msgid ""
 "| Field name\n"
@@ -2371,13 +2394,36 @@ msgid ""
 "during a sampling Event. https://dwc.tdwg.org/terms/#dwc:samplingProtocol\n"
 "| Recommended\n"
 "\n"
+"| term:dwc[country]\n"
+"| Denmark, Colombia, España\n"
+"| The name of the country or major administrative unit in which the "
+"dcterms:Location occurs. Recommended best practice is to use a controlled "
+"vocabulary such as the Getty Thesaurus of Geographic Names. Recommended best "
+"practice is to leave this field blank if the dcterms:Location spans multiple "
+"entities at this administrative level or if the dcterms:Location might be in "
+"one or another of multiple possible entities at this level. Multiplicity and "
+"uncertainty of the geographic entity can be captured either in the term "
+"dwc:higherGeography or in the term dwc:locality, or both.\n"
+"| Required, if known\n"
+"\n"
+"| term:dwc[countryCode]\n"
+"| AR, SV, XZ, ZZ\n"
+"| The standard code for the country in which the dcterms:Location "
+"occurs. Recommended best practice is to use an ISO 3166-1-alpha-2 country "
+"code, or 'ZZ' (for an unknown location or a location unassignable to a "
+"single country code), or 'XZ' (for the high seas beyond national "
+"jurisdictions). Multiplicity and uncertainty of the geographic entity can be "
+"captured either in the term dwc:higherGeography or in the term dwc:locality, "
+"or both.\n"
+"| Required, if known\n"
+"\n"
 "| term:dwc[decimalLatitude]\n"
 "| 60.545207\n"
 "| The geographic latitude (in decimal degrees, using the spatial reference "
 "system given in geodeticDatum) of the geographic centre of a "
 "Location. Positive values are north of the Equator, negative values are "
-"south of it. Legal values lie between -90 and 90, inclusive.\n"
-"| Highly recommended\n"
+"south of it. Legal values lie between -90 and 90, inclusive. \n"
+"| Required, if known\n"
 "\n"
 "| term:dwc[decimalLongitude]\n"
 "| 24.174556\n"
@@ -2385,7 +2431,7 @@ msgid ""
 "system given in geodeticDatum) of the geographic centre of a "
 "Location. Positive values are east of the Greenwich Meridian, negative "
 "values are west of it. Legal values lie between -180 and 180, inclusive.\n"
-"| Highly recommended\n"
+"| Required, if known\n"
 "\n"
 "| term:dwc[scientificName]\n"
 "| _Gadus morhua_ L. 1758, BOLD:ACF1143\n"
@@ -2425,7 +2471,7 @@ msgid ""
 msgstr ""
 
 #. type: Block title
-#: 200.en.adoc:518
+#: 200.en.adoc:538
 #, no-wrap
 msgid ""
 "Recommended fields from the "
@@ -2434,7 +2480,7 @@ msgid ""
 msgstr ""
 
 #. type: Table
-#: 200.en.adoc:729
+#: 200.en.adoc:749
 #, no-wrap
 msgid ""
 "| Field name\n"
@@ -2699,13 +2745,13 @@ msgid ""
 msgstr ""
 
 #. type: Title ===
-#: 200.en.adoc:734
+#: 200.en.adoc:754
 #, no-wrap
 msgid "Marine datasets and the Ocean Biodiversity Information System (OBIS)"
 msgstr ""
 
 #. type: Plain text
-#: 200.en.adoc:737
+#: 200.en.adoc:757
 msgid ""
 "When working with datasets originating in the marine environment, it is "
 "recommended that the information is published also in the "
@@ -2723,7 +2769,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: 200.en.adoc:739
+#: 200.en.adoc:759
 msgid ""
 "To ensure consistent taxonomic nomenclature OBIS uses the "
 "https://www.marinespecies.org/[World Register of Marine Species^] (WoRMS) as "
@@ -2752,7 +2798,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: 200.en.adoc:741
+#: 200.en.adoc:761
 msgid ""
 "Another required field in OBIS data submissions are geographic "
 "coordinates. OBIS performs additional quality checks related to marine data; "
@@ -2768,7 +2814,7 @@ msgid ""
 msgstr ""
 
 #. type: Block title
-#: 200.en.adoc:746
+#: 200.en.adoc:766
 #, no-wrap
 msgid ""
 "OBIS requirements and recommendations for recording DNA-based "
@@ -2778,7 +2824,7 @@ msgid ""
 msgstr ""
 
 #. type: Table
-#: 200.en.adoc:773
+#: 200.en.adoc:793
 #, no-wrap
 msgid ""
 "| Field name\n"
@@ -2814,7 +2860,7 @@ msgid ""
 msgstr ""
 
 #. type: Block title
-#: 200.en.adoc:776
+#: 200.en.adoc:796
 #, no-wrap
 msgid ""
 "OBIS requirements and recommendations for recording sequences that cannot be "
@@ -2822,7 +2868,7 @@ msgid ""
 msgstr ""
 
 #. type: Table
-#: 200.en.adoc:803
+#: 200.en.adoc:823
 #, no-wrap
 msgid ""
 "| Field name\n"
