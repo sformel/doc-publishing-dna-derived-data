@@ -234,15 +234,25 @@ https://github.com/terrimporter/CO1Classifier
 | A list (concatenated and separated) of references (publication, global unique identifier, URI) used in the Identification. Recommended best practice is to separate the values in a list with space vertical bar space ( \| ).
 | Recommended
 
+| term:dwc[country]
+| Denmark, Colombia, España
+| The name of the country or major administrative unit in which the dcterms:Location occurs. Recommended best practice is to use a controlled vocabulary such as the Getty Thesaurus of Geographic Names. Recommended best practice is to leave this field blank if the dcterms:Location spans multiple entities at this administrative level or if the dcterms:Location might be in one or another of multiple possible entities at this level. Multiplicity and uncertainty of the geographic entity can be captured either in the term dwc:higherGeography or in the term dwc:locality, or both.
+| Required, if known
+
+| term:dwc[countryCode]
+| AR, SV, XZ, ZZ
+| The standard code for the country in which the dcterms:Location occurs. Recommended best practice is to use an ISO 3166-1-alpha-2 country code, or 'ZZ' (for an unknown location or a location unassignable to a single country code), or 'XZ' (for the high seas beyond national jurisdictions). Multiplicity and uncertainty of the geographic entity can be captured either in the term dwc:higherGeography or in the term dwc:locality, or both.
+| Required, if known
+
 | term:dwc[decimalLatitude]
 | 60.545207
-| The geographic latitude (in decimal degrees, using the spatial reference system given in geodeticDatum) of the geographic centre of a Location. Positive values are north of the Equator, negative values are south of it. Legal values lie between -90 and 90, inclusive.
-| Highly recommended
+| The geographic latitude (in decimal degrees, using the spatial reference system given in geodeticDatum) of the geographic centre of a Location. Positive values are north of the Equator, negative values are south of it. Legal values lie between -90 and 90, inclusive. 
+| Required, if known
 
 | term:dwc[decimalLongitude]
 | 24.174556
 | The geographic longitude (in decimal degrees, using the spatial reference system given in geodeticDatum) of the geographic centre of a Location. Positive values are east of the Greenwich Meridian, negative values are west of it. Legal values lie between -180 and 180, inclusive.
-| Highly recommended
+| Required, if known
 
 // The [.break-all]#ASV:…# is to allow the identifier to be broken at any character, rather than stretching the text cell.
 | term:dwc[taxonID]
@@ -466,15 +476,25 @@ urn:uuid:a964805b-33c2-439a-beaa-6379ebbfcd03
 | The name of, reference to, or description of the method or protocol used during a sampling Event. https://dwc.tdwg.org/terms/#dwc:samplingProtocol
 | Recommended
 
+| term:dwc[country]
+| Denmark, Colombia, España
+| The name of the country or major administrative unit in which the dcterms:Location occurs. Recommended best practice is to use a controlled vocabulary such as the Getty Thesaurus of Geographic Names. Recommended best practice is to leave this field blank if the dcterms:Location spans multiple entities at this administrative level or if the dcterms:Location might be in one or another of multiple possible entities at this level. Multiplicity and uncertainty of the geographic entity can be captured either in the term dwc:higherGeography or in the term dwc:locality, or both.
+| Required, if known
+
+| term:dwc[countryCode]
+| AR, SV, XZ, ZZ
+| The standard code for the country in which the dcterms:Location occurs. Recommended best practice is to use an ISO 3166-1-alpha-2 country code, or 'ZZ' (for an unknown location or a location unassignable to a single country code), or 'XZ' (for the high seas beyond national jurisdictions). Multiplicity and uncertainty of the geographic entity can be captured either in the term dwc:higherGeography or in the term dwc:locality, or both.
+| Required, if known
+
 | term:dwc[decimalLatitude]
 | 60.545207
-| The geographic latitude (in decimal degrees, using the spatial reference system given in geodeticDatum) of the geographic centre of a Location. Positive values are north of the Equator, negative values are south of it. Legal values lie between -90 and 90, inclusive.
-| Highly recommended
+| The geographic latitude (in decimal degrees, using the spatial reference system given in geodeticDatum) of the geographic centre of a Location. Positive values are north of the Equator, negative values are south of it. Legal values lie between -90 and 90, inclusive. 
+| Required, if known
 
 | term:dwc[decimalLongitude]
 | 24.174556
 | The geographic longitude (in decimal degrees, using the spatial reference system given in geodeticDatum) of the geographic centre of a Location. Positive values are east of the Greenwich Meridian, negative values are west of it. Legal values lie between -180 and 180, inclusive.
-| Highly recommended
+| Required, if known
 
 | term:dwc[scientificName]
 | _Gadus morhua_ L. 1758, BOLD:ACF1143
