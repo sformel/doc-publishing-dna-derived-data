@@ -164,8 +164,8 @@ This section provides mapping recommendations for Categories I and II.
 | Required
 
 | term:dwc[occurrenceStatus]
-| Present, Absent
-| A statement about the presence or absence of a taxon at a location.
+| detected, notDetected
+| A statement about the detection or non-detection of a dwc:Organism during a dwc:Event..
 | Required
 
 | term:dwc[occurrenceID]
@@ -428,8 +428,8 @@ This section provides mapping recommendations for https://academic.oup.com/view-
 | Required
 
 | term:dwc[occurrenceStatus]
-| Present, Absent
-| A statement about the presence or absence of a taxon at a location.
+| detected, notDetected
+| A statement about the detection or non-detection of a dwc:Organism during a dwc:Event.
 | Required
 
 | term:dwc[eventID]
